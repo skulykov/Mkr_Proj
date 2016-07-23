@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="ANGLE">
+</Property><Property Name="Solution File" Value="C:\my\FCNavigation\FCNav-kernel-mvs\VCProjects\angleproject-read-only\src\ANGLE.sln">
+</Property><Property Name="Date" Value="Saturday, August 25, 2012">
+</Property><Property Name="Time" Value="0:41 AM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="ANGLE.sln" Description="File successfully backed up as C:\my\FCNavigation\FCNav-kernel-mvs\VCProjects\angleproject-read-only\src\ANGLE.sln.old">
+</Event><Event ErrorLevel="0" Project="libEGL" Source="libEGL\libEGL.vcproj" Description="Converting project file 'C:\my\FCNavigation\FCNav-kernel-mvs\VCProjects\angleproject-read-only\src\libEGL\libEGL.vcproj'.">
+</Event><Event ErrorLevel="1" Project="libEGL" Source="libEGL\libEGL.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="1" Project="libEGL" Source="libEGL\libEGL.vcproj" Description="Attribute 'Detect64BitPortabilityProblems' of 'VCCLCompilerTool' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="1" Project="libEGL" Source="libEGL\libEGL.vcproj" Description="Attribute 'Detect64BitPortabilityProblems' of 'VCCLCompilerTool' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="1" Project="libEGL" Source="libEGL\libEGL.vcproj" Description="Attribute 'Detect64BitPortabilityProblems' of 'VCCLCompilerTool' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="1" Project="libEGL" Source="libEGL\libEGL.vcproj" Description="Attribute 'Detect64BitPortabilityProblems' of 'VCCLCompilerTool' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="0" Project="libEGL" Source="libEGL\libEGL.vcproj" Description="Done converting to new project file 'C:\my\FCNavigation\FCNav-kernel-mvs\VCProjects\angleproject-read-only\src\libEGL\libEGL.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="libEGL" Source="libEGL\libEGL.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="libGLESv2" Source="libGLESv2\libGLESv2.vcproj" Description="Converting project file 'C:\my\FCNavigation\FCNav-kernel-mvs\VCProjects\angleproject-read-only\src\libGLESv2\libGLESv2.vcproj'.">
+</Event><Event ErrorLevel="1" Project="libGLESv2" Source="libGLESv2\libGLESv2.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="1" Project="libGLESv2" Source="libGLESv2\libGLESv2.vcproj" Description="Attribute 'Detect64BitPortabilityProblems' of 'VCCLCompilerTool' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="1" Project="libGLESv2" Source="libGLESv2\libGLESv2.vcproj" Description="Attribute 'Detect64BitPortabilityProblems' of 'VCCLCompilerTool' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="1" Project="libGLESv2" Source="libGLESv2\libGLESv2.vcproj" Description="Attribute 'Detect64BitPortabilityProblems' of 'VCCLCompilerTool' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="1" Project="libGLESv2" Source="libGLESv2\libGLESv2.vcproj" Description="Attribute 'Detect64BitPortabilityProblems' of 'VCCLCompilerTool' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="0" Project="libGLESv2" Source="libGLESv2\libGLESv2.vcproj" Description="Done converting to new project file 'C:\my\FCNavigation\FCNav-kernel-mvs\VCProjects\angleproject-read-only\src\libGLESv2\libGLESv2.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="libGLESv2" Source="libGLESv2\libGLESv2.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="translator_hlsl" Source="compiler\translator_hlsl.vcproj" Description="Converting project file 'C:\my\FCNavigation\FCNav-kernel-mvs\VCProjects\angleproject-read-only\src\compiler\translator_hlsl.vcproj'.">
+</Event><Event ErrorLevel="1" Project="translator_hlsl" Source="compiler\translator_hlsl.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="translator_hlsl" Source="compiler\translator_hlsl.vcproj" Description="Done converting to new project file 'C:\my\FCNavigation\FCNav-kernel-mvs\VCProjects\angleproject-read-only\src\compiler\translator_hlsl.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="translator_hlsl" Source="compiler\translator_hlsl.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="translator_common" Source="compiler\translator_common.vcproj" Description="Converting project file 'C:\my\FCNavigation\FCNav-kernel-mvs\VCProjects\angleproject-read-only\src\compiler\translator_common.vcproj'.">
+</Event><Event ErrorLevel="1" Project="translator_common" Source="compiler\translator_common.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="1" Project="translator_common" Source="compiler\translator_common.vcproj" Description="Attribute 'Detect64BitPortabilityProblems' of 'VCCLCompilerTool' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="1" Project="translator_common" Source="compiler\translator_common.vcproj" Description="Attribute 'Detect64BitPortabilityProblems' of 'VCCLCompilerTool' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="1" Project="translator_common" Source="compiler\translator_common.vcproj" Description="Attribute 'Detect64BitPortabilityProblems' of 'VCCLCompilerTool' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="1" Project="translator_common" Source="compiler\translator_common.vcproj" Description="Attribute 'Detect64BitPortabilityProblems' of 'VCCLCompilerTool' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="0" Project="translator_common" Source="compiler\translator_common.vcproj" Description="Done converting to new project file 'C:\my\FCNavigation\FCNav-kernel-mvs\VCProjects\angleproject-read-only\src\compiler\translator_common.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="translator_common" Source="compiler\translator_common.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="preprocessor" Source="compiler\preprocessor\new\preprocessor.vcproj" Description="Converting project file 'C:\my\FCNavigation\FCNav-kernel-mvs\VCProjects\angleproject-read-only\src\compiler\preprocessor\new\preprocessor.vcproj'.">
+</Event><Event ErrorLevel="1" Project="preprocessor" Source="compiler\preprocessor\new\preprocessor.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="1" Project="preprocessor" Source="compiler\preprocessor\new\preprocessor.vcproj" Description="Attribute 'Detect64BitPortabilityProblems' of 'VCCLCompilerTool' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="1" Project="preprocessor" Source="compiler\preprocessor\new\preprocessor.vcproj" Description="Attribute 'Detect64BitPortabilityProblems' of 'VCCLCompilerTool' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="1" Project="preprocessor" Source="compiler\preprocessor\new\preprocessor.vcproj" Description="Attribute 'Detect64BitPortabilityProblems' of 'VCCLCompilerTool' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="1" Project="preprocessor" Source="compiler\preprocessor\new\preprocessor.vcproj" Description="Attribute 'Detect64BitPortabilityProblems' of 'VCCLCompilerTool' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="0" Project="preprocessor" Source="compiler\preprocessor\new\preprocessor.vcproj" Description="Done converting to new project file 'C:\my\FCNavigation\FCNav-kernel-mvs\VCProjects\angleproject-read-only\src\compiler\preprocessor\new\preprocessor.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="preprocessor" Source="compiler\preprocessor\new\preprocessor.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="ANGLE.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="ANGLE.sln" Description="Converted">
+</Event></UpgradeLog>

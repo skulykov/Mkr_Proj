@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+ 
+   <item android:id="@+id/map_mode_id"
+    android:title=" 2D"
+    android:icon="@android:drawable/ic_menu_mapmode"
+    android:showAsAction="ifRoom|withText"/>
+  
+  <item android:id="@+id/search_address_id"
+    android:title=""
+    android:icon="@android:drawable/ic_menu_search"   
+    android:showAsAction="ifRoom"/>
+  
+  <item android:id="@+id/my_location_id"
+    android:title=""
+    android:icon="@android:drawable/ic_menu_mylocation"   
+    android:showAsAction="ifRoom"/>
+ 
+  <item android:id="@+id/about"
+    android:title="About"
+    android:icon="@android:drawable/ic_menu_info_details" />
+   
+   <item android:id="@+id/settings_id"
+    android:title="Settings"
+    android:icon="@android:drawable/ic_menu_agenda" />
+   
+    <item android:id="@+id/search_address_id_1"
+    android:title="Address search"
+    android:icon="@android:drawable/ic_menu_search" />
+    
+    <item android:id="@+id/map_overlays_id"
+    android:title="Map overlays"
+    android:icon="@android:drawable/ic_menu_gallery" />
+     
+    <item android:id="@+id/map_favourite_id"
+    android:title="My favourite places"
+    android:icon="@android:drawable/btn_star_big_on" />
+    
+    <item android:id="@+id/turn_voice_id"
+    android:title="Turn voice off"
+    android:icon="@android:drawable/ic_lock_silent_mode" />
+     
+    <item android:id="@+id/download_map_id"
+    android:title="Download maps"
+    android:icon="@android:drawable/ic_dialog_map" />
+  
+   <item android:id="@+id/exitN_id"
+    android:title="Exit Navigation"
+    android:icon="@android:drawable/ic_menu_set_as" />
+</menu>

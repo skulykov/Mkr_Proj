@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\pbf">
+      <UniqueIdentifier>{fa122eb1-6e0a-4d89-b97b-9f0892c05d03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SqLiteDB">
+      <UniqueIdentifier>{55e896ec-3d67-4f4e-b0e3-9a944dc0b25f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\common">
+      <UniqueIdentifier>{8b14e777-71aa-471e-b934-a017c4c51d70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MapIndexes">
+      <UniqueIdentifier>{ce626ce3-845f-4f29-a712-943a6ce39e33}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libosmpbfreader\osmpbfreader.h">
+      <Filter>Source Files\pbf</Filter>
+    </ClInclude>
+    <ClInclude Include="libosmpbfreader\pbf\fileformat.pb.h">
+      <Filter>Source Files\pbf</Filter>
+    </ClInclude>
+    <ClInclude Include="libosmpbfreader\pbf\osmformat.pb.h">
+      <Filter>Source Files\pbf</Filter>
+    </ClInclude>
+    <ClInclude Include="src\common\files.h">
+      <Filter>Source Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\common\process_pbf_db.h">
+      <Filter>Source Files\SqLiteDB</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SqLiteDB\SqLiteHelper.h">
+      <Filter>Source Files\SqLiteDB</Filter>
+    </ClInclude>
+    <ClInclude Include="src\common\oCls.h">
+      <Filter>Source Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\common\utils.h">
+      <Filter>Source Files\common</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MkrMapCreator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="libosmpbfreader\pbf\fileformat.pb.cc">
+      <Filter>Source Files\pbf</Filter>
+    </ClCompile>
+    <ClCompile Include="libosmpbfreader\pbf\osmformat.pb.cc">
+      <Filter>Source Files\pbf</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common\files.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common\Utils.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common\oCls.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="libosmpbfreader\process_pbf_db.cpp">
+      <Filter>Source Files\SqLiteDB</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MapIndexes\DbAccessor.cpp">
+      <Filter>Source Files\MapIndexes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MapIndexes\IndexCreator.cpp">
+      <Filter>Source Files\MapIndexes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SqLiteDB\SqLiteHelper.cpp">
+      <Filter>Source Files\SqLiteDB</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MapIndexes\IndAddrCreator.cpp">
+      <Filter>Source Files\MapIndexes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MapIndexes\IndPoiCreator.cpp">
+      <Filter>Source Files\MapIndexes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MapIndexes\IndRouteCreator.cpp">
+      <Filter>Source Files\MapIndexes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MapIndexes\IndTransportCreator.cpp">
+      <Filter>Source Files\MapIndexes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MapIndexes\IndVMapCreator.cpp">
+      <Filter>Source Files\MapIndexes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MapIndexes\DBStreetDAO.cpp">
+      <Filter>Source Files\MapIndexes</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

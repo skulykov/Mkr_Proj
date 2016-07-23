@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\..\freetype\freetype_library\src\base\ftbase.c" />
+    <ClCompile Include="..\..\..\freetype\freetype_library\src\base\ftbbox.c" />
+    <ClCompile Include="..\..\..\freetype\freetype_library\src\base\ftbitmap.c" />
+    <ClCompile Include="..\..\..\freetype\freetype_library\src\base\ftfstype.c" />
+    <ClCompile Include="..\..\..\freetype\freetype_library\src\base\ftgasp.c" />
+    <ClCompile Include="..\..\..\freetype\freetype_library\src\base\ftglyph.c" />
+    <ClCompile Include="..\..\..\freetype\freetype_library\src\base\ftinit.c" />
+    <ClCompile Include="..\..\..\freetype\freetype_library\src\base\ftlcdfil.c" />
+    <ClCompile Include="..\..\..\freetype\freetype_library\src\base\ftstroke.c" />
+    <ClCompile Include="..\..\..\freetype\freetype_library\src\base\ftsystem.c" />
+    <ClCompile Include="..\..\..\freetype\freetype_library\src\raster\raster.c" />
+    <ClCompile Include="..\..\..\freetype\freetype_library\src\sfnt\sfnt.c" />
+    <ClCompile Include="..\..\..\freetype\freetype_library\src\smooth\smooth.c" />
+    <ClCompile Include="..\..\..\freetype\freetype_library\src\autofit\autofit.c" />
+    <ClCompile Include="..\..\..\freetype\freetype_library\src\truetype\truetype.c" />
+    <ClCompile Include="..\..\..\freetype\freetype_library\src\cff\cff.c" />
+    <ClCompile Include="..\..\..\freetype\freetype_library\src\psnames\psnames.c" />
+    <ClCompile Include="..\..\..\freetype\freetype_library\src\pshinter\pshinter.c" />
+  </ItemGroup>
+</Project>

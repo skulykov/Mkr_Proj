@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<project>
+  <SOLibPaths />
+  <OObjPaths />
+  <Configuration />
+  <Platform />
+  <AndroidArchitecture>armeabi-v7a</AndroidArchitecture>
+  <!--links to other recipe files-->
+  <RecipeFiles>C:\My\MkrProj\MkrNavSolution\MkrNav.Android\ARM\Debug\libMkrNavGL.so.recipe</RecipeFiles>
+</project>

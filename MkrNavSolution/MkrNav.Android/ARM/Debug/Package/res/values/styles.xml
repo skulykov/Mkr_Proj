@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <style name="AppTheme" parent="android:Theme.Holo.Light" />
+
+    <style name="MyDialog" parent="android:Theme.Holo.Light.Dialog">
+        <item name="android:windowTitleStyle">@style/DialogWindowTitle</item>
+    </style>
+
+    <style name="DialogWindowTitle">
+        <item name="android:textAppearance">@style/TextAppearance.DialogWindowTitle</item>
+        <item name="android:background">#044592</item>
+    </style>
+
+    <style name="TextAppearance.DialogWindowTitle" parent="android:TextAppearance">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">20sp</item>
+    </style> 
+    
+   
+    <!--  for fade animation -->
+    <style name="PauseDialog" parent="@android:style/Theme.Dialog">
+    <item name="android:windowAnimationStyle">@style/PauseDialogAnimation</item>
+	</style>
+	
+	<style name="PauseDialogAnimation">
+	    <item name="android:windowEnterAnimation">@anim/fadein</item>
+	    <item name="android:windowExitAnimation">@anim/fadeout</item>
+	</style>
+    <!-- slide animation -->
+    <!-- http://stackoverflow.com/questions/7092370/how-to-animate-popup-window-from-bottom-to-top-in-android -->
+	<style name="AnimationPopup">
+	    <item name="@android:windowEnterAnimation">@anim/popup_appear</item>
+	    <item name="@android:windowExitAnimation">@anim/popup_disappear</item>
+	</style>
+	
+	<!--  slideIn - slideout animation for main menu -->
+	<!-- http://stackoverflow.com/questions/9305581/how-to-make-a-dialog-slide-from-bottom-to-middle-of-screen-in-android -->
+	<!-- Animation for dialog box -->
+    <style name="DialogSlideAnim" parent="@android:style/Theme.Dialog">
+        <item name="android:windowAnimationStyle">@style/DialogAnimation</item>
+    </style>
+    <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/slide_up_dialog</item>
+        <item name="android:windowExitAnimation">@anim/slide_out_down</item>
+</style>
+</resources>

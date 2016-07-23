@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="MkrNavGL.cpp" />
+    <ClCompile Include="..\..\mkrnav_core\core\proto\flcnav_index.pb.cpp">
+      <Filter>core\proto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mkrnav_core\core\CMapRenderer.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mkrnav_core\core\common.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mkrnav_core\core\filemng.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mkrnav_core\core\map_binary.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mkrnav_core\core\mapObjects.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mkrnav_core\core\multipolygons.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mkrnav_core\core\poly.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mkrnav_core\core\renderm.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mkrnav_core\core\renderRules.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mkrnav_core\core\rendert.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mkrnav_core\core\searchAddr.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mkrnav_core\main\AndroidFileIO.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mkrnav_core\main\download.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mkrnav_core\main\sk_io.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mkrnav_core\main\sk_main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mkrnav_core\main\sound.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mkrnav_core\ogl\EglRenderer.cpp">
+      <Filter>ogl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mkrnav_core\ogl\interface.cpp">
+      <Filter>ogl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mkrnav_core\ogl\jniapi.cpp">
+      <Filter>ogl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mkrnav_core\ogl\matrix.cpp">
+      <Filter>ogl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mkrnav_core\ogl\ogl.cpp">
+      <Filter>ogl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mkrnav_core\ogl\Sk_Draw.cpp">
+      <Filter>ogl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mkrnav_core\ogl\Sk_DrawT.cpp">
+      <Filter>ogl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mkrnav_core\route\CRoute.cpp">
+      <Filter>route</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mkrnav_core\route\Route.cpp">
+      <Filter>route</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mkrnav_core\route\RouteP.cpp">
+      <Filter>route</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mkrnav_core\route\TurnInfo.cpp">
+      <Filter>route</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mkrnav_core\jni\MkrJNI.cpp">
+      <Filter>jni</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mkrnav_core\jni\MkrMsgBox.cpp">
+      <Filter>jni</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mkrnav_core\jni\MkrNVMngr.cpp">
+      <Filter>jni</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mkrnav_core\jni\MkrSoundMngr.cpp">
+      <Filter>jni</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mkrnav_core\jni\MKrTimerMngr.cpp">
+      <Filter>jni</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mkrnav_core\jni\sk_msgbox.cpp">
+      <Filter>jni</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mkrnav_core\jni\tts_a_prov.cpp">
+      <Filter>jni</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mkrnav_core\jni\MkrTtsMngr.cpp">
+      <Filter>jni</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MkrNavGL.h" />
+    <ClInclude Include="pch.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="core">
+      <UniqueIdentifier>{dd8125f8-b986-4c1c-a379-381b06e41682}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\proto">
+      <UniqueIdentifier>{af4b3368-d131-4243-96c8-45ebfc9d5ba0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main">
+      <UniqueIdentifier>{196085c6-b420-4636-833b-910b96ca68a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ogl">
+      <UniqueIdentifier>{c1a744bb-76df-455c-9571-ccbed0deee54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="route">
+      <UniqueIdentifier>{ba058602-d2b3-42cc-9c12-ec82697746db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="jni">
+      <UniqueIdentifier>{2073800a-6b3f-4d9f-9fe3-d3c99ace57db}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

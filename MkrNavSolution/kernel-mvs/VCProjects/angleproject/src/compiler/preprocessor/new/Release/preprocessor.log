@@ -1,0 +1,30 @@
+﻿Build started 8/6/2013 8:16:44 PM.
+     1>Project "C:\my\FCNavigation\FCNav-kernel-mvs\VCProjects\angleproject\src\compiler\preprocessor\new\preprocessor.vcxproj" on node 2 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "C:\my\FCNavigation\FCNav-kernel-mvs\VCProjects\angleproject\samples\Release\".
+       InitializeBuildStatus:
+         Creating "Release\preprocessor.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       Lib:
+         All outputs are up-to-date.
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\my\FCNavigation\FCNav-kernel-mvs\VCProjects\angleproject\samples\Release\preprocessor.lib" /NOLOGO /LTCG Release\Diagnostics.obj
+         Release\DirectiveHandler.obj
+         Release\DirectiveParser.obj
+         Release\ExpressionParser.obj
+         Release\Input.obj
+         Release\Lexer.obj
+         Release\Macro.obj
+         Release\MacroExpander.obj
+         Release\Preprocessor.obj
+         Release\Token.obj
+         Release\Tokenizer.obj
+         preprocessor.vcxproj -> C:\my\FCNavigation\FCNav-kernel-mvs\VCProjects\angleproject\samples\Release\preprocessor.lib
+       FinalizeBuildStatus:
+         Deleting file "Release\preprocessor.unsuccessfulbuild".
+         Touching "Release\preprocessor.lastbuildstate".
+     1>Done Building Project "C:\my\FCNavigation\FCNav-kernel-mvs\VCProjects\angleproject\src\compiler\preprocessor\new\preprocessor.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.26

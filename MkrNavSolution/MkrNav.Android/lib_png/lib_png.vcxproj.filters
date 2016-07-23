@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\mkrnav_core\extLibs\png\png_library\png.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mkrnav_core\extLibs\png\png_library\pngerror.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mkrnav_core\extLibs\png\png_library\pnggccrd.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mkrnav_core\extLibs\png\png_library\pngget.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mkrnav_core\extLibs\png\png_library\pngmem.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mkrnav_core\extLibs\png\png_library\pngpread.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mkrnav_core\extLibs\png\png_library\pngread.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mkrnav_core\extLibs\png\png_library\pngrio.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mkrnav_core\extLibs\png\png_library\pngrtran.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mkrnav_core\extLibs\png\png_library\pngrutil.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mkrnav_core\extLibs\png\png_library\pngset.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mkrnav_core\extLibs\png\png_library\pngtest.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mkrnav_core\extLibs\png\png_library\pngtrans.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mkrnav_core\extLibs\png\png_library\pngvcrd.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mkrnav_core\extLibs\png\png_library\pngwio.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mkrnav_core\extLibs\png\png_library\pngwrite.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mkrnav_core\extLibs\png\png_library\pngwtran.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mkrnav_core\extLibs\png\png_library\pngwutil.c">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{39f5c649-50e4-4c9f-a6b8-9a18c5a4f186}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{7f36d8e3-dafa-4cc4-a81c-2869ed2698cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\base">
+      <UniqueIdentifier>{85d4e78d-c75a-4635-aecf-986a1c86c279}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\mkrnav_core\extLibs\freetype\freetype_library\src\base\ftbbox.c">
+      <Filter>src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mkrnav_core\extLibs\freetype\freetype_library\src\base\ftbitmap.c">
+      <Filter>src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mkrnav_core\extLibs\freetype\freetype_library\src\base\ftfstype.c">
+      <Filter>src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mkrnav_core\extLibs\freetype\freetype_library\src\base\ftglyph.c">
+      <Filter>src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mkrnav_core\extLibs\freetype\freetype_library\src\base\ftlcdfil.c">
+      <Filter>src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mkrnav_core\extLibs\freetype\freetype_library\src\base\ftstroke.c">
+      <Filter>src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mkrnav_core\extLibs\freetype\freetype_library\src\base\ftbase.c">
+      <Filter>src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mkrnav_core\extLibs\freetype\freetype_library\src\base\ftgasp.c">
+      <Filter>src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mkrnav_core\extLibs\freetype\freetype_library\src\base\ftinit.c">
+      <Filter>src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mkrnav_core\extLibs\freetype\freetype_library\src\base\ftsystem.c">
+      <Filter>src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mkrnav_core\extLibs\freetype\freetype_library\src\base\fttype1.c">
+      <Filter>src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mkrnav_core\extLibs\freetype\freetype_library\src\base\ftxf86.c">
+      <Filter>src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mkrnav_core\extLibs\freetype\freetype_library\src\raster\raster.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mkrnav_core\extLibs\freetype\freetype_library\src\sfnt\sfnt.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mkrnav_core\extLibs\freetype\freetype_library\src\smooth\smooth.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mkrnav_core\extLibs\freetype\freetype_library\src\autofit\autofit.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mkrnav_core\extLibs\freetype\freetype_library\src\truetype\truetype.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mkrnav_core\extLibs\freetype\freetype_library\src\cff\cff.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mkrnav_core\extLibs\freetype\freetype_library\src\psnames\psnames.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mkrnav_core\extLibs\freetype\freetype_library\src\pshinter\pshinter.c">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

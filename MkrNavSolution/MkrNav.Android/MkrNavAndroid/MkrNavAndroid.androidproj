@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|ARM">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM">
+      <Configuration>Release</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|ARM64">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM64">
+      <Configuration>Release</Configuration>
+      <Platform>ARM64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x86">
+      <Configuration>Debug</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x86">
+      <Configuration>Release</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <RootNamespace>MkrNavAndroid</RootNamespace>
+    <MinimumVisualStudioVersion>14.0</MinimumVisualStudioVersion>
+    <ProjectVersion>1.0</ProjectVersion>
+    <ProjectGuid>{b1b0dbe5-d934-4250-9ae9-59e3f8017961}</ProjectGuid>
+    <_PackagingProjectWithoutNativeComponent>true</_PackagingProjectWithoutNativeComponent>
+    <LaunchActivity Condition="'$(LaunchActivity)' == ''">com.MkrNavAndroid.MkrNavAndroid</LaunchActivity>
+    <JavaSourceRoots>src</JavaSourceRoots>
+  </PropertyGroup>
+  <Import Project="$(AndroidTargetsPath)\Android.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'" Label="Configuration">
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <TargetName>$(RootNamespace)</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'" Label="Configuration">
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <TargetName>$(RootNamespace)</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'" Label="Configuration">
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <TargetName>$(RootNamespace)</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'" Label="Configuration">
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <TargetName>$(RootNamespace)</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <TargetName>$(RootNamespace)</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <TargetName>$(RootNamespace)</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x86'" Label="Configuration">
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <TargetName>$(RootNamespace)</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x86'" Label="Configuration">
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <TargetName>$(RootNamespace)</TargetName>
+  </PropertyGroup>
+  <Import Project="$(AndroidTargetsPath)\Android.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x86'">
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
+    <AntPackage>
+      <AndroidAppLibName />
+    </AntPackage>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
+    <AntPackage>
+      <AndroidAppLibName />
+    </AntPackage>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">
+    <AntPackage>
+      <AndroidAppLibName />
+    </AntPackage>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">
+    <AntPackage>
+      <AndroidAppLibName />
+    </AntPackage>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <AntPackage>
+      <AndroidAppLibName />
+    </AntPackage>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <AntPackage>
+      <AndroidAppLibName />
+    </AntPackage>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">
+    <AntPackage>
+      <AndroidAppLibName />
+    </AntPackage>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x86'">
+    <AntPackage>
+      <AndroidAppLibName />
+    </AntPackage>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Content Include="assets\11.png" />
+    <Content Include="assets\marker.png" />
+    <Content Include="assets\start.png" />
+    <Content Include="libs\armeabi-v7a\libMkrNavGL.so" />
+    <Content Include="res\anim\fadein.xml" />
+    <Content Include="res\anim\fadeout.xml" />
+    <Content Include="res\anim\popup_appear.xml" />
+    <Content Include="res\anim\popup_disappear.xml" />
+    <Content Include="res\anim\slide_out_down.xml" />
+    <Content Include="res\anim\slide_up_dialog.xml" />
+    <Content Include="res\drawable-hdpi\background.png" />
+    <Content Include="res\drawable-hdpi\compass.png" />
+    <Content Include="res\drawable-hdpi\compass_normal.png" />
+    <Content Include="res\drawable-hdpi\compass_pushed.png" />
+    <Content Include="res\drawable-hdpi\ic_menu_add.png" />
+    <Content Include="res\drawable-hdpi\ic_menu_info_details.png" />
+    <Content Include="res\drawable-hdpi\ic_menu_refresh.png" />
+    <Content Include="res\drawable-hdpi\logo.png" />
+    <Content Include="res\drawable-hdpi\map_zoom_in_o.png" />
+    <Content Include="res\drawable-hdpi\map_zoom_in_p.png" />
+    <Content Include="res\drawable-hdpi\map_zoom_out_o.png" />
+    <Content Include="res\drawable-hdpi\map_zoom_out_p.png" />
+    <Content Include="res\drawable-ldpi\logo.png" />
+    <Content Include="res\drawable-mdpi\logo.png" />
+    <Content Include="res\drawable-mdpi\map_zoom_in_o.png" />
+    <Content Include="res\drawable-mdpi\map_zoom_in_p.png" />
+    <Content Include="res\drawable-mdpi\map_zoom_out_o.png" />
+    <Content Include="res\drawable-mdpi\map_zoom_out_p.png" />
+    <Content Include="res\drawable-xhdpi\logo.png" />
+    <Content Include="res\drawable\button_bar_gradient.xml" />
+    <Content Include="res\drawable\button_effect_background.xml" />
+    <Content Include="res\drawable\list_activities_favorites.png" />
+    <Content Include="res\drawable\list_view_directions_to_here.png" />
+    <Content Include="res\drawable\list_view_set_destination.png" />
+    <Content Include="res\drawable\map_zoom_in.xml" />
+    <Content Include="res\drawable\map_zoom_out.xml" />
+    <Content Include="res\drawable\mydialog_shape.xml" />
+    <Content Include="res\drawable\rounded_layout.xml" />
+    <Content Include="res\drawable\rounded_text.xml" />
+    <Content Include="res\drawable\rounded_text_title.xml" />
+    <Content Include="res\layout\custom_dialog_title.xml" />
+    <Content Include="res\layout\find_address.xml" />
+    <Content Include="res\layout\main.xml" />
+    <Content Include="res\layout\my_dialog_layout.xml" />
+    <Content Include="res\layout\my_route_longtouch_dialog.xml" />
+    <Content Include="res\menu\mainmenu.xml" />
+    <Content Include="res\values\strings.xml" />
+    <AntBuildXml Include="build.xml" />
+    <AndroidManifest Include="AndroidManifest.xml" />
+    <AntProjectPropertiesFile Include="project.properties" />
+    <Content Include="res\values\styles.xml" />
+    <JavaCompile Include="gen\com\mkr\navgl\nintf\BuildConfig.java" />
+    <JavaCompile Include="gen\com\mkr\navgl\nintf\R.java" />
+    <JavaCompile Include="src\com\mkr\navgl\nintf\MkrNavLib.java" />
+    <JavaCompile Include="src\com\mkr\navgl\nintf\MkrNavMainAct.java" />
+    <JavaCompile Include="src\com\mkr\navgl\nintf\MultiTouchSupport.java" />
+    <JavaCompile Include="src\com\mkr\navgl\service\IMkRlMessageParam.java" />
+    <JavaCompile Include="src\com\mkr\navgl\service\IMkRlTtsManager.java" />
+    <JavaCompile Include="src\com\mkr\navgl\service\MkRlAppService.java" />
+    <JavaCompile Include="src\com\mkr\navgl\service\MkRlNativeManager.java" />
+    <JavaCompile Include="src\com\mkr\navgl\service\MkRlNativeTimerManager.java" />
+    <JavaCompile Include="src\com\mkr\navgl\service\MkRlNativeTimerTask.java" />
+    <JavaCompile Include="src\com\mkr\navgl\service\MkRlSoundManager.java" />
+    <JavaCompile Include="src\com\mkr\navgl\service\MkRlTtsManager.java" />
+    <JavaCompile Include="src\com\mkr\navgl\service\MkrMsgBox.java" />
+    <JavaCompile Include="src\com\mkr\navgl\utils\ACPManager.java" />
+    <JavaCompile Include="src\com\mkr\navgl\utils\Decompress.java" />
+    <JavaCompile Include="src\com\mkr\navgl\utils\LogUtil.java" />
+    <JavaCompile Include="src\com\mkr\navgl\utils\MapUtils.java" />
+    <JavaCompile Include="src\com\mkr\navgl\utils\MkRlResManager.java" />
+    <JavaCompile Include="src\com\mkr\navgl\utils\MsgBox.java" />
+    <JavaCompile Include="src\com\mkr\navgl\utils\UriFileDownloader.java" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MkrNavGL\MkrNavGL.vcxproj" />
+  </ItemGroup>
+  <Import Project="$(AndroidTargetsPath)\Android.targets" />
+  <ImportGroup Label="ExtensionTargets" />
+</Project>

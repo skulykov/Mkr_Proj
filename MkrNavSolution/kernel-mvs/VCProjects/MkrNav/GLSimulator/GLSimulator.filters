@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source Files\common">
+      <UniqueIdentifier>{2321adb0-f030-4877-ac41-737dc995fd6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ogl">
+      <UniqueIdentifier>{bb96e0b0-1e75-42dc-a42a-dbfdd56e4a49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\font">
+      <UniqueIdentifier>{16de1773-5698-4203-ba8f-0930bef32c79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\rendering">
+      <UniqueIdentifier>{145e27e6-5879-4410-bea9-9401e9040f7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\poly">
+      <UniqueIdentifier>{79301b31-621b-42d9-97ac-739b0e297a12}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FCNavGLTest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CMapRenderer.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="common\mMatrix.h">
+      <Filter>Source Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="ogl\glCtx.h">
+      <Filter>Source Files\ogl</Filter>
+    </ClInclude>
+    <ClInclude Include="font\my_font_freetype.h">
+      <Filter>Source Files\font</Filter>
+    </ClInclude>
+    <ClInclude Include="poly\poly.h">
+      <Filter>Source Files\poly</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FCNavGLTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\esShapes.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\esTransform.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\esUtil.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\Win32\fcnav_win.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\bmpfile.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="mGLwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ogl\fcnav_ogl.cpp">
+      <Filter>Source Files\ogl</Filter>
+    </ClCompile>
+    <ClCompile Include="ogl\ogl_poly.cpp">
+      <Filter>Source Files\ogl</Filter>
+    </ClCompile>
+    <ClCompile Include="font\my_font_freetype.cpp">
+      <Filter>Source Files\font</Filter>
+    </ClCompile>
+    <ClCompile Include="CMapRenderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\ogl_rendering.cpp">
+      <Filter>Source Files\rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="poly\poly.cpp">
+      <Filter>Source Files\poly</Filter>
+    </ClCompile>
+    <ClCompile Include="CMRouter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ogl\atlas_ogl.cpp">
+      <Filter>Source Files\ogl</Filter>
+    </ClCompile>
+    <ClCompile Include="testDraw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ogl\ogl_primitives.cpp">
+      <Filter>Source Files\ogl</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

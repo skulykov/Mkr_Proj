@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{74B433A0-EC49-4FB0-8474-9F5EE942101E}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>GLSimulator</RootNamespace>
+    <ProjectName>GLSimulator</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>NotSet</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>NotSet</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;HAVE_STRUCT_TIMESPEC;_DEBUG;_WINDOWS;USE_VBO_FOR_DRAWING=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\my\MKrProj\MkrNavSolution\kernel-mvs\zlib\zlib_library;C:\my\MKrProj\MkrNavSolution\kernel-mvs\png\png_library;C:\my\MKrProj\MkrNavSolution\kernel-mvs\VCProjects\pthreads\include;C:\my\MKrProj\MkrNavSolution\kernel-mvs\expat\expat_library\lib;C:\My\MKrProj\MkrNavSolution\kernel-mvs\protobuf;C:\my\MKrProj\MkrNavSolution\kernel-mvs\VCProjects\MkrNav\GLSimulator\WinGL\Win32;C:\my\MKrProj\MkrNavSolution\mkrnav_core\ogl;C:\my\MKrProj\MkrNavSolution\mkrnav_core\core;C:\my\MKrProj\MkrNavSolution\kernel-mvs\VCProjects\angleproject\include;C:\my\MKrProj\MkrNavSolution\kernel-mvs\freetype\freetype_library\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <StructMemberAlignment>Default</StructMemberAlignment>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>libEGL.lib;libGLESv2.lib;pthreadVC2.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\My\MKrProj\MkrNavSolution\kernel-mvs\VCProjects\angleproject\lib\Release;C:\my\MKrProj\MkrNavSolution\kernel-mvs\VCProjects\pthreads\lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <HeapCommitSize>20000000</HeapCommitSize>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;USE_VBO_FOR_DRAWING=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\my\MkrNavSolution\kernel-mvs\zlib\zlib_library;C:\my\MkrNavSolution\kernel-mvs\png\png_library;C:\my\MkrNavSolution\kernel-mvs\protobuf;C:\my\MkrNavSolution\kernel-mvs\VCProjects\pthreads\include;C:\my\MkrNavSolution\mkrnav_core\ogl;C:\my\MkrNavSolution\mkrnav_core\core;C:\my\MkrNavSolution\kernel-mvs\VCProjects\MkrNav\GLSimulator\WinGL\Win32;C:\my\MkrNavSolution\kernel-mvs\freetype\freetype_library\include;C:\my\MkrNavSolution\kernel-mvs\VCProjects\pthread;C:\my\MkrNavSolution\kernel-mvs\VCProjects\angleproject\include;C:\my\MkrNavSolution\kernel-mvs\expat\expat_library\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>libEGL.lib;libGLESv2.lib;pthreadVC2.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\my\MkrNavSolution\kernel-mvs\VCProjects\pthreads\lib\x86;C:\my\MkrNavSolution\kernel-mvs\VCProjects\angleproject\lib\Release</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\mkrnav_core\core\CMapRenderer.cpp" />
+    <ClCompile Include="..\..\..\..\mkrnav_core\core\common.cpp" />
+    <ClCompile Include="..\..\..\..\mkrnav_core\core\filemng.cpp" />
+    <ClCompile Include="..\..\..\..\mkrnav_core\core\mapObjects.cpp" />
+    <ClCompile Include="..\..\..\..\mkrnav_core\core\map_binary.cpp" />
+    <ClCompile Include="..\..\..\..\mkrnav_core\core\multipolygons.cpp" />
+    <ClCompile Include="..\..\..\..\mkrnav_core\core\poly.cpp" />
+    <ClCompile Include="..\..\..\..\mkrnav_core\core\proto\flcnav_index.pb.cpp" />
+    <ClCompile Include="..\..\..\..\mkrnav_core\core\renderm.cpp" />
+    <ClCompile Include="..\..\..\..\mkrnav_core\core\renderRules.cpp" />
+    <ClCompile Include="..\..\..\..\mkrnav_core\core\rendert.cpp" />
+    <ClCompile Include="..\..\..\..\mkrnav_core\core\searchAddr.cpp" />
+    <ClCompile Include="..\..\..\..\mkrnav_core\ogl\EglRenderer.cpp" />
+    <ClCompile Include="..\..\..\..\mkrnav_core\ogl\interface.cpp" />
+    <ClCompile Include="..\..\..\..\mkrnav_core\ogl\matrix.cpp" />
+    <ClCompile Include="..\..\..\..\mkrnav_core\ogl\ogl.cpp" />
+    <ClCompile Include="..\..\..\..\mkrnav_core\ogl\Sk_Draw.cpp" />
+    <ClCompile Include="..\..\..\..\mkrnav_core\ogl\Sk_DrawT.cpp" />
+    <ClCompile Include="..\..\..\..\mkrnav_core\route\CRoute.cpp" />
+    <ClCompile Include="..\..\..\..\mkrnav_core\route\Route.cpp" />
+    <ClCompile Include="..\..\..\..\mkrnav_core\route\RouteP.cpp" />
+    <ClCompile Include="..\..\..\..\mkrnav_core\route\TurnInfo.cpp" />
+    <ClCompile Include="WinGL\esUtil.cpp" />
+    <ClCompile Include="WinGL\mGLwindow.cpp" />
+    <ClCompile Include="WinGL\Win32\fcnav_win.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\expat\expat.vcxproj">
+      <Project>{fde82e2c-0bff-42ee-802c-9d902fbc02b3}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\freetype\freetype.vcxproj">
+      <Project>{1e2d471c-722c-48fc-86c1-408ce030b65e}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\png\png.vcxproj">
+      <Project>{55f7502e-1eee-4463-9030-ec7cd4ea5a17}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\protobuf\protobuf.vcxproj">
+      <Project>{9eca64ff-3138-4109-b550-94246a1c4b99}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\zlib\zlib.vcxproj">
+      <Project>{43195fe2-5b2d-4361-9109-873be5f0ebb7}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\mkrnav_core\core\common.h" />
+    <ClInclude Include="..\..\..\..\mkrnav_core\core\MapUtils.h" />
+    <ClInclude Include="..\..\..\..\mkrnav_core\core\mySharedPtr.h" />
+    <ClInclude Include="..\..\..\..\mkrnav_core\route\Route.h" />
+    <ClInclude Include="..\..\..\..\mkrnav_core\route\RouteP.h" />
+    <ClInclude Include="..\..\..\..\mkrnav_core\route\TurnInfo.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="GLSimulator.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GLSimulator.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="WinGL\esUtil.cpp">
+      <Filter>Source Files\Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="WinGL\mGLwindow.cpp">
+      <Filter>Source Files\Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="WinGL\Win32\fcnav_win.cpp">
+      <Filter>Source Files\Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\mkrnav_core\core\proto\flcnav_index.pb.cpp">
+      <Filter>Source Files\core\proto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\mkrnav_core\core\CMapRenderer.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\mkrnav_core\core\common.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\mkrnav_core\route\CRoute.cpp">
+      <Filter>Source Files\route</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\mkrnav_core\core\filemng.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\mkrnav_core\core\map_binary.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\mkrnav_core\core\mapObjects.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\mkrnav_core\core\multipolygons.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\mkrnav_core\route\Route.cpp">
+      <Filter>Source Files\route</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\mkrnav_core\route\RouteP.cpp">
+      <Filter>Source Files\route</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\mkrnav_core\route\TurnInfo.cpp">
+      <Filter>Source Files\route</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\mkrnav_core\core\renderm.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\mkrnav_core\core\renderRules.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\mkrnav_core\core\rendert.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\mkrnav_core\core\poly.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\mkrnav_core\core\searchAddr.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\mkrnav_core\ogl\EglRenderer.cpp">
+      <Filter>Source Files\ogl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\mkrnav_core\ogl\interface.cpp">
+      <Filter>Source Files\ogl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\mkrnav_core\ogl\matrix.cpp">
+      <Filter>Source Files\ogl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\mkrnav_core\ogl\ogl.cpp">
+      <Filter>Source Files\ogl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\mkrnav_core\ogl\Sk_Draw.cpp">
+      <Filter>Source Files\ogl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\mkrnav_core\ogl\Sk_DrawT.cpp">
+      <Filter>Source Files\ogl</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{5849ff14-7f29-4189-944a-3469b5052173}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{f081b6d9-0fde-4b26-b9c9-2ae7a594a73d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Win32">
+      <UniqueIdentifier>{60a254d2-c3f0-4364-b7ac-7da529997cd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\core">
+      <UniqueIdentifier>{ac7f2046-4655-4fdf-8901-bb60b7fb21fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\core\proto">
+      <UniqueIdentifier>{6ff5090f-a67b-4a9a-a012-a38c19b2072d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\core\utf8">
+      <UniqueIdentifier>{80fa84d6-2ed2-4c85-9224-3a7dad9f804d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ogl">
+      <UniqueIdentifier>{2c3bda46-13d9-4abd-898a-1fe341e0c8aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\main">
+      <UniqueIdentifier>{8f7dd31d-0f12-4f42-81a5-9b619597fee9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\route">
+      <UniqueIdentifier>{c06d2c22-bb74-4469-ba9d-abeb775b1780}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\core">
+      <UniqueIdentifier>{bbb8d130-390f-4c26-b61d-f0ca256850cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Route">
+      <UniqueIdentifier>{8ed2034b-99f8-40b2-9385-4e8324c6863f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\mkrnav_core\core\common.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\mkrnav_core\core\mySharedPtr.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\mkrnav_core\route\Route.h">
+      <Filter>Source Files\route</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\mkrnav_core\route\RouteP.h">
+      <Filter>Source Files\route</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\mkrnav_core\route\TurnInfo.h">
+      <Filter>Source Files\route</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\mkrnav_core\core\MapUtils.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="GLSimulator.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GLSimulator.rc" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<router_tests>
+  <test regions="ONTARIO" description="Straight on path" best_percent="100"
+	    start_lat="43.84997990511598" start_lon="-79.50100243091583" target_lat="43.84325592844487" target_lon="-79.36448335647583">
+	<!-- 
+	<segment id="56018104" start="4" end="0" name=" B 404"/>
+	<segment id="56017053" start="1" end="0" name=" B 404"/>
+	<segment id="4310175" start="1" end="0" name=" B 404"/>
+	<segment id="25706717" start="1" end="0" name=" B 404"/>
+	<segment id="56017055" start="1" end="0" name=" B 404"/>
+	<segment id="56018105" start="1" end="0" name=" B 404"/>
+	<segment id="31322780" start="6" end="2" name=" B 404"/>
+	 -->
+</test>
+	
+</router_tests>

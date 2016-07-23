@@ -1,0 +1,42 @@
+﻿Build started 8/6/2013 8:17:02 PM.
+     1>Project "C:\my\FCNavigation\FCNav-kernel-mvs\VCProjects\angleproject\src\libEGL\libEGL.vcxproj" on node 4 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\libEGL.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\my\FCNavigation\FCNav-kernel-mvs\VCProjects\angleproject\samples\Release\libEGL.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86" d3d9.lib dxguid.lib dwmapi.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib Delayimp.lib /DEF:"libEGL.def" /DELAYLOAD:dwmapi.dll /MANIFEST /ManifestFile:"Release\libEGL.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\my\FCNavigation\FCNav-kernel-mvs\VCProjects\angleproject\samples\Release\libEGL.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"C:\my\FCNavigation\FCNav-kernel-mvs\VCProjects\angleproject\samples\Release\libEGL.lib" /MACHINE:X86 /DLL Release\libEGL.res
+         Release\Config.obj
+         Release\debug.obj
+         Release\Display.obj
+         Release\libEGL.obj
+         Release\main.obj
+         Release\Surface.obj
+         "C:\my\FCNavigation\FCNav-kernel-mvs\VCProjects\angleproject\samples\Release\libGLESv2.lib"
+            Creating library C:\my\FCNavigation\FCNav-kernel-mvs\VCProjects\angleproject\samples\Release\libEGL.lib and object C:\my\FCNavigation\FCNav-kernel-mvs\VCProjects\angleproject\samples\Release\libEGL.exp
+         Generating code
+         Finished generating code
+         libEGL.vcxproj -> C:\my\FCNavigation\FCNav-kernel-mvs\VCProjects\angleproject\samples\Release\libEGL.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\my\FCNavigation\FCNav-kernel-mvs\VCProjects\angleproject\samples\Release\libEGL.dll;#2" /manifest Release\libEGL.dll.intermediate.manifest
+       PostBuildEvent:
+         @echo on
+         mkdir "C:\my\FCNavigation\FCNav-kernel-mvs\VCProjects\angleproject\src\libEGL\..\..\lib\Release\"
+         copy "C:\my\FCNavigation\FCNav-kernel-mvs\VCProjects\angleproject\samples\Release\libEGL.dll" "C:\my\FCNavigation\FCNav-kernel-mvs\VCProjects\angleproject\src\libEGL\..\..\lib\Release\"
+         copy "C:\my\FCNavigation\FCNav-kernel-mvs\VCProjects\angleproject\samples\Release\libEGL.lib" "C:\my\FCNavigation\FCNav-kernel-mvs\VCProjects\angleproject\src\libEGL\..\..\lib\Release\"
+         @echo off
+         
+         :VCEnd
+         A subdirectory or file C:\my\FCNavigation\FCNav-kernel-mvs\VCProjects\angleproject\src\libEGL\..\..\lib\Release\ already exists.
+                 1 file(s) copied.
+                 1 file(s) copied.
+       FinalizeBuildStatus:
+         Deleting file "Release\libEGL.unsuccessfulbuild".
+         Touching "Release\libEGL.lastbuildstate".
+     1>Done Building Project "C:\my\FCNavigation\FCNav-kernel-mvs\VCProjects\angleproject\src\libEGL\libEGL.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.53

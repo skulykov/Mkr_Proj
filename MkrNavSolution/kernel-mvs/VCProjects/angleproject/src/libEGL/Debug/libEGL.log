@@ -1,0 +1,30 @@
+﻿Build started 12/31/2015 5:14:16 PM.
+     1>Project "C:\My\FCNavigation\FCNav-kernel-mvs\VCProjects\angleproject\src\libEGL\libEGL.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\My\FCNavigation\FCNav-kernel-mvs\VCProjects\MkrNav\Debug\libEGL.dll" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86" d3d9.lib dxguid.lib dwmapi.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib Delayimp.lib /DEF:"libEGL.def" /DELAYLOAD:dwmapi.dll /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\My\FCNavigation\FCNav-kernel-mvs\VCProjects\MkrNav\Debug\libEGL.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"C:\My\FCNavigation\FCNav-kernel-mvs\VCProjects\MkrNav\Debug\libEGL.lib" /MACHINE:X86 /SAFESEH /DLL Debug\libEGL.res
+         Debug\Config.obj
+         Debug\debug.obj
+         Debug\Display.obj
+         Debug\libEGL.obj
+         Debug\main.obj
+         Debug\Surface.obj
+         "C:\My\FCNavigation\FCNav-kernel-mvs\VCProjects\MkrNav\Debug\libGLESv2.lib"
+     1>Config.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+            Creating library C:\My\FCNavigation\FCNav-kernel-mvs\VCProjects\MkrNav\Debug\libEGL.lib and object C:\My\FCNavigation\FCNav-kernel-mvs\VCProjects\MkrNav\Debug\libEGL.exp
+         libEGL.vcxproj -> C:\My\FCNavigation\FCNav-kernel-mvs\VCProjects\MkrNav\Debug\libEGL.dll
+       PostBuildEvent:
+         @echo on
+         mkdir "C:\My\FCNavigation\FCNav-kernel-mvs\VCProjects\angleproject\src\libEGL\..\..\lib\Debug\"
+         copy "C:\My\FCNavigation\FCNav-kernel-mvs\VCProjects\MkrNav\Debug\libEGL.dll" "C:\My\FCNavigation\FCNav-kernel-mvs\VCProjects\angleproject\src\libEGL\..\..\lib\Debug\"
+         copy "C:\My\FCNavigation\FCNav-kernel-mvs\VCProjects\MkrNav\Debug\libEGL.lib" "C:\My\FCNavigation\FCNav-kernel-mvs\VCProjects\angleproject\src\libEGL\..\..\lib\Debug\"
+         @echo off
+         
+         :VCEnd
+         A subdirectory or file C:\My\FCNavigation\FCNav-kernel-mvs\VCProjects\angleproject\src\libEGL\..\..\lib\Debug\ already exists.
+                 1 file(s) copied.
+                 1 file(s) copied.
+     1>Done Building Project "C:\My\FCNavigation\FCNav-kernel-mvs\VCProjects\angleproject\src\libEGL\libEGL.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.03

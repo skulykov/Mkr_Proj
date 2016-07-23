@@ -1,0 +1,23 @@
+﻿Build started 8/6/2013 8:16:45 PM.
+     1>Project "C:\my\FCNavigation\FCNav-kernel-mvs\VCProjects\angleproject\src\compiler\translator_hlsl.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\hlsl\translator_hlsl.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       Lib:
+         All outputs are up-to-date.
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\my\FCNavigation\FCNav-kernel-mvs\VCProjects\angleproject\samples\Release\translator_hlsl.lib" /NOLOGO /LTCG Release\hlsl\CodeGenHLSL.obj
+         Release\hlsl\DetectDiscontinuity.obj
+         Release\hlsl\OutputHLSL.obj
+         Release\hlsl\SearchSymbol.obj
+         Release\hlsl\TranslatorHLSL.obj
+         Release\hlsl\UnfoldShortCircuit.obj
+         translator_hlsl.vcxproj -> C:\my\FCNavigation\FCNav-kernel-mvs\VCProjects\angleproject\samples\Release\translator_hlsl.lib
+       FinalizeBuildStatus:
+         Deleting file "Release\hlsl\translator_hlsl.unsuccessfulbuild".
+         Touching "Release\hlsl\translator_hlsl.lastbuildstate".
+     1>Done Building Project "C:\my\FCNavigation\FCNav-kernel-mvs\VCProjects\angleproject\src\compiler\translator_hlsl.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.39

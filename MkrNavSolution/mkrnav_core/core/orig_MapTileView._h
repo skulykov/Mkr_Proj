@@ -1,0 +1,256 @@
+#ifndef MapTileView_H
+#define MapTileView_H
+
+
+#define _USE_MATH_DEFINES // for C++
+#include <math.h>
+#include "MapUtils.h"
+
+
+class RenderingInfo {
+	
+
+	
+	float tileWX, tileHY;
+	
+
+	
+#if 0
+	void updateLocation()
+	{
+//		tileWX=1.0*width/TILE_SIZE +0.0;
+//		tileHY=1.0*height/TILE_SIZE +0.0;
+
+		left = get31TileNumberX(lonleft);
+		top = get31TileNumberY(lattop);
+		
+		
+		right = left + tileWX * (1 << (31 - zoom));
+		bottom = top + tileHY * (1 << (31 - zoom));
+		
+		/*right = left + (width * (1 << (31 - zoom)))/TILE_SIZE;
+		bottom = top + (height * (1 << (31 - zoom)))/TILE_SIZE;*/
+		
+		//width = tileWX * TILE_SIZE;
+		//height = tileHY * TILE_SIZE;
+	}
+#else
+	void updateLocation()
+	{
+		if(width==0||height==0)
+			return;
+		float tileX=(float) getTileNumberX(zoom, cLon);
+		float tileY=(float) getTileNumberY(zoom, cLat);
+		
+		float x0=tileX-width/TILE_SIZE;
+		float y0=tileY-height/TILE_SIZE;
+		
+		//float x1=tileX+width/TILE_SIZE;
+		//float y1=tileY+height/TILE_SIZE;
+		Sk_float lattop, lonleft;
+		lonleft=getLongitudeFromTile(zoom, x0);
+		lattop=	getLatitudeFromTile(zoom, y0);
+
+		left = get31TileNumberX(lonleft);
+		top = get31TileNumberY(lattop);
+		
+				
+		tileWX=ceilf(2.0*width/TILE_SIZE) ;
+		tileHY=ceilf(2.0*height/TILE_SIZE);
+
+		
+
+		right = left + tileWX * (1 << (31 - zoom));
+		bottom = top + tileHY * (1 << (31 - zoom));
+		
+		
+	}
+#endif
+public:
+	
+	int left, right, top, bottom;
+	//std::string tileFileName;
+	std::string renderingFileName;
+	std::string resourcesFileName;
+
+	Sk_float /*double*/ cLat,cLon;     // should be a center of the map ???  left top coner!!!!
+	//Sk_float /*double*/ lattop, lonleft;
+
+	int zoom;
+	int width ;  // screen width
+	int height;  //screen height
+
+	RenderingInfo(int argc, char **params) {
+		Sk_float l1, l2;
+		char s[100];
+		int z, z1, z2 ;
+		//lattop = 85;
+		tileHY = 2;
+		//lonleft = -180;
+		tileWX = 2;
+		zoom = 15;
+		width=0;
+		height=0;
+		for (int i = 1; i != argc; ++i) {
+			/*
+			if (sscanf(params[i], "-renderingOutputFile=%s", s)) {
+				tileFileName = s;
+			} 
+			else*/ 
+			if (sscanf(params[i], "-imagesBasePathFile=%s", s)) {
+				resourcesFileName = s;
+			} 
+			else if (sscanf(params[i], "-renderingStyleFile=%s", s)) {
+				renderingFileName = s;
+			} else if (sscanf(params[i], "-zoom=%d", &z)) {
+				zoom = z;
+			} else if (sscanf(params[i], "-lbox=%f,%f", &l1, &l2)) {//else if (sscanf(params[i], "-lbox=%lg,%lg", &l1, &l2)) {
+				cLon/*lonleft*/ = l1;
+				cLat/*lattop*/ = l2;
+			} else if (sscanf(params[i], "-lt=%d,%d", &z1, &z2)) {
+				tileWX = z1;
+				tileHY = z2;
+			}
+		}
+
+		updateLocation();
+		
+	}
+	
+
+	void updateSize(int w,int h)
+	{
+		width=w;
+		height=h;
+		updateLocation();
+	}
+	void updateZoom(int z)
+	{
+		zoom=z;
+		updateLocation();
+	}
+	void updateLocation(Sk_Point *p)
+	{
+		/*lonleft=p->fX;
+		lattop=p->fY;
+		updateLocation();*/
+	}
+	void updateLocation(Sk_float lat,Sk_float lon,int _zoom=0)
+	{
+		/*lonleft=lon;
+		lattop=lat;
+		if(_zoom)
+			zoom=_zoom;
+		cLat=lat;
+		cLon=lon;
+		updateLocation();*/
+	}
+	
+};
+
+
+class MapTileView : public RenderingInfo{
+
+	 //RenderingInfo rInfo;
+	//int width,height,zoom;
+	// double cLat,cLon;     // should be a center of the map ???  left top coner!!!!
+	 
+	 	 
+	 int getCenterPointX() {
+		return width / 2;
+	}
+	 int getCenterPointY() {
+		return height / 2;
+	}
+	 int getZoom(){
+		return zoom;
+	}
+	 int getTileSize()
+	{
+		return 256;
+	}
+	 float calcDiffTileY(float dx, float dy) {
+		/*if(isMapRotateEnabled()){
+			return (-rotateSin * dx + rotateCos * dy) / getTileSize();
+		} else */
+		{
+			return dy / getTileSize();
+		}
+		
+	}
+
+	 float calcDiffTileX(float dx, float dy) {
+		/*if(isMapRotateEnabled()){
+			return (rotateCos * dx + rotateSin * dy) / getTileSize();
+		} else */
+		{
+			return dx / getTileSize();
+		}
+	}
+
+	 float getXTile() {
+		return (float) getTileNumberX(getZoom(), cLon);
+	}
+
+	 float getYTile() {
+		return (float) getTileNumberY(getZoom(), cLat);
+	}
+	
+public:
+	bool initialized;
+	MapTileView(int argc, char **params) : RenderingInfo(argc, params)
+	{
+		//cLat=lattop;
+		//cLon=lonleft;
+	}
+	
+	void moveTo(float dx, float dy) {
+		float fy = calcDiffTileY(dx, dy);
+		float fx = calcDiffTileX(dx, dy);
+
+		this->cLat = MapUtils::getLatitudeFromTile(getZoom(), getYTile() + fy);
+		this->cLon = MapUtils::getLongitudeFromTile(getZoom(), getXTile() + fx);
+		//refreshMap();
+		
+	}
+	/*LatLon_T d_moveTo(float dx, float dy) {
+		LatLon_T latlon;
+		
+		float fy = calcDiffTileY(dx, dy);
+		float fx = calcDiffTileX(dx, dy);
+
+		latlon.cLat = this->cLat = MapUtils::getLatitudeFromTile(getZoom(), getYTile() + fy);
+		latlon.cLon = this->cLon = MapUtils::getLongitudeFromTile(getZoom(), getXTile() + fx);
+		
+		return latlon;
+	}*/
+	// LatLon_T getLatLonFromScreenPoint(float x, float y) 
+	//{
+	//	float dx = x - 0;//getCenterPointX();
+	//	float dy = y - 0;//getCenterPointY();
+	//	float fy = calcDiffTileY(dx, dy);
+	//	float fx = calcDiffTileX(dx, dy);
+	//	/*
+	//	double cLat = MapUtils.getLatitudeFromTile(getZoom(), getYTile() + fy);
+	//	double cLon = MapUtils.getLongitudeFromTile(getZoom(), getXTile() + fx);
+	//	return new LatLon(cLat, cLon);*/
+	//	LatLon_T latlon;
+	//	latlon.cLat = MapUtils::getLatitudeFromTile(getZoom(), getYTile() + fy);
+	//	latlon.cLon = MapUtils::getLongitudeFromTile(getZoom(), getXTile() + fx);
+
+	//	return latlon;
+	//}
+	int getMapXForPoint(Sk_float cLon) {
+		int cx = 0;//getCenterPointX()
+		Sk_float tileX = getTileNumberX(getZoom(), cLon);
+		return (int) ((tileX - getXTile()) * getTileSize() + cx);
+	}
+
+	int getMapYForPoint(Sk_float cLat) {
+		int cy = 0;//getCenterPointY()
+		Sk_float tileY = getTileNumberY(getZoom(), cLat);
+		return (int) ((tileY - getYTile()) * getTileSize() + cy);
+	}
+};
+
+#endif

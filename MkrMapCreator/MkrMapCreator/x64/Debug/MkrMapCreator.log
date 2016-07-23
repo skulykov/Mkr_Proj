@@ -1,0 +1,51 @@
+﻿  stdafx.cpp
+  IndexCreator.cpp
+c:\my\mkrproj\mkrmapcreator\mkrmapcreator\src\common\utils.h(285): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\my\mkrproj\mkrmapcreator\mkrmapcreator\src\common\ocls.h(299): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\my\mkrproj\mkrmapcreator\mkrmapcreator\src\mapindexes\boundary.h(36): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\my\mkrproj\mkrmapcreator\mkrmapcreator\src\mapindexes\boundary.h(53): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\my\mkrproj\mkrmapcreator\mkrmapcreator\src\mapindexes\boundary.h(56): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\my\mkrproj\mkrmapcreator\mkrmapcreator\src\common\utils.h(211): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  c:\my\mkrproj\mkrmapcreator\mkrmapcreator\src\mapindexes\boundary.h(67): note: see reference to function template instantiation 'void stdH::addAll<Node*>(int,std::vector<Node *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' being compiled
+          with
+          [
+              _Ty=Node *
+          ]
+c:\my\mkrproj\mkrmapcreator\mkrmapcreator\src\common\utils.h(179): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  c:\my\mkrproj\mkrmapcreator\mkrmapcreator\src\mapindexes\boundary.h(70): note: see reference to function template instantiation 'void stdH::addAll<Node*>(std::vector<Node *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' being compiled
+          with
+          [
+              _Ty=Node *
+          ]
+  DbAccessor.cpp
+c:\my\mkrproj\mkrmapcreator\mkrmapcreator\src\common\utils.h(285): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\my\mkrproj\mkrmapcreator\mkrmapcreator\src\common\ocls.h(299): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\my\mkrproj\mkrmapcreator\mkrmapcreator\src\mapindexes\boundary.h(36): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\my\mkrproj\mkrmapcreator\mkrmapcreator\src\mapindexes\boundary.h(53): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\my\mkrproj\mkrmapcreator\mkrmapcreator\src\mapindexes\boundary.h(56): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\my\mkrproj\mkrmapcreator\mkrmapcreator\src\mapindexes\dbaccessor.cpp(170): warning C4267: 'initializing': conversion from 'size_t' to 'INT_T', possible loss of data
+c:\my\mkrproj\mkrmapcreator\mkrmapcreator\src\mapindexes\dbaccessor.cpp(176): warning C4267: '=': conversion from 'size_t' to 'INT_T', possible loss of data
+c:\my\mkrproj\mkrmapcreator\mkrmapcreator\src\mapindexes\dbaccessor.cpp(460): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'LONG_T'
+  c:\my\mkrproj\mkrmapcreator\mkrmapcreator\src\mapindexes\dbaccessor.cpp(460): note: consider using '%lld' in the format string
+  c:\my\mkrproj\mkrmapcreator\mkrmapcreator\src\mapindexes\dbaccessor.cpp(460): note: consider using '%Id' in the format string
+  c:\my\mkrproj\mkrmapcreator\mkrmapcreator\src\mapindexes\dbaccessor.cpp(460): note: consider using '%I64d' in the format string
+c:\my\mkrproj\mkrmapcreator\mkrmapcreator\src\common\utils.h(211): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  c:\my\mkrproj\mkrmapcreator\mkrmapcreator\src\mapindexes\boundary.h(67): note: see reference to function template instantiation 'void stdH::addAll<Node*>(int,std::vector<Node *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' being compiled
+          with
+          [
+              _Ty=Node *
+          ]
+c:\my\mkrproj\mkrmapcreator\mkrmapcreator\src\common\utils.h(179): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  c:\my\mkrproj\mkrmapcreator\mkrmapcreator\src\mapindexes\boundary.h(70): note: see reference to function template instantiation 'void stdH::addAll<Node*>(std::vector<Node *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' being compiled
+          with
+          [
+              _Ty=Node *
+          ]
+c:\my\mkrproj\mkrmapcreator\mkrmapcreator\src\common\utils.h(166): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  c:\my\mkrproj\mkrmapcreator\mkrmapcreator\src\mapindexes\dbaccessor.cpp(448): note: see reference to function template instantiation 'void stdH::addAllV<Boundary*>(std::vector<Boundary *,std::allocator<_Ty>> *,std::vector<_Ty,std::allocator<_Ty>> *)' being compiled
+          with
+          [
+              _Ty=Boundary *
+          ]
+  Generating Code...
+  MkrMapCreator.vcxproj -> C:\My\MkrProj\MkrMapCreator\x64\Debug\MkrMapCreator.exe

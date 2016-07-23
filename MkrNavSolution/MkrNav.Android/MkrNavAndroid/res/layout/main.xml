@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    
+    android:orientation="vertical" >
+
+     <SurfaceView android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/surfaceview"/>
+
+     <LinearLayout
+         android:id="@+id/myHeaderProgress"
+         android:layout_width="fill_parent"
+         android:layout_height="80dip"
+        
+         android:background="#000000"
+         android:gravity="center"
+         android:orientation="vertical"
+         android:visibility="gone" >
+
+         <TextView
+             android:id="@+id/tvDownloadProgress"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:text="Download "
+             android:textColor="#ffffff"
+             android:textSize="22sp" />
+
+         <ProgressBar
+             android:id="@+id/progressBar1"
+             style="@android:style/Widget.ProgressBar.Horizontal"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:minHeight="32dip"
+             android:minWidth="248dip" />
+     </LinearLayout>
+     
+</RelativeLayout>
+
+
+<!--
+ <ProgressBar
+         android:id="@+id/progressBar1"
+         style="@android:style/Widget.ProgressBar.Horizontal"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:gravity="center"
+         android:minHeight="32dip"
+         android:minWidth="248dip"
+         android:visibility="gone" /> 
+ -->
+<!--   <TextView android:layout_height="wrap_content" android:layout_width="fill_parent" android:text="Hello World! Try clicking the screen" android:textSize="20dp" android:textColor="#ffffff"/>  -->

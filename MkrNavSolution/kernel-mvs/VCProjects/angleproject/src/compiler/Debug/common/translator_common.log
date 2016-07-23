@@ -1,0 +1,9 @@
+﻿Build started 12/31/2015 5:33:09 PM.
+     1>Project "C:\My\FCNavigation\FCNav-kernel-mvs\VCProjects\angleproject\src\compiler\translator_common.vcxproj" on node 2 (Build target(s)).
+     1>Lib:
+         translator_common.vcxproj -> C:\My\FCNavigation\FCNav-kernel-mvs\VCProjects\MkrNav\Debug\translator_common.lib
+     1>Done Building Project "C:\My\FCNavigation\FCNav-kernel-mvs\VCProjects\angleproject\src\compiler\translator_common.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.15

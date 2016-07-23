@@ -1,0 +1,13 @@
+﻿  zutil.c
+  uncompr.c
+  trees.c
+  inftrees.c
+  inflate.c
+  inffast.c
+  infback.c
+  deflate.c
+  crc32.c
+  compress.c
+  adler32.c
+  Generating Code...
+  zlib.vcxproj -> C:\my\MkrProj\MkrNavSolution\kernel-mvs\VCProjects\MkrNav\Debug\zlib.lib

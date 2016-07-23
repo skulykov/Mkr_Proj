@@ -1,0 +1,58 @@
+﻿Build started 8/6/2013 8:16:46 PM.
+     1>Project "C:\my\FCNavigation\FCNav-kernel-mvs\VCProjects\angleproject\src\libGLESv2\libGLESv2.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\libGLESv2.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\my\FCNavigation\FCNav-kernel-mvs\VCProjects\angleproject\samples\Release\libGLESv2.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86" d3d9.lib D3dx9.lib d3dcompiler.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:"libGLESv2.def" /MANIFEST /ManifestFile:"Release\libGLESv2.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\my\FCNavigation\FCNav-kernel-mvs\VCProjects\angleproject\samples\Release\libGLESv2.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"C:\my\FCNavigation\FCNav-kernel-mvs\VCProjects\angleproject\samples\Release\libGLESv2.lib" /MACHINE:X86 /DLL Release\libGLESv2.res
+         Release\Blit.obj
+         Release\Buffer.obj
+         Release\Context.obj
+         Release\debug.obj
+         Release\Fence.obj
+         Release\Framebuffer.obj
+         Release\HandleAllocator.obj
+         Release\IndexDataManager.obj
+         Release\libGLESv2.obj
+         Release\main.obj
+         Release\Program.obj
+         Release\ProgramBinary.obj
+         Release\Query.obj
+         Release\RefCountObject.obj
+         Release\Renderbuffer.obj
+         Release\ResourceManager.obj
+         Release\Shader.obj
+         Release\Texture.obj
+         Release\utilities.obj
+         Release\VertexDataManager.obj
+         "C:\my\FCNavigation\FCNav-kernel-mvs\VCProjects\angleproject\samples\Release\preprocessor.lib"
+         "C:\my\FCNavigation\FCNav-kernel-mvs\VCProjects\angleproject\samples\Release\translator_common.lib"
+         "C:\my\FCNavigation\FCNav-kernel-mvs\VCProjects\angleproject\samples\Release\translator_hlsl.lib"
+            Creating library C:\my\FCNavigation\FCNav-kernel-mvs\VCProjects\angleproject\samples\Release\libGLESv2.lib and object C:\my\FCNavigation\FCNav-kernel-mvs\VCProjects\angleproject\samples\Release\libGLESv2.exp
+         Generating code
+         Finished generating code
+         libGLESv2.vcxproj -> C:\my\FCNavigation\FCNav-kernel-mvs\VCProjects\angleproject\samples\Release\libGLESv2.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\my\FCNavigation\FCNav-kernel-mvs\VCProjects\angleproject\samples\Release\libGLESv2.dll;#2" /manifest Release\libGLESv2.dll.intermediate.manifest
+       PostBuildEvent:
+         @echo on
+         mkdir "C:\my\FCNavigation\FCNav-kernel-mvs\VCProjects\angleproject\src\libGLESv2\..\..\lib\Release\"
+         copy "C:\my\FCNavigation\FCNav-kernel-mvs\VCProjects\angleproject\samples\Release\libGLESv2.dll" "C:\my\FCNavigation\FCNav-kernel-mvs\VCProjects\angleproject\src\libGLESv2\..\..\lib\Release\"
+         copy "C:\my\FCNavigation\FCNav-kernel-mvs\VCProjects\angleproject\samples\Release\libGLESv2.lib" "C:\my\FCNavigation\FCNav-kernel-mvs\VCProjects\angleproject\src\libGLESv2\..\..\lib\Release\"
+         @echo off
+         
+         :VCEnd
+         A subdirectory or file C:\my\FCNavigation\FCNav-kernel-mvs\VCProjects\angleproject\src\libGLESv2\..\..\lib\Release\ already exists.
+                 1 file(s) copied.
+                 1 file(s) copied.
+       FinalizeBuildStatus:
+         Deleting file "Release\libGLESv2.unsuccessfulbuild".
+         Touching "Release\libGLESv2.lastbuildstate".
+     1>Done Building Project "C:\my\FCNavigation\FCNav-kernel-mvs\VCProjects\angleproject\src\libGLESv2\libGLESv2.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:15.97

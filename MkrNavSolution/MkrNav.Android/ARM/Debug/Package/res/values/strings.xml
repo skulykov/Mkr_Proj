@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <!-- Simple strings. -->
+  <string name="app_name">MkrNav_A</string>
+
+  <string name="hello">***</string>
+ 
+  <string name="txtFindAddress"></string>
+  
+  <string name="zoomOut">Zoom out</string>
+  <string name="zoomIn">Zoom in</string>
+
+</resources>
+

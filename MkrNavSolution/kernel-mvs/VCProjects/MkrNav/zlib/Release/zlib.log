@@ -1,0 +1,39 @@
+﻿Build started 8/7/2013 12:44:20 PM.
+     1>Project "C:\my\FCNavigation\FCNav-kernel-mvs\VCProjects\MkrNav\zlib\zlib.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Release\zlib.unsuccessfulbuild".
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\..\zlib\zlib_library\adler32.c ..\..\..\zlib\zlib_library\compress.c ..\..\..\zlib\zlib_library\crc32.c ..\..\..\zlib\zlib_library\deflate.c ..\..\..\zlib\zlib_library\infback.c ..\..\..\zlib\zlib_library\inffast.c ..\..\..\zlib\zlib_library\inflate.c ..\..\..\zlib\zlib_library\inftrees.c ..\..\..\zlib\zlib_library\trees.c ..\..\..\zlib\zlib_library\uncompr.c ..\..\..\zlib\zlib_library\zutil.c
+         adler32.c
+         compress.c
+         crc32.c
+         deflate.c
+         infback.c
+         inffast.c
+         inflate.c
+         inftrees.c
+         trees.c
+         uncompr.c
+         zutil.c
+         Generating Code...
+       Lib:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\my\FCNavigation\FCNav-kernel-mvs\VCProjects\MkrNav\Release\zlib.lib" /NOLOGO Release\adler32.obj
+         Release\compress.obj
+         Release\crc32.obj
+         Release\deflate.obj
+         Release\infback.obj
+         Release\inffast.obj
+         Release\inflate.obj
+         Release\inftrees.obj
+         Release\trees.obj
+         Release\uncompr.obj
+         Release\zutil.obj
+         zlib.vcxproj -> C:\my\FCNavigation\FCNav-kernel-mvs\VCProjects\MkrNav\Release\zlib.lib
+       FinalizeBuildStatus:
+         Deleting file "Release\zlib.unsuccessfulbuild".
+         Touching "Release\zlib.lastbuildstate".
+     1>Done Building Project "C:\my\FCNavigation\FCNav-kernel-mvs\VCProjects\MkrNav\zlib\zlib.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.72

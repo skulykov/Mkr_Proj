@@ -1,0 +1,15 @@
+﻿Build started 12/31/2015 5:13:59 PM.
+     1>Project "C:\My\FCNavigation\FCNav-kernel-mvs\VCProjects\angleproject\src\compiler\translator_hlsl.vcxproj" on node 2 (Build target(s)).
+     1>Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\My\FCNavigation\FCNav-kernel-mvs\VCProjects\MkrNav\Debug\translator_hlsl.lib" /NOLOGO Debug\hlsl\CodeGenHLSL.obj
+         Debug\hlsl\DetectDiscontinuity.obj
+         Debug\hlsl\OutputHLSL.obj
+         Debug\hlsl\SearchSymbol.obj
+         Debug\hlsl\TranslatorHLSL.obj
+         Debug\hlsl\UnfoldShortCircuit.obj
+         translator_hlsl.vcxproj -> C:\My\FCNavigation\FCNav-kernel-mvs\VCProjects\MkrNav\Debug\translator_hlsl.lib
+     1>Done Building Project "C:\My\FCNavigation\FCNav-kernel-mvs\VCProjects\angleproject\src\compiler\translator_hlsl.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.28

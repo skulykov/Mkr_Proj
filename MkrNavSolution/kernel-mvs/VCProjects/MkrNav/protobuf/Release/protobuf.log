@@ -1,0 +1,44 @@
+﻿Build started 8/7/2013 12:40:57 PM.
+     1>Project "C:\my\FCNavigation\FCNav-kernel-mvs\VCProjects\MkrNav\protobuf\protobuf.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\protobuf.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       Lib:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\my\FCNavigation\FCNav-kernel-mvs\VCProjects\MkrNav\Release\protobuf.lib" /NOLOGO Release\descriptor.obj
+         Release\descriptor.pb.obj
+         Release\descriptor_database.obj
+         Release\dynamic_message.obj
+         Release\extension_set.obj
+         Release\extension_set_heavy.obj
+         Release\generated_message_reflection.obj
+         Release\generated_message_util.obj
+         Release\coded_stream.obj
+         Release\tokenizer.obj
+         Release\zero_copy_stream.obj
+         Release\zero_copy_stream_impl.obj
+         Release\zero_copy_stream_impl_lite.obj
+         Release\message.obj
+         Release\message_lite.obj
+         Release\reflection_ops.obj
+         Release\repeated_field.obj
+         Release\service.obj
+         Release\common.obj
+         Release\hash.obj
+         Release\once.obj
+         Release\structurally_valid.obj
+         Release\strutil.obj
+         Release\substitute.obj
+         Release\text_format.obj
+         Release\unknown_field_set.obj
+         Release\wire_format.obj
+         Release\wire_format_lite.obj
+         protobuf.vcxproj -> C:\my\FCNavigation\FCNav-kernel-mvs\VCProjects\MkrNav\Release\protobuf.lib
+       FinalizeBuildStatus:
+         Deleting file "Release\protobuf.unsuccessfulbuild".
+         Touching "Release\protobuf.lastbuildstate".
+     1>Done Building Project "C:\my\FCNavigation\FCNav-kernel-mvs\VCProjects\MkrNav\protobuf\protobuf.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.33

@@ -1,0 +1,20 @@
+<!--  build JAR libraty -->
+<project name="DataExtractionOsm" default="all" basedir=".">
+	<target name="build">
+		<exec dir="." executable="protoc">
+			<arg value="src/flcnav_odb.proto" />
+			<arg value="--java_out=./src/" />
+		</exec>
+	</target>
+        <target name="all" depends="build,cpp"/>
+	
+	<target name="cpp">
+		<exec dir="." executable="protoc">
+				<arg value="src/flcnav_odb.proto" />
+				<arg value="--cpp_out=../Flcnav-kernel/flcnav/src/proto" />
+		</exec>
+	</target>
+</project>
+
+
+

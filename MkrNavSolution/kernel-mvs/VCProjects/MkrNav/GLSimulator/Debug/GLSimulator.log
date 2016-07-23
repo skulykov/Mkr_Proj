@@ -1,0 +1,51 @@
+﻿  interface.cpp
+c:\my\mkrproj\mkrnavsolution\mkrnav_core\core\filemng.h(44): warning C4018: '<': signed/unsigned mismatch
+c:\my\mkrproj\mkrnavsolution\mkrnav_core\ogl\sk_texture.h(142): warning C4244: '=': conversion from 'png_uint_32' to 'U16', possible loss of data
+c:\my\mkrproj\mkrnavsolution\mkrnav_core\ogl\sk_texture.h(143): warning C4244: '=': conversion from 'png_uint_32' to 'U16', possible loss of data
+c:\my\mkrproj\mkrnavsolution\mkrnav_core\core\common.h(90): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\my\mkrproj\mkrnavsolution\mkrnav_core\core\renderrules.h(91): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\my\mkrproj\mkrnavsolution\mkrnav_core\core\renderrules.h(149): warning C4018: '<': signed/unsigned mismatch
+c:\my\mkrproj\mkrnavsolution\mkrnav_core\core\binaryread.h(38): warning C4305: '=': truncation from 'int' to 'bool'
+c:\my\mkrproj\mkrnavsolution\mkrnav_core\core\binaryread.h(200): warning C4018: '>=': signed/unsigned mismatch
+c:\my\mkrproj\mkrnavsolution\mkrnav_core\core\binaryread.h(356): warning C4018: '<': signed/unsigned mismatch
+c:\my\mkrproj\mkrnavsolution\mkrnav_core\core\binaryread.h(466): warning C4018: '<': signed/unsigned mismatch
+c:\my\mkrproj\mkrnavsolution\mkrnav_core\core\binaryread.h(482): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _close. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_io.h(457): note: see declaration of 'close'
+c:\my\mkrproj\mkrnavsolution\mkrnav_core\core\binaryread.h(483): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _close. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_io.h(457): note: see declaration of 'close'
+c:\my\mkrproj\mkrnavsolution\mkrnav_core\ogl\sk_paint.h(149): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\my\mkrproj\mkrnavsolution\mkrnav_core\ogl\sk_paint.h(150): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\my\mkrproj\mkrnavsolution\mkrnav_core\ogl\sk_paint.h(152): warning C4018: '<': signed/unsigned mismatch
+c:\my\mkrproj\mkrnavsolution\mkrnav_core\ogl\sk_paint.h(154): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+c:\my\mkrproj\mkrnavsolution\mkrnav_core\ogl\sk_paint.h(155): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\my\mkrproj\mkrnavsolution\mkrnav_core\ogl\sk_paint.h(158): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\my\mkrproj\mkrnavsolution\mkrnav_core\ogl\sk_paint.h(161): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+c:\my\mkrproj\mkrnavsolution\mkrnav_core\core\cmaprenderer.h(63): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\my\mkrproj\mkrnavsolution\mkrnav_core\core\cmaprenderer.h(65): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\my\mkrproj\mkrnavsolution\mkrnav_core\ogl\interface.h(131): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\my\mkrproj\mkrnavsolution\mkrnav_core\ogl\interface.h(132): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\my\mkrproj\mkrnavsolution\mkrnav_core\core\mkrnav.h(149): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+c:\my\mkrproj\mkrnavsolution\mkrnav_core\core\mkrnav.h(210): warning C4996: '__timezone': This function or variable may be unsafe. Consider using _get_timezone instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\time.h(73): note: see declaration of '__timezone'
+c:\my\mkrproj\mkrnavsolution\mkrnav_core\core\mkrnav.h(211): warning C4996: '__daylight': This function or variable may be unsafe. Consider using _get_daylight instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\time.h(61): note: see declaration of '__daylight'
+c:\my\mkrproj\mkrnavsolution\mkrnav_core\core\mkrnav.h(238): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\time.h(505): note: see declaration of 'localtime'
+c:\my\mkrproj\mkrnavsolution\mkrnav_core\core\mkrnav.h(239): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1952): note: see declaration of '_snprintf'
+c:\my\mkrproj\mkrnavsolution\mkrnav_core\ogl\interface.cpp(228): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\my\mkrproj\mkrnavsolution\mkrnav_core\ogl\interface.cpp(229): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\my\mkrproj\mkrnavsolution\mkrnav_core\ogl\interface.cpp(261): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\my\mkrproj\mkrnavsolution\mkrnav_core\ogl\interface.cpp(261): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\my\mkrproj\mkrnavsolution\mkrnav_core\ogl\interface.cpp(262): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\my\mkrproj\mkrnavsolution\mkrnav_core\ogl\interface.cpp(262): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\my\mkrproj\mkrnavsolution\mkrnav_core\ogl\interface.cpp(297): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\my\mkrproj\mkrnavsolution\mkrnav_core\ogl\interface.cpp(298): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\my\mkrproj\mkrnavsolution\mkrnav_core\ogl\interface.cpp(346): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+c:\my\mkrproj\mkrnavsolution\mkrnav_core\ogl\interface.cpp(415): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\my\mkrproj\mkrnavsolution\mkrnav_core\ogl\interface.cpp(478): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\my\mkrproj\mkrnavsolution\mkrnav_core\ogl\interface.cpp(479): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  GLSimulator.vcxproj -> C:\My\MkrProj\MkrNavSolution\kernel-mvs\VCProjects\MkrNav\Debug\GLSimulator.exe

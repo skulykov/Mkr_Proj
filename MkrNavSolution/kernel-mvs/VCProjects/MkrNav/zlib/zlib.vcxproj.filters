@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\..\zlib\zlib_library\adler32.c" />
+    <ClCompile Include="..\..\..\zlib\zlib_library\compress.c" />
+    <ClCompile Include="..\..\..\zlib\zlib_library\crc32.c" />
+    <ClCompile Include="..\..\..\zlib\zlib_library\deflate.c" />
+    <ClCompile Include="..\..\..\zlib\zlib_library\infback.c" />
+    <ClCompile Include="..\..\..\zlib\zlib_library\inffast.c" />
+    <ClCompile Include="..\..\..\zlib\zlib_library\inflate.c" />
+    <ClCompile Include="..\..\..\zlib\zlib_library\inftrees.c" />
+    <ClCompile Include="..\..\..\zlib\zlib_library\trees.c" />
+    <ClCompile Include="..\..\..\zlib\zlib_library\uncompr.c" />
+    <ClCompile Include="..\..\..\zlib\zlib_library\zutil.c" />
+  </ItemGroup>
+</Project>

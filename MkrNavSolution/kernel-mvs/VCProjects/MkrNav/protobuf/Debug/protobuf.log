@@ -1,0 +1,159 @@
+﻿  wire_format_lite.cc
+  wire_format.cc
+c:\my\mkrproj\mkrnavsolution\kernel-mvs\protobuf\google\protobuf\wire_format.cc(719): warning C4018: '<': signed/unsigned mismatch
+c:\my\mkrproj\mkrnavsolution\kernel-mvs\protobuf\google\protobuf\wire_format.cc(889): warning C4018: '<': signed/unsigned mismatch
+  unknown_field_set.cc
+c:\my\mkrproj\mkrnavsolution\kernel-mvs\protobuf\google\protobuf\unknown_field_set.cc(56): warning C4018: '<': signed/unsigned mismatch
+c:\my\mkrproj\mkrnavsolution\kernel-mvs\protobuf\google\protobuf\unknown_field_set.cc(72): warning C4018: '<': signed/unsigned mismatch
+  text_format.cc
+c:\my\mkrproj\mkrnavsolution\kernel-mvs\protobuf\google\protobuf\text_format.cc(680): warning C4018: '<': signed/unsigned mismatch
+c:\my\mkrproj\mkrnavsolution\kernel-mvs\protobuf\google\protobuf\text_format.cc(903): warning C4018: '<': signed/unsigned mismatch
+  substitute.cc
+  strutil.cc
+c:\my\mkrproj\mkrnavsolution\kernel-mvs\protobuf\google\protobuf\stubs\strutil.cc(455): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+c:\my\mkrproj\mkrnavsolution\kernel-mvs\protobuf\google\protobuf\stubs\strutil.cc(591): warning C4244: '=': conversion from 'google::protobuf::int64' to 'char', possible loss of data
+c:\my\mkrproj\mkrnavsolution\kernel-mvs\protobuf\google\protobuf\stubs\strutil.cc(833): warning C4244: '=': conversion from 'google::protobuf::uint64' to 'google::protobuf::uint32', possible loss of data
+c:\my\mkrproj\mkrnavsolution\kernel-mvs\protobuf\google\protobuf\stubs\strutil.cc(913): warning C4244: 'argument': conversion from '__int64' to 'google::protobuf::int32', possible loss of data
+c:\my\mkrproj\mkrnavsolution\kernel-mvs\protobuf\google\protobuf\stubs\strutil.cc(920): warning C4244: 'argument': conversion from 'unsigned __int64' to 'google::protobuf::uint32', possible loss of data
+c:\my\mkrproj\mkrnavsolution\kernel-mvs\protobuf\google\protobuf\stubs\strutil.cc(1016): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+c:\my\mkrproj\mkrnavsolution\kernel-mvs\protobuf\google\protobuf\stubs\strutil.cc(1019): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+c:\my\mkrproj\mkrnavsolution\kernel-mvs\protobuf\google\protobuf\stubs\strutil.cc(1022): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+c:\my\mkrproj\mkrnavsolution\kernel-mvs\protobuf\google\protobuf\stubs\strutil.cc(1027): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1952): note: see declaration of '_snprintf'
+c:\my\mkrproj\mkrnavsolution\kernel-mvs\protobuf\google\protobuf\stubs\strutil.cc(1042): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1952): note: see declaration of '_snprintf'
+c:\my\mkrproj\mkrnavsolution\kernel-mvs\protobuf\google\protobuf\stubs\strutil.cc(1056): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\my\mkrproj\mkrnavsolution\kernel-mvs\protobuf\google\protobuf\stubs\strutil.cc(1071): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+c:\my\mkrproj\mkrnavsolution\kernel-mvs\protobuf\google\protobuf\stubs\strutil.cc(1074): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+c:\my\mkrproj\mkrnavsolution\kernel-mvs\protobuf\google\protobuf\stubs\strutil.cc(1077): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+c:\my\mkrproj\mkrnavsolution\kernel-mvs\protobuf\google\protobuf\stubs\strutil.cc(1082): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1952): note: see declaration of '_snprintf'
+c:\my\mkrproj\mkrnavsolution\kernel-mvs\protobuf\google\protobuf\stubs\strutil.cc(1091): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1952): note: see declaration of '_snprintf'
+c:\my\mkrproj\mkrnavsolution\kernel-mvs\protobuf\google\protobuf\stubs\strutil.cc(1116): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+  structurally_valid.cc
+  once.cc
+  hash.cc
+  common.cc
+c:\my\mkrproj\mkrnavsolution\kernel-mvs\protobuf\google\protobuf\stubs\common.cc(98): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1952): note: see declaration of '_snprintf'
+c:\my\mkrproj\mkrnavsolution\kernel-mvs\protobuf\google\protobuf\stubs\common.cc(174): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1952): note: see declaration of '_snprintf'
+c:\my\mkrproj\mkrnavsolution\kernel-mvs\protobuf\google\protobuf\stubs\common.cc(175): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1952): note: see declaration of '_snprintf'
+c:\my\mkrproj\mkrnavsolution\kernel-mvs\protobuf\google\protobuf\stubs\common.cc(176): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1952): note: see declaration of '_snprintf'
+c:\my\mkrproj\mkrnavsolution\kernel-mvs\protobuf\google\protobuf\stubs\common.cc(177): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1952): note: see declaration of '_snprintf'
+c:\my\mkrproj\mkrnavsolution\kernel-mvs\protobuf\google\protobuf\stubs\common.cc(178): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1952): note: see declaration of '_snprintf'
+c:\my\mkrproj\mkrnavsolution\kernel-mvs\protobuf\google\protobuf\stubs\common.cc(179): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1952): note: see declaration of '_snprintf'
+c:\my\mkrproj\mkrnavsolution\kernel-mvs\protobuf\google\protobuf\stubs\common.cc(361): warning C4018: '<': signed/unsigned mismatch
+  service.cc
+  repeated_field.cc
+  reflection_ops.cc
+c:\my\mkrproj\mkrnavsolution\kernel-mvs\protobuf\google\protobuf\reflection_ops.cc(62): warning C4018: '<': signed/unsigned mismatch
+c:\my\mkrproj\mkrnavsolution\kernel-mvs\protobuf\google\protobuf\reflection_ops.cc(128): warning C4018: '<': signed/unsigned mismatch
+c:\my\mkrproj\mkrnavsolution\kernel-mvs\protobuf\google\protobuf\reflection_ops.cc(151): warning C4018: '<': signed/unsigned mismatch
+c:\my\mkrproj\mkrnavsolution\kernel-mvs\protobuf\google\protobuf\reflection_ops.cc(181): warning C4018: '<': signed/unsigned mismatch
+c:\my\mkrproj\mkrnavsolution\kernel-mvs\protobuf\google\protobuf\reflection_ops.cc(236): warning C4018: '<': signed/unsigned mismatch
+  message_lite.cc
+  message.cc
+  zero_copy_stream_impl_lite.cc
+c:\my\mkrproj\mkrnavsolution\kernel-mvs\protobuf\google\protobuf\io\zero_copy_stream_impl_lite.cc(157): warning C4018: '<': signed/unsigned mismatch
+c:\my\mkrproj\mkrnavsolution\kernel-mvs\protobuf\google\protobuf\io\zero_copy_stream_impl_lite.cc(177): warning C4018: '<=': signed/unsigned mismatch
+  zero_copy_stream_impl.cc
+c:\my\mkrproj\mkrnavsolution\kernel-mvs\protobuf\google\protobuf\io\zero_copy_stream_impl.cc(67): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _close. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_io.h(457): note: see declaration of 'close'
+c:\my\mkrproj\mkrnavsolution\kernel-mvs\protobuf\google\protobuf\io\zero_copy_stream_impl.cc(116): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(178): note: see declaration of 'strerror'
+c:\my\mkrproj\mkrnavsolution\kernel-mvs\protobuf\google\protobuf\io\zero_copy_stream_impl.cc(141): warning C4996: 'read': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _read. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_io.h(521): note: see declaration of 'read'
+c:\my\mkrproj\mkrnavsolution\kernel-mvs\protobuf\google\protobuf\io\zero_copy_stream_impl.cc(214): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(178): note: see declaration of 'strerror'
+c:\my\mkrproj\mkrnavsolution\kernel-mvs\protobuf\google\protobuf\io\zero_copy_stream_impl.cc(244): warning C4996: 'write': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _write. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_io.h(556): note: see declaration of 'write'
+c:\my\mkrproj\mkrnavsolution\kernel-mvs\protobuf\google\protobuf\io\zero_copy_stream_impl.cc(304): warning C4244: 'initializing': conversion from 'std::streamsize' to 'int', possible loss of data
+c:\my\mkrproj\mkrnavsolution\kernel-mvs\protobuf\google\protobuf\io\zero_copy_stream_impl.cc(391): warning C4244: '=': conversion from 'google::protobuf::int64' to 'int', possible loss of data
+c:\my\mkrproj\mkrnavsolution\kernel-mvs\protobuf\google\protobuf\io\zero_copy_stream_impl.cc(419): warning C4244: 'argument': conversion from 'google::protobuf::int64' to 'int', possible loss of data
+c:\my\mkrproj\mkrnavsolution\kernel-mvs\protobuf\google\protobuf\io\zero_copy_stream_impl.cc(429): warning C4244: '+=': conversion from 'google::protobuf::int64' to 'int', possible loss of data
+c:\my\mkrproj\mkrnavsolution\kernel-mvs\protobuf\google\protobuf\io\zero_copy_stream_impl.cc(436): warning C4244: 'argument': conversion from 'google::protobuf::int64' to 'int', possible loss of data
+c:\my\mkrproj\mkrnavsolution\kernel-mvs\protobuf\google\protobuf\io\zero_copy_stream_impl.cc(447): warning C4244: 'argument': conversion from 'google::protobuf::int64' to 'int', possible loss of data
+  zero_copy_stream.cc
+  tokenizer.cc
+  coded_stream.cc
+  Generating Code...
+  Compiling...
+  generated_message_util.cc
+  generated_message_reflection.cc
+c:\my\mkrproj\mkrnavsolution\kernel-mvs\protobuf\google\protobuf\generated_message_reflection.cc(1152): warning C4800: 'google::protobuf::uint32': forcing value to bool 'true' or 'false' (performance warning)
+  extension_set_heavy.cc
+  extension_set.cc
+  dynamic_message.cc
+  descriptor_database.cc
+c:\my\mkrproj\mkrnavsolution\kernel-mvs\protobuf\google\protobuf\descriptor_database.cc(303): warning C4018: '<': signed/unsigned mismatch
+c:\my\mkrproj\mkrnavsolution\kernel-mvs\protobuf\google\protobuf\descriptor_database.cc(441): warning C4018: '<': signed/unsigned mismatch
+c:\my\mkrproj\mkrnavsolution\kernel-mvs\protobuf\google\protobuf\descriptor_database.cc(464): warning C4018: '<': signed/unsigned mismatch
+c:\my\mkrproj\mkrnavsolution\kernel-mvs\protobuf\google\protobuf\descriptor_database.cc(475): warning C4018: '<': signed/unsigned mismatch
+c:\my\mkrproj\mkrnavsolution\kernel-mvs\protobuf\google\protobuf\descriptor_database.cc(498): warning C4018: '<': signed/unsigned mismatch
+c:\my\mkrproj\mkrnavsolution\kernel-mvs\protobuf\google\protobuf\descriptor_database.cc(525): warning C4018: '<': signed/unsigned mismatch
+c:\my\mkrproj\mkrnavsolution\kernel-mvs\protobuf\google\protobuf\descriptor_database.cc(237): warning C4018: '<': signed/unsigned mismatch
+  c:\my\mkrproj\mkrnavsolution\kernel-mvs\protobuf\google\protobuf\descriptor_database.cc(236): note: while compiling class template member function 'bool google::protobuf::SimpleDescriptorDatabase::DescriptorIndex<const google::protobuf::FileDescriptorProto *>::ValidateSymbolName(const std::string &)'
+  c:\my\mkrproj\mkrnavsolution\kernel-mvs\protobuf\google\protobuf\descriptor_database.cc(93): note: see reference to function template instantiation 'bool google::protobuf::SimpleDescriptorDatabase::DescriptorIndex<const google::protobuf::FileDescriptorProto *>::ValidateSymbolName(const std::string &)' being compiled
+  c:\my\mkrproj\mkrnavsolution\kernel-mvs\protobuf\google\protobuf\descriptor_database.cc(87): note: while compiling class template member function 'bool google::protobuf::SimpleDescriptorDatabase::DescriptorIndex<const google::protobuf::FileDescriptorProto *>::AddSymbol(const std::string &,Value)'
+          with
+          [
+              Value=const google::protobuf::FileDescriptorProto *
+          ]
+  c:\my\mkrproj\mkrnavsolution\kernel-mvs\protobuf\google\protobuf\descriptor_database.cc(68): note: see reference to function template instantiation 'bool google::protobuf::SimpleDescriptorDatabase::DescriptorIndex<const google::protobuf::FileDescriptorProto *>::AddSymbol(const std::string &,Value)' being compiled
+          with
+          [
+              Value=const google::protobuf::FileDescriptorProto *
+          ]
+  c:\my\mkrproj\mkrnavsolution\kernel-mvs\protobuf\google\protobuf\descriptor_database.cc(55): note: while compiling class template member function 'bool google::protobuf::SimpleDescriptorDatabase::DescriptorIndex<const google::protobuf::FileDescriptorProto *>::AddFile(const google::protobuf::FileDescriptorProto &,Value)'
+          with
+          [
+              Value=const google::protobuf::FileDescriptorProto *
+          ]
+  c:\my\mkrproj\mkrnavsolution\kernel-mvs\protobuf\google\protobuf\descriptor_database.cc(264): note: see reference to function template instantiation 'bool google::protobuf::SimpleDescriptorDatabase::DescriptorIndex<const google::protobuf::FileDescriptorProto *>::AddFile(const google::protobuf::FileDescriptorProto &,Value)' being compiled
+          with
+          [
+              Value=const google::protobuf::FileDescriptorProto *
+          ]
+  c:\my\mkrproj\mkrnavsolution\kernel-mvs\protobuf\google\protobuf\descriptor_database.h(250): note: see reference to class template instantiation 'google::protobuf::SimpleDescriptorDatabase::DescriptorIndex<const google::protobuf::FileDescriptorProto *>' being compiled
+  descriptor.pb.cc
+  descriptor.cc
+c:\my\mkrproj\mkrnavsolution\kernel-mvs\protobuf\google\protobuf\descriptor.cc(132): warning C4018: '<': signed/unsigned mismatch
+c:\my\mkrproj\mkrnavsolution\kernel-mvs\protobuf\google\protobuf\descriptor.cc(490): warning C4018: '<': signed/unsigned mismatch
+c:\my\mkrproj\mkrnavsolution\kernel-mvs\protobuf\google\protobuf\descriptor.cc(514): warning C4018: '<': signed/unsigned mismatch
+c:\my\mkrproj\mkrnavsolution\kernel-mvs\protobuf\google\protobuf\descriptor.cc(517): warning C4018: '<': signed/unsigned mismatch
+c:\my\mkrproj\mkrnavsolution\kernel-mvs\protobuf\google\protobuf\descriptor.cc(520): warning C4018: '<': signed/unsigned mismatch
+c:\my\mkrproj\mkrnavsolution\kernel-mvs\protobuf\google\protobuf\descriptor.cc(534): warning C4018: '<': signed/unsigned mismatch
+c:\my\mkrproj\mkrnavsolution\kernel-mvs\protobuf\google\protobuf\descriptor.cc(987): warning C4018: '<': signed/unsigned mismatch
+c:\my\mkrproj\mkrnavsolution\kernel-mvs\protobuf\google\protobuf\descriptor.cc(1496): warning C4018: '<': signed/unsigned mismatch
+c:\my\mkrproj\mkrnavsolution\kernel-mvs\protobuf\google\protobuf\descriptor.cc(1532): warning C4018: '<': signed/unsigned mismatch
+c:\my\mkrproj\mkrnavsolution\kernel-mvs\protobuf\google\protobuf\descriptor.cc(2587): warning C4018: '<': signed/unsigned mismatch
+c:\my\mkrproj\mkrnavsolution\kernel-mvs\protobuf\google\protobuf\descriptor.cc(2603): warning C4018: '<': signed/unsigned mismatch
+c:\my\mkrproj\mkrnavsolution\kernel-mvs\protobuf\google\protobuf\descriptor.cc(2708): warning C4018: '<': signed/unsigned mismatch
+c:\my\mkrproj\mkrnavsolution\kernel-mvs\protobuf\google\protobuf\descriptor.cc(2711): warning C4018: '<': signed/unsigned mismatch
+c:\my\mkrproj\mkrnavsolution\kernel-mvs\protobuf\google\protobuf\descriptor.cc(3012): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\my\mkrproj\mkrnavsolution\kernel-mvs\protobuf\google\protobuf\descriptor.cc(4128): warning C4244: 'argument': conversion from 'google::protobuf::uint64' to 'google::protobuf::int32', possible loss of data
+c:\my\mkrproj\mkrnavsolution\kernel-mvs\protobuf\google\protobuf\descriptor.cc(4138): warning C4244: 'argument': conversion from 'google::protobuf::int64' to 'google::protobuf::int32', possible loss of data
+c:\my\mkrproj\mkrnavsolution\kernel-mvs\protobuf\google\protobuf\descriptor.cc(4175): warning C4244: 'argument': conversion from 'google::protobuf::uint64' to 'google::protobuf::uint32', possible loss of data
+c:\my\mkrproj\mkrnavsolution\kernel-mvs\protobuf\google\protobuf\descriptor.cc(4197): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\my\mkrproj\mkrnavsolution\kernel-mvs\protobuf\google\protobuf\descriptor.cc(4199): warning C4244: '=': conversion from 'google::protobuf::uint64' to 'float', possible loss of data
+c:\my\mkrproj\mkrnavsolution\kernel-mvs\protobuf\google\protobuf\descriptor.cc(4201): warning C4244: '=': conversion from 'google::protobuf::int64' to 'float', possible loss of data
+c:\my\mkrproj\mkrnavsolution\kernel-mvs\protobuf\google\protobuf\descriptor.cc(4216): warning C4244: '=': conversion from 'google::protobuf::uint64' to 'double', possible loss of data
+c:\my\mkrproj\mkrnavsolution\kernel-mvs\protobuf\google\protobuf\descriptor.cc(4218): warning C4244: '=': conversion from 'google::protobuf::int64' to 'double', possible loss of data
+  Generating Code...
+hash.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+  protobuf.vcxproj -> C:\my\MkrProj\MkrNavSolution\kernel-mvs\VCProjects\MkrNav\Debug\protobuf.lib

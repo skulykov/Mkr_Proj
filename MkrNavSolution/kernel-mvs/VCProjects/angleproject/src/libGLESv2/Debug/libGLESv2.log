@@ -1,0 +1,46 @@
+﻿Build started 12/31/2015 5:14:00 PM.
+     1>Project "C:\My\FCNavigation\FCNav-kernel-mvs\VCProjects\angleproject\src\libGLESv2\libGLESv2.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\My\FCNavigation\FCNav-kernel-mvs\VCProjects\MkrNav\Debug\libGLESv2.dll" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86" d3d9.lib D3dx9.lib d3dcompiler.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:"libGLESv2.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\My\FCNavigation\FCNav-kernel-mvs\VCProjects\MkrNav\Debug\libGLESv2.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"C:\My\FCNavigation\FCNav-kernel-mvs\VCProjects\MkrNav\Debug\libGLESv2.lib" /MACHINE:X86 /SAFESEH /DLL Debug\libGLESv2.res
+         Debug\Blit.obj
+         Debug\Buffer.obj
+         Debug\Context.obj
+         Debug\debug.obj
+         Debug\Fence.obj
+         Debug\Framebuffer.obj
+         Debug\HandleAllocator.obj
+         Debug\IndexDataManager.obj
+         Debug\libGLESv2.obj
+         Debug\main.obj
+         Debug\Program.obj
+         Debug\ProgramBinary.obj
+         Debug\Query.obj
+         Debug\RefCountObject.obj
+         Debug\Renderbuffer.obj
+         Debug\ResourceManager.obj
+         Debug\Shader.obj
+         Debug\Texture.obj
+         Debug\utilities.obj
+         Debug\VertexDataManager.obj
+         "C:\My\FCNavigation\FCNav-kernel-mvs\VCProjects\MkrNav\Debug\preprocessor.lib"
+         "C:\My\FCNavigation\FCNav-kernel-mvs\VCProjects\MkrNav\Debug\translator_common.lib"
+         "C:\My\FCNavigation\FCNav-kernel-mvs\VCProjects\MkrNav\Debug\translator_hlsl.lib"
+     1>Blit.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+            Creating library C:\My\FCNavigation\FCNav-kernel-mvs\VCProjects\MkrNav\Debug\libGLESv2.lib and object C:\My\FCNavigation\FCNav-kernel-mvs\VCProjects\MkrNav\Debug\libGLESv2.exp
+         libGLESv2.vcxproj -> C:\My\FCNavigation\FCNav-kernel-mvs\VCProjects\MkrNav\Debug\libGLESv2.dll
+       PostBuildEvent:
+         @echo on
+         mkdir "C:\My\FCNavigation\FCNav-kernel-mvs\VCProjects\angleproject\src\libGLESv2\..\..\lib\Debug\"
+         copy "C:\My\FCNavigation\FCNav-kernel-mvs\VCProjects\MkrNav\Debug\libGLESv2.dll" "C:\My\FCNavigation\FCNav-kernel-mvs\VCProjects\angleproject\src\libGLESv2\..\..\lib\Debug\"
+         copy "C:\My\FCNavigation\FCNav-kernel-mvs\VCProjects\MkrNav\Debug\libGLESv2.lib" "C:\My\FCNavigation\FCNav-kernel-mvs\VCProjects\angleproject\src\libGLESv2\..\..\lib\Debug\"
+         @echo off
+         
+         :VCEnd
+         A subdirectory or file C:\My\FCNavigation\FCNav-kernel-mvs\VCProjects\angleproject\src\libGLESv2\..\..\lib\Debug\ already exists.
+                 1 file(s) copied.
+                 1 file(s) copied.
+     1>Done Building Project "C:\My\FCNavigation\FCNav-kernel-mvs\VCProjects\angleproject\src\libGLESv2\libGLESv2.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.81

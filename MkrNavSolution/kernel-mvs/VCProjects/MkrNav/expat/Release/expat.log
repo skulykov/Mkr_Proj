@@ -1,0 +1,23 @@
+﻿Build started 8/7/2013 12:40:57 PM.
+     1>Project "C:\my\FCNavigation\FCNav-kernel-mvs\VCProjects\MkrNav\expat\expat.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\expat.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\my\FCNavigation\FCNav-kernel-mvs\expat\expat_library" /Zi /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D HAVE_EXPAT_CONFIG_H /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\..\expat\expat_library\lib\xmlparse.c ..\..\..\expat\expat_library\lib\xmlrole.c ..\..\..\expat\expat_library\lib\xmltok.c
+         xmlparse.c
+         xmlrole.c
+         xmltok.c
+         Generating Code...
+       Lib:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\my\FCNavigation\FCNav-kernel-mvs\VCProjects\MkrNav\Release\expat.lib" /NOLOGO Release\xmlparse.obj
+         Release\xmlrole.obj
+         Release\xmltok.obj
+         expat.vcxproj -> C:\my\FCNavigation\FCNav-kernel-mvs\VCProjects\MkrNav\Release\expat.lib
+       FinalizeBuildStatus:
+         Deleting file "Release\expat.unsuccessfulbuild".
+         Touching "Release\expat.lastbuildstate".
+     1>Done Building Project "C:\my\FCNavigation\FCNav-kernel-mvs\VCProjects\MkrNav\expat\expat.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.30

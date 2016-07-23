@@ -1,0 +1,59 @@
+﻿  ANDROID_HOME=C:\Program Files (x86)\Android\android-sdk
+  ANT_HOME=C:\Program Files (x86)\Microsoft Visual Studio 14.0\Apps\apache-ant-1.9.3\
+  JAVA_HOME=C:\Program Files (x86)\Java\jdk1.7.0_71
+  NDK_ROOT=C:\ProgramData\Microsoft\AndroidNDK\android-ndk-r10e\
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(368,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  extension_set.cc
+  generated_message_util.cc
+  coded_stream.cc
+  ..\..\mkrnav_core\extLibs\protobuf\google\protobuf\io\coded_stream.cc: In member function 'bool google::protobuf::io::CodedInputStream::ReadLittleEndian32Fallback(google::protobuf::uint32*)':
+  ..\..\mkrnav_core\extLibs\protobuf\google\protobuf\io\coded_stream.cc:264:20: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     if (BufferSize() >= sizeof(*value)) {
+                      ^
+  ..\..\mkrnav_core\extLibs\protobuf\google\protobuf\io\coded_stream.cc: In member function 'bool google::protobuf::io::CodedInputStream::ReadLittleEndian64Fallback(google::protobuf::uint64*)':
+  ..\..\mkrnav_core\extLibs\protobuf\google\protobuf\io\coded_stream.cc:281:20: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     if (BufferSize() >= sizeof(*value)) {
+                      ^
+  ..\..\mkrnav_core\extLibs\protobuf\google\protobuf\io\coded_stream.cc: In member function 'void google::protobuf::io::CodedOutputStream::WriteLittleEndian32(google::protobuf::uint32)':
+  ..\..\mkrnav_core\extLibs\protobuf\google\protobuf\io\coded_stream.cc:606:32: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     bool use_fast = buffer_size_ >= sizeof(value);
+                                  ^
+  ..\..\mkrnav_core\extLibs\protobuf\google\protobuf\io\coded_stream.cc: In member function 'void google::protobuf::io::CodedOutputStream::WriteLittleEndian64(google::protobuf::uint64)':
+  ..\..\mkrnav_core\extLibs\protobuf\google\protobuf\io\coded_stream.cc:621:32: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     bool use_fast = buffer_size_ >= sizeof(value);
+                                  ^
+  zero_copy_stream.cc
+  zero_copy_stream_impl.cc
+  zero_copy_stream_impl_lite.cc
+  ..\..\mkrnav_core\extLibs\protobuf\google\protobuf\io\zero_copy_stream_impl_lite.cc: In member function 'virtual bool google::protobuf::io::StringOutputStream::Next(void**, int*)':
+  ..\..\mkrnav_core\extLibs\protobuf\google\protobuf\io\zero_copy_stream_impl_lite.cc:157:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     if (old_size < target_->capacity()) {
+                  ^
+  In file included from C:\My\MKrProj\MkrNavSolution\mkrnav_core\extLibs\protobuf/google/protobuf/io/zero_copy_stream.h:111:0,
+                   from C:\My\MKrProj\MkrNavSolution\mkrnav_core\extLibs\protobuf/google/protobuf/io/zero_copy_stream_impl.h:45,
+                   from ..\..\mkrnav_core\extLibs\protobuf\google\protobuf\io\zero_copy_stream_impl_lite.cc:35:
+  ..\..\mkrnav_core\extLibs\protobuf\google\protobuf\io\zero_copy_stream_impl_lite.cc: In member function 'virtual void google::protobuf::io::StringOutputStream::BackUp(int)':
+  C:\My\MKrProj\MkrNavSolution\mkrnav_core\extLibs\protobuf/google/protobuf/stubs/common.h:685:48: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   #define GOOGLE_CHECK_LE(A, B) GOOGLE_CHECK((A) <= (B))
+                                                  ^
+  C:\My\MKrProj\MkrNavSolution\mkrnav_core\extLibs\protobuf/google/protobuf/stubs/common.h:678:5: note: in definition of macro 'GOOGLE_LOG_IF'
+     !(CONDITION) ? (void)0 : GOOGLE_LOG(LEVEL)
+       ^
+  C:\My\MKrProj\MkrNavSolution\mkrnav_core\extLibs\protobuf/google/protobuf/stubs/common.h:685:31: note: in expansion of macro 'GOOGLE_CHECK'
+   #define GOOGLE_CHECK_LE(A, B) GOOGLE_CHECK((A) <= (B))
+                                 ^
+  ..\..\mkrnav_core\extLibs\protobuf\google\protobuf\io\zero_copy_stream_impl_lite.cc:177:3: note: in expansion of macro 'GOOGLE_CHECK_LE'
+     GOOGLE_CHECK_LE(count, target_->size());
+     ^
+  message_lite.cc
+  repeated_field.cc
+  common.cc
+  ..\..\mkrnav_core\extLibs\protobuf\google\protobuf\stubs\common.cc: In function 'void google::protobuf::ShutdownProtobufLibrary()':
+  ..\..\mkrnav_core\extLibs\protobuf\google\protobuf\stubs\common.cc:355:21: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for (int i = 0; i < internal::shutdown_functions->size(); i++) {
+                       ^
+  hash.cc
+  once.cc
+  wire_format_lite.cc
+  C:\ProgramData\Microsoft\AndroidNDK\android-ndk-r10e\toolchains\arm-linux-androideabi-4.9\prebuilt\windows\bin\arm-linux-androideabi-ar.exe: creating C:\My\MkrNavSolution\MkrNav.Android\static_libs\liblib_protobuf.a
+  lib_protobuf.vcxproj -> C:\My\MkrNavSolution\MkrNav.Android\static_libs\liblib_protobuf.a

@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|ARM">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM">
+      <Configuration>Release</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|ARM64">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM64">
+      <Configuration>Release</Configuration>
+      <Platform>ARM64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x86">
+      <Configuration>Debug</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x86">
+      <Configuration>Release</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{9f297c09-b1a2-4e74-91d5-247d9cdf6811}</ProjectGuid>
+    <Keyword>Android</Keyword>
+    <RootNamespace>MkrNavGL</RootNamespace>
+    <MinimumVisualStudioVersion>14.0</MinimumVisualStudioVersion>
+    <ApplicationType>Android</ApplicationType>
+    <ApplicationTypeRevision>1.0</ApplicationTypeRevision>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>Clang_3_6</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>Clang_3_6</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>Gcc_4_9</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>Clang_3_6</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>Clang_3_6</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>Clang_3_6</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x86'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>Clang_3_6</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x86'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>Clang_3_6</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Label="Shared" />
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x86'">
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
+    <UseMultiToolTask>false</UseMultiToolTask>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x86'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>C:\My\MKrProj\MkrNavSolution\mkrnav_core\extLibs\freetype\freetype_library\include;C:\My\MKrProj\MkrNavSolution\mkrnav_core\extLibs\expat\expat_library\lib;C:\My\MKrProj\MkrNavSolution\mkrnav_core\extLibs\png\png_library;C:\My\MKrProj\MkrNavSolution\mkrnav_core\jni;C:\My\MKrProj\MkrNavSolution\mkrnav_core\route;C:\My\MKrProj\MkrNavSolution\mkrnav_core\ogl;C:\My\MKrProj\MkrNavSolution\mkrnav_core\main;C:\My\MKrProj\MkrNavSolution\mkrnav_core\core;C:\My\MKrProj\MkrNavSolution\mkrnav_core\extLibs\protobuf;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ExceptionHandling>Disabled</ExceptionHandling>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <CLanguageStandard>c11</CLanguageStandard>
+      <CppLanguageStandard>c++11</CppLanguageStandard>
+      <PreprocessorDefinitions>__arm__;__ARM_ARCH_7A__;__ARM_NEON__;SK_BUILD_FOR_ANDROID=1;ANDROID=1;ANDROID_BUILD;SK_BUILD_FOR_ANDROID_NDK=1;SK_ALLOW_STATIC_GLOBAL_INITIALIZERS=0;USE_VBO_FOR_DRAWING=1;GOOGLE_PROTOBUF_NO_RTTI;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <EnableNeonCodegen>true</EnableNeonCodegen>
+      <AdditionalOptions>-fsigned-char -std=c++11 -std=gnu++11 -w</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>-lm</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>
+      </IgnoreSpecificDefaultLibraries>
+      <LibraryDependencies>z;EGL;GLESv2;OpenSLES;lib_protobuf;lib_expat;lib_freetype;lib_png;%(LibraryDependencies)</LibraryDependencies>
+      <AdditionalLibraryDirectories>C:\my\MkrNavSolution\MkrNav.Android\static_libs;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy /Y "$(SolutionDir)ARM\Debug\libMkrNavGL.so" "$(SolutionDir)MkrNavAndroid\libs\armeabi-v7a"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\mkrnav_core\core\CMapRenderer.cpp" />
+    <ClCompile Include="..\..\mkrnav_core\core\common.cpp" />
+    <ClCompile Include="..\..\mkrnav_core\core\filemng.cpp" />
+    <ClCompile Include="..\..\mkrnav_core\core\mapObjects.cpp" />
+    <ClCompile Include="..\..\mkrnav_core\core\map_binary.cpp" />
+    <ClCompile Include="..\..\mkrnav_core\core\multipolygons.cpp" />
+    <ClCompile Include="..\..\mkrnav_core\core\poly.cpp" />
+    <ClCompile Include="..\..\mkrnav_core\core\proto\flcnav_index.pb.cpp" />
+    <ClCompile Include="..\..\mkrnav_core\core\renderm.cpp" />
+    <ClCompile Include="..\..\mkrnav_core\core\renderRules.cpp" />
+    <ClCompile Include="..\..\mkrnav_core\core\rendert.cpp" />
+    <ClCompile Include="..\..\mkrnav_core\core\searchAddr.cpp" />
+    <ClCompile Include="..\..\mkrnav_core\jni\MkrJNI.cpp" />
+    <ClCompile Include="..\..\mkrnav_core\jni\MkrMsgBox.cpp" />
+    <ClCompile Include="..\..\mkrnav_core\jni\MkrNVMngr.cpp" />
+    <ClCompile Include="..\..\mkrnav_core\jni\MkrSoundMngr.cpp" />
+    <ClCompile Include="..\..\mkrnav_core\jni\MKrTimerMngr.cpp" />
+    <ClCompile Include="..\..\mkrnav_core\jni\MkrTtsMngr.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\mkrnav_core\jni\sk_msgbox.cpp" />
+    <ClCompile Include="..\..\mkrnav_core\jni\tts_a_prov.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\mkrnav_core\main\AndroidFileIO.cpp" />
+    <ClCompile Include="..\..\mkrnav_core\main\download.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\mkrnav_core\main\sk_io.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\mkrnav_core\main\sk_main.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\mkrnav_core\main\sound.cpp" />
+    <ClCompile Include="..\..\mkrnav_core\ogl\EglRenderer.cpp" />
+    <ClCompile Include="..\..\mkrnav_core\ogl\interface.cpp" />
+    <ClCompile Include="..\..\mkrnav_core\ogl\jniapi.cpp" />
+    <ClCompile Include="..\..\mkrnav_core\ogl\matrix.cpp" />
+    <ClCompile Include="..\..\mkrnav_core\ogl\ogl.cpp" />
+    <ClCompile Include="..\..\mkrnav_core\ogl\Sk_Draw.cpp" />
+    <ClCompile Include="..\..\mkrnav_core\ogl\Sk_DrawT.cpp" />
+    <ClCompile Include="..\..\mkrnav_core\route\CRoute.cpp" />
+    <ClCompile Include="..\..\mkrnav_core\route\Route.cpp" />
+    <ClCompile Include="..\..\mkrnav_core\route\RouteP.cpp" />
+    <ClCompile Include="..\..\mkrnav_core\route\TurnInfo.cpp" />
+    <ClCompile Include="MkrNavGL.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MkrNavGL.h" />
+    <ClInclude Include="pch.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets" />
+</Project>

@@ -1,0 +1,526 @@
+!SESSION 2016-02-08 18:47:53.428 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -application com.microsoft.javapkgsrv.application javapkgsrv-c987f40f-78c6-4bc7-9f98-24c7dd7e8e87
+Command-line arguments:  -consoleLog -application com.microsoft.javapkgsrv.application -data C:\My\MkrNavSolution\MkrNav.Android\.workspace javapkgsrv-c987f40f-78c6-4bc7-9f98-24c7dd7e8e87
+
+!ENTRY org.eclipse.core.resources 2 10035 2016-02-08 18:53:15.257
+!MESSAGE The workspace will exit with unsaved changes in this session.
+!SESSION 2016-02-08 18:58:15.399 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -application com.microsoft.javapkgsrv.application javapkgsrv-afea8dce-9296-4639-9149-ec65bf87cc83
+Command-line arguments:  -consoleLog -application com.microsoft.javapkgsrv.application -data C:\My\MkrNavSolution\MkrNav.Android\.workspace javapkgsrv-afea8dce-9296-4639-9149-ec65bf87cc83
+
+!ENTRY org.eclipse.core.resources 2 10035 2016-02-08 18:58:16.943
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.core.resources.win32.x86 2 0 2016-02-08 19:06:14.038
+!MESSAGE Could not resolve module: org.eclipse.core.resources.win32.x86 [18]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(& (osgi.os=win32) (osgi.arch=x86))"
+
+
+!ENTRY org.eclipse.core.filesystem.win32.x86 2 0 2016-02-08 19:06:14.039
+!MESSAGE Could not resolve module: org.eclipse.core.filesystem.win32.x86 [15]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(& (osgi.os=win32) (osgi.arch=x86))"
+
+
+!ENTRY org.eclipse.swt.win32.win32.x86 2 0 2016-02-08 19:06:14.041
+!MESSAGE Could not resolve module: org.eclipse.swt.win32.win32.x86 [35]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(& (osgi.ws=win32) (osgi.os=win32) (osgi.arch=x86))"
+
+
+!ENTRY org.eclipse.osgi 4 0 2016-02-08 19:06:14.042
+!MESSAGE Application error
+!STACK 1
+org.eclipse.jdt.internal.core.ClasspathEntry$AssertionFailedException: Path for IClasspathEntry must be absolute: android-19/android.jar
+	at org.eclipse.jdt.core.JavaCore.newLibraryEntry(JavaCore.java:4716)
+	at org.eclipse.jdt.core.JavaCore.newLibraryEntry(JavaCore.java:4586)
+	at com.microsoft.javapkgsrv.WorkspaceManager.CreateProject(WorkspaceManager.java:107)
+	at com.microsoft.javapkgsrv.ClientProxy.ProcessCreateProject(ClientProxy.java:625)
+	at com.microsoft.javapkgsrv.ClientProxy.ProcessRequest(ClientProxy.java:114)
+	at com.microsoft.javapkgsrv.ClientProxy.Run(ClientProxy.java:87)
+	at com.microsoft.javapkgsrv.Application.start(Application.java:31)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1488)
+
+!ENTRY org.eclipse.core.resources 2 2 2016-02-08 19:06:14.060
+!MESSAGE Save operation warnings.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2016-02-08 19:06:14.060
+!MESSAGE The project description file (.project) for 'MkrNav.Android' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+
+!ENTRY org.eclipse.core.resources 2 10035 2016-02-08 19:06:14.525
+!MESSAGE The workspace will exit with unsaved changes in this session.
+!SESSION 2016-02-08 19:06:24.982 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -application com.microsoft.javapkgsrv.application javapkgsrv-53c970ae-925c-4897-9f5a-3dace6b95927
+Command-line arguments:  -consoleLog -application com.microsoft.javapkgsrv.application -data C:\My\MkrNavSolution\MkrNav.Android\.workspace javapkgsrv-53c970ae-925c-4897-9f5a-3dace6b95927
+
+!ENTRY org.eclipse.core.resources 2 10035 2016-02-08 19:06:26.379
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.core.resources.win32.x86 2 0 2016-02-08 19:08:01.917
+!MESSAGE Could not resolve module: org.eclipse.core.resources.win32.x86 [18]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(& (osgi.os=win32) (osgi.arch=x86))"
+
+
+!ENTRY org.eclipse.core.filesystem.win32.x86 2 0 2016-02-08 19:08:01.923
+!MESSAGE Could not resolve module: org.eclipse.core.filesystem.win32.x86 [15]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(& (osgi.os=win32) (osgi.arch=x86))"
+
+
+!ENTRY org.eclipse.swt.win32.win32.x86 2 0 2016-02-08 19:08:01.928
+!MESSAGE Could not resolve module: org.eclipse.swt.win32.win32.x86 [35]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(& (osgi.ws=win32) (osgi.os=win32) (osgi.arch=x86))"
+
+
+!ENTRY org.eclipse.osgi 4 0 2016-02-08 19:08:01.930
+!MESSAGE Application error
+!STACK 1
+org.eclipse.jdt.internal.core.ClasspathEntry$AssertionFailedException: Path for IClasspathEntry must be absolute: android-19/android.jar
+	at org.eclipse.jdt.core.JavaCore.newLibraryEntry(JavaCore.java:4716)
+	at org.eclipse.jdt.core.JavaCore.newLibraryEntry(JavaCore.java:4586)
+	at com.microsoft.javapkgsrv.WorkspaceManager.CreateProject(WorkspaceManager.java:107)
+	at com.microsoft.javapkgsrv.ClientProxy.ProcessCreateProject(ClientProxy.java:625)
+	at com.microsoft.javapkgsrv.ClientProxy.ProcessRequest(ClientProxy.java:114)
+	at com.microsoft.javapkgsrv.ClientProxy.Run(ClientProxy.java:87)
+	at com.microsoft.javapkgsrv.Application.start(Application.java:31)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1488)
+
+!ENTRY org.eclipse.core.resources 2 2 2016-02-08 19:08:01.956
+!MESSAGE Save operation warnings.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2016-02-08 19:08:01.958
+!MESSAGE The project description file (.project) for 'MkeNavProj' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2016-02-08 19:08:01.958
+!MESSAGE The project description file (.project) for 'MkrNav.Android' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+
+!ENTRY org.eclipse.core.resources 2 10035 2016-02-08 19:08:02.434
+!MESSAGE The workspace will exit with unsaved changes in this session.
+!SESSION 2016-02-08 19:08:32.106 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -application com.microsoft.javapkgsrv.application javapkgsrv-98b1d4aa-9bfe-4f97-834f-ee49ec24fb82
+Command-line arguments:  -consoleLog -application com.microsoft.javapkgsrv.application -data C:\My\MkrNavSolution\MkrNav.Android\.workspace javapkgsrv-98b1d4aa-9bfe-4f97-834f-ee49ec24fb82
+
+!ENTRY org.eclipse.core.resources 2 10035 2016-02-08 19:08:33.615
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.core.resources 4 567 2016-02-08 19:08:33.716
+!MESSAGE Workspace restored, but some problems occurred.
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2016-02-08 19:08:33.717
+!MESSAGE Could not read metadata for 'MkeNavProj'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: The project description file (.project) for 'MkeNavProj' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:888)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:902)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:882)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:733)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1588)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2386)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2157)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:463)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:771)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:764)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:721)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:941)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:318)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:571)
+	at org.eclipse.osgi.container.Module.start(Module.java:439)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:454)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:531)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:324)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:327)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:36)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:398)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:352)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:344)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:160)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.getDeclaredConstructors0(Native Method)
+	at java.lang.Class.privateGetDeclaredConstructors(Class.java:2671)
+	at java.lang.Class.getConstructor0(Class.java:3075)
+	at java.lang.Class.newInstance(Class.java:412)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.loadBundleActivator(BundleContextImpl.java:755)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:706)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:941)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:318)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:571)
+	at org.eclipse.osgi.container.Module.start(Module.java:439)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:454)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:531)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:324)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:327)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:36)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:398)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:352)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:344)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:160)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at com.microsoft.javapkgsrv.Application.start(Application.java:27)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1488)
+!SUBENTRY 2 org.eclipse.core.resources 4 567 2016-02-08 19:08:33.725
+!MESSAGE The project description file (.project) for 'MkeNavProj' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2016-02-08 19:08:33.725
+!MESSAGE Could not read metadata for 'MkrNav.Android'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: The project description file (.project) for 'MkrNav.Android' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:888)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:902)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:882)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:733)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1588)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2386)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2157)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:463)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:771)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:764)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:721)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:941)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:318)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:571)
+	at org.eclipse.osgi.container.Module.start(Module.java:439)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:454)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:531)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:324)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:327)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:36)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:398)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:352)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:344)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:160)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.getDeclaredConstructors0(Native Method)
+	at java.lang.Class.privateGetDeclaredConstructors(Class.java:2671)
+	at java.lang.Class.getConstructor0(Class.java:3075)
+	at java.lang.Class.newInstance(Class.java:412)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.loadBundleActivator(BundleContextImpl.java:755)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:706)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:941)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:318)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:571)
+	at org.eclipse.osgi.container.Module.start(Module.java:439)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:454)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:531)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:324)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:327)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:36)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:398)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:352)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:344)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:160)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at com.microsoft.javapkgsrv.Application.start(Application.java:27)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1488)
+!SUBENTRY 2 org.eclipse.core.resources 4 567 2016-02-08 19:08:33.727
+!MESSAGE The project description file (.project) for 'MkrNav.Android' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+
+!ENTRY org.eclipse.core.resources.win32.x86 2 0 2016-02-08 19:11:13.639
+!MESSAGE Could not resolve module: org.eclipse.core.resources.win32.x86 [18]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(& (osgi.os=win32) (osgi.arch=x86))"
+
+
+!ENTRY org.eclipse.core.filesystem.win32.x86 2 0 2016-02-08 19:11:13.642
+!MESSAGE Could not resolve module: org.eclipse.core.filesystem.win32.x86 [15]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(& (osgi.os=win32) (osgi.arch=x86))"
+
+
+!ENTRY org.eclipse.swt.win32.win32.x86 2 0 2016-02-08 19:11:13.643
+!MESSAGE Could not resolve module: org.eclipse.swt.win32.win32.x86 [35]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(& (osgi.ws=win32) (osgi.os=win32) (osgi.arch=x86))"
+
+
+!ENTRY org.eclipse.osgi 4 0 2016-02-08 19:11:13.645
+!MESSAGE Application error
+!STACK 1
+org.eclipse.jdt.internal.core.ClasspathEntry$AssertionFailedException: Path for IClasspathEntry must be absolute: android-19/android.jar
+	at org.eclipse.jdt.core.JavaCore.newLibraryEntry(JavaCore.java:4716)
+	at org.eclipse.jdt.core.JavaCore.newLibraryEntry(JavaCore.java:4586)
+	at com.microsoft.javapkgsrv.WorkspaceManager.CreateProject(WorkspaceManager.java:107)
+	at com.microsoft.javapkgsrv.ClientProxy.ProcessCreateProject(ClientProxy.java:625)
+	at com.microsoft.javapkgsrv.ClientProxy.ProcessRequest(ClientProxy.java:114)
+	at com.microsoft.javapkgsrv.ClientProxy.Run(ClientProxy.java:87)
+	at com.microsoft.javapkgsrv.Application.start(Application.java:31)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1488)
+
+!ENTRY org.eclipse.core.resources 2 10035 2016-02-08 19:11:14.293
+!MESSAGE The workspace will exit with unsaved changes in this session.
+!SESSION 2016-02-08 19:11:15.654 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -application com.microsoft.javapkgsrv.application javapkgsrv-a7c2f75d-f13b-457b-91b6-8a95523e3cd1
+Command-line arguments:  -consoleLog -application com.microsoft.javapkgsrv.application -data C:\My\MkrNavSolution\MkrNav.Android\.workspace javapkgsrv-a7c2f75d-f13b-457b-91b6-8a95523e3cd1
+
+!ENTRY org.eclipse.core.resources 2 10035 2016-02-08 19:11:17.339
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.core.resources 2 10035 2016-02-08 19:30:24.453
+!MESSAGE The workspace will exit with unsaved changes in this session.
+!SESSION 2016-02-09 17:21:41.806 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -application com.microsoft.javapkgsrv.application javapkgsrv-8fd222f9-ab8c-42a4-be98-f195c740ed95
+Command-line arguments:  -consoleLog -application com.microsoft.javapkgsrv.application -data C:\My\MkrNavSolution\MkrNav.Android\.workspace javapkgsrv-8fd222f9-ab8c-42a4-be98-f195c740ed95
+
+!ENTRY org.eclipse.core.resources 2 10035 2016-02-09 17:21:43.475
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.core.resources 2 10035 2016-02-09 17:36:31.848
+!MESSAGE The workspace will exit with unsaved changes in this session.
+!SESSION 2016-02-09 17:44:56.795 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -application com.microsoft.javapkgsrv.application javapkgsrv-d805a59e-592f-4cc7-8a6c-6fb645d02983
+Command-line arguments:  -consoleLog -application com.microsoft.javapkgsrv.application -data C:\My\MkrNavSolution\MkrNav.Android\.workspace javapkgsrv-d805a59e-592f-4cc7-8a6c-6fb645d02983
+
+!ENTRY org.eclipse.core.resources 2 10035 2016-02-09 17:44:58.277
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+!SESSION 2016-02-09 19:56:31.997 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -application com.microsoft.javapkgsrv.application javapkgsrv-acad8177-dcb1-4ed7-b637-69d7621bf4dd
+Command-line arguments:  -consoleLog -application com.microsoft.javapkgsrv.application -data C:\My\MkrNavSolution\MkrNav.Android\.workspace javapkgsrv-acad8177-dcb1-4ed7-b637-69d7621bf4dd
+
+!ENTRY org.eclipse.core.resources.win32.x86 2 0 2016-02-09 19:59:44.934
+!MESSAGE Could not resolve module: org.eclipse.core.resources.win32.x86 [18]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(& (osgi.os=win32) (osgi.arch=x86))"
+
+
+!ENTRY org.eclipse.core.filesystem.win32.x86 2 0 2016-02-09 19:59:44.979
+!MESSAGE Could not resolve module: org.eclipse.core.filesystem.win32.x86 [15]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(& (osgi.os=win32) (osgi.arch=x86))"
+
+
+!ENTRY org.eclipse.swt.win32.win32.x86 2 0 2016-02-09 19:59:44.980
+!MESSAGE Could not resolve module: org.eclipse.swt.win32.win32.x86 [35]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(& (osgi.ws=win32) (osgi.os=win32) (osgi.arch=x86))"
+
+
+!ENTRY org.eclipse.osgi 4 0 2016-02-09 19:59:44.981
+!MESSAGE Application error
+!STACK 1
+org.eclipse.jdt.internal.core.ClasspathEntry$AssertionFailedException: Path for IClasspathEntry must be absolute: android-19/android.jar
+	at org.eclipse.jdt.core.JavaCore.newLibraryEntry(JavaCore.java:4716)
+	at org.eclipse.jdt.core.JavaCore.newLibraryEntry(JavaCore.java:4586)
+	at com.microsoft.javapkgsrv.WorkspaceManager.CreateProject(WorkspaceManager.java:107)
+	at com.microsoft.javapkgsrv.ClientProxy.ProcessCreateProject(ClientProxy.java:625)
+	at com.microsoft.javapkgsrv.ClientProxy.ProcessRequest(ClientProxy.java:114)
+	at com.microsoft.javapkgsrv.ClientProxy.Run(ClientProxy.java:87)
+	at com.microsoft.javapkgsrv.Application.start(Application.java:31)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1488)
+
+!ENTRY org.eclipse.core.resources 2 10035 2016-02-09 19:59:45.417
+!MESSAGE The workspace will exit with unsaved changes in this session.
+!SESSION 2016-02-09 19:59:46.562 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -application com.microsoft.javapkgsrv.application javapkgsrv-02859ebe-0659-47a0-a128-4186c5dd5485
+Command-line arguments:  -consoleLog -application com.microsoft.javapkgsrv.application -data C:\My\MkrNavSolution\MkrNav.Android\.workspace javapkgsrv-02859ebe-0659-47a0-a128-4186c5dd5485
+
+!ENTRY org.eclipse.core.resources 2 10035 2016-02-09 19:59:48.033
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.core.resources 2 10035 2016-02-09 20:02:42.072
+!MESSAGE The workspace will exit with unsaved changes in this session.
+!SESSION 2016-02-09 20:22:40.627 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -application com.microsoft.javapkgsrv.application javapkgsrv-3510a3a5-634d-4547-ae59-46a43481e13f
+Command-line arguments:  -consoleLog -application com.microsoft.javapkgsrv.application -data C:\My\MkrNavSolution\MkrNav.Android\.workspace javapkgsrv-3510a3a5-634d-4547-ae59-46a43481e13f
+
+!ENTRY org.eclipse.core.resources 2 10035 2016-02-09 20:22:42.168
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.core.resources 4 567 2016-02-09 20:22:42.286
+!MESSAGE Workspace restored, but some problems occurred.
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2016-02-09 20:22:42.287
+!MESSAGE Could not read metadata for 'MkrNavMain'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: The project description file (.project) for 'MkrNavMain' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:888)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:902)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:882)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:733)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1588)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2386)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2157)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:463)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:771)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:764)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:721)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:941)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:318)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:571)
+	at org.eclipse.osgi.container.Module.start(Module.java:439)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:454)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:531)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:324)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:327)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:36)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:398)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:352)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:344)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:160)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.getDeclaredConstructors0(Native Method)
+	at java.lang.Class.privateGetDeclaredConstructors(Class.java:2671)
+	at java.lang.Class.getConstructor0(Class.java:3075)
+	at java.lang.Class.newInstance(Class.java:412)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.loadBundleActivator(BundleContextImpl.java:755)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:706)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:941)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:318)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:571)
+	at org.eclipse.osgi.container.Module.start(Module.java:439)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:454)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:531)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:324)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:327)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:36)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:398)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:352)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:344)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:160)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at com.microsoft.javapkgsrv.Application.start(Application.java:27)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1488)
+!SUBENTRY 2 org.eclipse.core.resources 4 567 2016-02-09 20:22:42.295
+!MESSAGE The project description file (.project) for 'MkrNavMain' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+!SESSION 2016-02-10 09:32:41.340 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -application com.microsoft.javapkgsrv.application javapkgsrv-7e2655cb-6ca6-40c8-9356-1c23545d6d09
+Command-line arguments:  -consoleLog -application com.microsoft.javapkgsrv.application -data C:\My\MkrNavSolution\MkrNav.Android\.workspace javapkgsrv-7e2655cb-6ca6-40c8-9356-1c23545d6d09
+
+!ENTRY org.eclipse.core.resources 2 10035 2016-02-10 09:38:30.801
+!MESSAGE The workspace will exit with unsaved changes in this session.
+!SESSION 2016-02-10 16:57:37.323 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -application com.microsoft.javapkgsrv.application javapkgsrv-be489ebd-7e64-4cb6-8223-fbb78daf7c27
+Command-line arguments:  -consoleLog -application com.microsoft.javapkgsrv.application -data C:\My\MkrNavSolution\MkrNav.Android\.workspace javapkgsrv-be489ebd-7e64-4cb6-8223-fbb78daf7c27
+
+!ENTRY org.eclipse.core.resources 2 10035 2016-02-10 16:57:38.890
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.core.resources 2 10035 2016-02-10 17:07:09.002
+!MESSAGE The workspace will exit with unsaved changes in this session.

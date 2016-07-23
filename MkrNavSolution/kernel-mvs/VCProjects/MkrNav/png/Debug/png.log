@@ -1,0 +1,57 @@
+﻿  pngwutil.c
+c:\my\mkrproj\mkrnavsolution\kernel-mvs\png\png_library\pngwutil.c(196): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1952): note: see declaration of '_snprintf'
+c:\my\mkrproj\mkrnavsolution\kernel-mvs\png\png_library\pngwutil.c(1235): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1952): note: see declaration of '_snprintf'
+c:\my\mkrproj\mkrnavsolution\kernel-mvs\png\png_library\pngwutil.c(1623): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1952): note: see declaration of '_snprintf'
+c:\my\mkrproj\mkrnavsolution\kernel-mvs\png\png_library\pngwutil.c(1625): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1952): note: see declaration of '_snprintf'
+  pngwtran.c
+  pngwrite.c
+c:\my\mkrproj\mkrnavsolution\kernel-mvs\png\png_library\pngwrite.c(444): warning C4996: 'gmtime': This function or variable may be unsafe. Consider using gmtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\time.h(495): note: see declaration of 'gmtime'
+c:\my\mkrproj\mkrnavsolution\kernel-mvs\png\png_library\pngwrite.c(540): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1952): note: see declaration of '_snprintf'
+c:\my\mkrproj\mkrnavsolution\kernel-mvs\png\png_library\pngwrite.c(545): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1952): note: see declaration of '_snprintf'
+c:\my\mkrproj\mkrnavsolution\kernel-mvs\png\png_library\pngwrite.c(612): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1952): note: see declaration of '_snprintf'
+c:\my\mkrproj\mkrnavsolution\kernel-mvs\png\png_library\pngwrite.c(617): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1952): note: see declaration of '_snprintf'
+  pngwio.c
+  pngvcrd.c
+  pngtrans.c
+  pngset.c
+  pngrutil.c
+c:\my\mkrproj\mkrnavsolution\kernel-mvs\png\png_library\pngrutil.c(338): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1952): note: see declaration of '_snprintf'
+c:\my\mkrproj\mkrnavsolution\kernel-mvs\png\png_library\pngrutil.c(343): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1952): note: see declaration of '_snprintf'
+c:\my\mkrproj\mkrnavsolution\kernel-mvs\png\png_library\pngrutil.c(348): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1952): note: see declaration of '_snprintf'
+c:\my\mkrproj\mkrnavsolution\kernel-mvs\png\png_library\pngrutil.c(384): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1952): note: see declaration of '_snprintf'
+  pngrtran.c
+c:\my\mkrproj\mkrnavsolution\kernel-mvs\png\png_library\pngrtran.c(1309): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1952): note: see declaration of '_snprintf'
+  pngrio.c
+  pngread.c
+c:\my\mkrproj\mkrnavsolution\kernel-mvs\png\png_library\pngread.c(125): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1952): note: see declaration of '_snprintf'
+c:\my\mkrproj\mkrnavsolution\kernel-mvs\png\png_library\pngread.c(130): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1952): note: see declaration of '_snprintf'
+c:\my\mkrproj\mkrnavsolution\kernel-mvs\png\png_library\pngread.c(208): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1952): note: see declaration of '_snprintf'
+c:\my\mkrproj\mkrnavsolution\kernel-mvs\png\png_library\pngread.c(213): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1952): note: see declaration of '_snprintf'
+  pngpread.c
+  pngmem.c
+  pngget.c
+  pnggccrd.c
+  pngerror.c
+  png.c
+c:\my\mkrproj\mkrnavsolution\kernel-mvs\png\png_library\png.c(692): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1952): note: see declaration of '_snprintf'
+  Generating Code...
+  png.vcxproj -> C:\my\MkrProj\MkrNavSolution\kernel-mvs\VCProjects\MkrNav\Debug\png.lib

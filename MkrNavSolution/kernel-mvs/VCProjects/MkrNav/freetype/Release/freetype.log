@@ -1,0 +1,34 @@
+﻿Build started 8/7/2013 12:40:57 PM.
+     1>Project "C:\my\FCNavigation\FCNav-kernel-mvs\VCProjects\MkrNav\freetype\freetype.vcxproj" on node 5 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\freetype.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       Lib:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\my\FCNavigation\FCNav-kernel-mvs\VCProjects\MkrNav\Release\freetype.lib" /NOLOGO Release\autofit.obj
+         Release\ftbase.obj
+         Release\ftbbox.obj
+         Release\ftbitmap.obj
+         Release\ftfstype.obj
+         Release\ftgasp.obj
+         Release\ftglyph.obj
+         Release\ftinit.obj
+         Release\ftlcdfil.obj
+         Release\ftstroke.obj
+         Release\ftsystem.obj
+         Release\cff.obj
+         Release\pshinter.obj
+         Release\psnames.obj
+         Release\raster.obj
+         Release\sfnt.obj
+         Release\smooth.obj
+         Release\truetype.obj
+         freetype.vcxproj -> C:\my\FCNavigation\FCNav-kernel-mvs\VCProjects\MkrNav\Release\freetype.lib
+       FinalizeBuildStatus:
+         Deleting file "Release\freetype.unsuccessfulbuild".
+         Touching "Release\freetype.lastbuildstate".
+     1>Done Building Project "C:\my\FCNavigation\FCNav-kernel-mvs\VCProjects\MkrNav\freetype\freetype.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.20
