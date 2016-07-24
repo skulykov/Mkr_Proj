@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroudcolor">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:layout_gravity="top"
+        android:gravity="top">
+       
+      <com.mkr.unidriver.hos.dailylogs.MyViewPager xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/pager"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" />
+        
+       
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:background="@color/bottom_toolbar"
+        android:minHeight="60dp"
+        android:gravity="center">
+        <ImageButton
+            android:id="@+id/btn_hos_dlog_cancel"
+            android:src="@drawable/ic_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/action_item_bkg_transparent"
+            android:layout_weight="1" />
+        <ImageButton
+            android:id="@+id/btn_hos_insp_sign"
+            android:src="@drawable/ic_signature"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/action_item_bkg_transparent"
+            android:layout_weight="1" />
+        <ImageButton
+            android:id="@+id/btn_hos_insp_add"
+            android:src="@drawable/ic_menu_add"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/action_item_bkg_transparent"
+            android:layout_weight="1" />
+    </LinearLayout>
+</LinearLayout>
+
+

@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source Files\src">
+      <UniqueIdentifier>{f3584d96-612e-4b5a-a458-c9c75078a3f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\lib_src">
+      <UniqueIdentifier>{09411711-204a-4fef-acfa-fe03c32674ed}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\mqtt_src\src\conf.c">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mqtt_src\src\context.c">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mqtt_src\src\database.c">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mqtt_src\src\logging.c">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mqtt_src\src\loop.c">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mqtt_src\src\mosquitto.c">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mqtt_src\src\net.c">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mqtt_src\src\persist.c">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mqtt_src\src\read_handle.c">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mqtt_src\src\read_handle_client.c">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mqtt_src\src\read_handle_server.c">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mqtt_src\src\security.c">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mqtt_src\src\security_default.c">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mqtt_src\src\send_server.c">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mqtt_src\src\subs.c">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mqtt_src\src\sys_tree.c">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mqtt_src\src\websockets.c">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mqtt_src\lib\memory_mosq.c">
+      <Filter>Source Files\lib_src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mqtt_src\lib\net_mosq.c">
+      <Filter>Source Files\lib_src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mqtt_src\lib\read_handle_shared.c">
+      <Filter>Source Files\lib_src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mqtt_src\lib\send_client_mosq.c">
+      <Filter>Source Files\lib_src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mqtt_src\lib\send_mosq.c">
+      <Filter>Source Files\lib_src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mqtt_src\lib\time_mosq.c">
+      <Filter>Source Files\lib_src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mqtt_src\lib\tls_mosq.c">
+      <Filter>Source Files\lib_src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mqtt_src\lib\util_mosq.c">
+      <Filter>Source Files\lib_src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mqtt_src\lib\will_mosq.c">
+      <Filter>Source Files\lib_src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mqtt_src\src\service.c">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,26 @@
+﻿Build started 11/14/2015 3:32:21 PM.
+     1>Project "C:\My\projects\NewUniDriver\MQTT_Service\libwebsockets\win32port\LibWebSkts\LibWebSkts.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\my\projects\NewUniDriver\MQTT_Service\libwebsockets /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt "..\..\lib\sha-1.c"
+         sha-1.c
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\My\projects\NewUniDriver\MQTT_Service\MqttBroker\Debug\LibWebSkts.lib" /NOLOGO Debug\alloc.obj
+         "Debug\base64-decode.obj"
+         Debug\context.obj
+         Debug\handshake.obj
+         Debug\header.obj
+         Debug\libwebsockets.obj
+         "Debug\lws-plat-win.obj"
+         Debug\output.obj
+         Debug\parsers.obj
+         Debug\pollfd.obj
+         "Debug\server-handshake.obj"
+         Debug\server.obj
+         Debug\service.obj
+         "Debug\sha-1.obj"
+         LibWebSkts.vcxproj -> C:\My\projects\NewUniDriver\MQTT_Service\MqttBroker\Debug\LibWebSkts.lib
+     1>Done Building Project "C:\My\projects\NewUniDriver\MQTT_Service\libwebsockets\win32port\LibWebSkts\LibWebSkts.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.83

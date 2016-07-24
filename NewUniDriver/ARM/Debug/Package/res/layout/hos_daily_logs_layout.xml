@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroudcolor">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:layout_gravity="top"
+        android:gravity="top">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="10dp">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical">
+                <TextView
+                    android:id="@+id/lbl_hos_insp_date"
+                    android:layout_column="0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textStyle="bold"
+                    android:textColor="@color/textcolor" />
+                <TextView
+                    android:id="@+id/lbl_hos_insp_cycle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/lbl_hos_insp_date"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/textcolor" />
+           
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/hos_insp_graph_view" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textStyle="bold"
+            android:textColor="@color/textcolor"
+            android:background="@color/listviewdivider"
+            android:text="@string/str_hos_lbl_evnts" />
+        <ListView
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:choiceMode="singleChoice"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/list_hos_insp_events"
+            android:dividerHeight="1dp"
+            android:divider="@color/listviewdivider"
+            android:listSelector="@drawable/list_selector" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:background="@color/bottom_toolbar"
+        android:minHeight="60dp"
+        android:gravity="center">
+        <ImageButton
+            android:id="@+id/btn_hos_dlog_cancel"
+            android:src="@drawable/ic_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/action_item_bkg_transparent"
+            android:layout_weight="1" />
+        <ImageButton
+            android:id="@+id/btn_hos_insp_sign"
+            android:src="@drawable/ic_signature"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/action_item_bkg_transparent"
+            android:layout_weight="1" />
+        <ImageButton
+            android:id="@+id/btn_hos_insp_add"
+            android:src="@drawable/ic_menu_add"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/action_item_bkg_transparent"
+            android:layout_weight="1" />
+    </LinearLayout>
+</LinearLayout>
+

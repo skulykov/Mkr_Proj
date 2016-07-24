@@ -1,0 +1,9 @@
+﻿Build started 11/13/2015 8:40:46 AM.
+     1>Project "C:\My\projects\NewUniDriver\MQTT_Service\MqttBroker\mqtt_lib\mqtt_lib\mqtt_lib.vcxproj" on node 2 (Build target(s)).
+     1>Lib:
+         mqtt_lib.vcxproj -> C:\My\projects\NewUniDriver\MQTT_Service\MqttBroker\Debug\mqtt_lib.lib
+     1>Done Building Project "C:\My\projects\NewUniDriver\MQTT_Service\MqttBroker\mqtt_lib\mqtt_lib\mqtt_lib.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.12

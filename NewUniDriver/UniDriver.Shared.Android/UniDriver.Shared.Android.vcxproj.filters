@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="Source\DataBase\BaseDB.h">
+      <Filter>Source\DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Models\JsonHelper.h">
+      <Filter>Source\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\JniApi\threadInf.h">
+      <Filter>Source\JniApi</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\JniApi\JniApi.h">
+      <Filter>Source\JniApi</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\JniApi\JniObj.h">
+      <Filter>Source\JniApi</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\JniApi\MkrNVMng.h">
+      <Filter>Source\JniApi</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\JniApi\MkrMsgBox.h">
+      <Filter>Source\JniApi</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Models\Global.h">
+      <Filter>Source\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\JniApi\JniHos.h">
+      <Filter>Source\JniApi</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BizLogic\Hos\hos_events.h">
+      <Filter>Source\BizLogic\Hos</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BizLogic\Hos\hos_interface.h">
+      <Filter>Source\BizLogic\Hos</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\JniApi\JniInspection.h">
+      <Filter>Source\JniApi</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BizLogic\Inspection\InspHelper.h">
+      <Filter>Source\BizLogic\Inspection</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\mqtt_client\ClsMqtt.h">
+      <Filter>Source\mqtt_client</Filter>
+    </ClInclude>
+    <ClInclude Include="..\my_proto_gen\src\my_common_proto_comm_lite.pb.h">
+      <Filter>Source\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="..\my_proto_gen\src\my_proto_comm_lite.pb.h">
+      <Filter>Source\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Network\tcp_client.h">
+      <Filter>Source\Network</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{7ca0f2c9-5146-4d5a-89c3-2c8c97f66d0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\DataBase">
+      <UniqueIdentifier>{7cebc1d1-a308-4256-b76e-59d10073a965}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Models">
+      <UniqueIdentifier>{5758465d-bc3f-49b4-b1bc-2fb63b8542f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Network">
+      <UniqueIdentifier>{5bb99519-aa69-4142-b107-a058fd79bc30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\JniApi">
+      <UniqueIdentifier>{24045874-32df-47c8-be1f-1e2523130597}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\mqtt_client">
+      <UniqueIdentifier>{1c0219e5-4879-4514-9506-fd87f41f8050}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\BizLogic">
+      <UniqueIdentifier>{bfce06b9-0508-4660-a7ea-a49e40f5bade}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\BizLogic\Hos">
+      <UniqueIdentifier>{026f2932-e22c-4c46-8c48-9784a5fd973b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\BizLogic\WorkOrders">
+      <UniqueIdentifier>{110abae1-8328-403b-9278-2875b89237fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\BizLogic\Inspection">
+      <UniqueIdentifier>{f76a88c1-7589-4f55-bcc7-ed32115d3098}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\DataBase\db_interface.cpp">
+      <Filter>Source\DataBase</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DataBase\EmployeeDB.cpp">
+      <Filter>Source\DataBase</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Network\NetTcp.cpp">
+      <Filter>Source\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\JniApi\JniApi.cpp">
+      <Filter>Source\JniApi</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\JniApi\threadInf.cpp">
+      <Filter>Source\JniApi</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\JniApi\JniObj.cpp">
+      <Filter>Source\JniApi</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\JniApi\MkrNVMng.cpp">
+      <Filter>Source\JniApi</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\JniApi\MkrMsgBox.cpp">
+      <Filter>Source\JniApi</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\mqtt_client\mqtt_client.cpp">
+      <Filter>Source\mqtt_client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SharedCode\mqtt_client\lib_src\cpp\mosquittopp.cpp">
+      <Filter>Source\mqtt_client</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Models\Global.cpp">
+      <Filter>Source\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DataBase\TimeLogDB.cpp">
+      <Filter>Source\DataBase</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DataBase\BaseDB.cpp">
+      <Filter>Source\DataBase</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\JniApi\JniHos.cpp">
+      <Filter>Source\JniApi</Filter>
+    </ClCompile>
+    <ClCompile Include="my_proto_comm.cpp">
+      <Filter>Source\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\JniApi\JniWorkOrders.cpp">
+      <Filter>Source\JniApi</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Network\NetComm.cpp">
+      <Filter>Source\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BizLogic\Hos\hos_events.cpp">
+      <Filter>Source\BizLogic\Hos</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BizLogic\Hos\hos_interface.cpp">
+      <Filter>Source\BizLogic\Hos</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BizLogic\workorders\workorders_interface.cpp">
+      <Filter>Source\BizLogic\WorkOrders</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DataBase\InspectionDB.cpp">
+      <Filter>Source\DataBase</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\JniApi\JniInspection.cpp">
+      <Filter>Source\JniApi</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BizLogic\Inspection\InspHelper.cpp">
+      <Filter>Source\BizLogic\Inspection</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DataBase\WorkOrderDB.cpp">
+      <Filter>Source\DataBase</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\mqtt_client\ClsMqtt.cpp">
+      <Filter>Source\mqtt_client</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BizLogic\Hos\run_hos_engine.cpp">
+      <Filter>Source\BizLogic\Hos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\my_proto_gen\src\my_common_proto_comm_lite.pb.cc">
+      <Filter>Source\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="..\my_proto_gen\src\my_proto_comm_lite.pb.cc">
+      <Filter>Source\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Models\JsonMessageCls.cpp">
+      <Filter>Source\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Network\tcp_client.cpp">
+      <Filter>Source\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Network\RouteTable.cpp">
+      <Filter>Source\Network</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

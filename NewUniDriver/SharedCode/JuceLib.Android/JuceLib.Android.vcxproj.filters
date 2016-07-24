@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="..\JuceLibraryCode\modules\juce_core\network\juce_Socket.h">
+      <Filter>juce_core\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\JuceLibraryCode\modules\juce_core\network\my_socket.h">
+      <Filter>juce_core\network</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Modules">
+      <UniqueIdentifier>{166a3cfd-b15e-45f9-8189-604014f653b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="juce_core">
+      <UniqueIdentifier>{7e97c5e4-0261-4f4b-9398-db5a7ea7e219}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="juce_core\network">
+      <UniqueIdentifier>{d1f9f239-e05e-4a8d-8561-a449efcfe9a6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\JuceLibraryCode\modules\juce_core\juce_core.cpp">
+      <Filter>Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="..\JuceLibraryCode\modules\juce_data_structures\juce_data_structures.cpp">
+      <Filter>Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="..\JuceLibraryCode\modules\juce_events\juce_events.cpp">
+      <Filter>Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="..\JuceLibraryCode\modules\juce_gui_extra\juce_gui_extra.cpp">
+      <Filter>Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="..\JuceLibraryCode\modules\juce_graphics\juce_graphics.cpp">
+      <Filter>Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="..\JuceLibraryCode\modules\juce_gui_basics\juce_gui_basics.cpp">
+      <Filter>Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="..\JuceLibraryCode\modules\juce_opengl\juce_opengl.cpp">
+      <Filter>Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="..\JuceLibraryCode\modules\juce_core\network\juce_Socket.cpp">
+      <Filter>juce_core\network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\JuceLibraryCode\modules\juce_core\network\network_combined.cpp">
+      <Filter>juce_core\network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\JuceLibraryCode\modules\juce_core\network\my_socket.cpp">
+      <Filter>juce_core\network</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

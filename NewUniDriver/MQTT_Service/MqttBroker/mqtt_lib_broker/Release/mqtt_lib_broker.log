@@ -1,0 +1,118 @@
+﻿  memory_mosq.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\errno.h(118): warning C4005: 'EPROTO': macro redefinition
+  C:\my\MkrProj\NewUniDriver\MQTT_Service\MqttBroker\mqtt_src\config.h(28): note: see previous definition of 'EPROTO'
+..\mqtt_src\lib\memory_mosq.c(113): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(552): note: see declaration of 'strdup'
+  net_mosq.c
+C:\my\MkrProj\NewUniDriver\MQTT_Service\libwebsockets\lib\libwebsockets.h(46): warning C4005: 'strcasecmp': macro redefinition
+  C:\my\MkrProj\NewUniDriver\MQTT_Service\MqttBroker\mqtt_src\config.h(17): note: see previous definition of 'strcasecmp'
+  read_handle_shared.c
+  send_client_mosq.c
+..\mqtt_src\lib\send_client_mosq.c(99): warning C4267: 'function': conversion from 'size_t' to 'uint16_t', possible loss of data
+..\mqtt_src\lib\send_client_mosq.c(101): warning C4267: 'function': conversion from 'size_t' to 'uint16_t', possible loss of data
+..\mqtt_src\lib\send_client_mosq.c(124): warning C4267: 'function': conversion from 'size_t' to 'uint16_t', possible loss of data
+..\mqtt_src\lib\send_client_mosq.c(126): warning C4267: 'function': conversion from 'size_t' to 'uint16_t', possible loss of data
+..\mqtt_src\lib\send_client_mosq.c(130): warning C4267: 'function': conversion from 'size_t' to 'uint16_t', possible loss of data
+..\mqtt_src\lib\send_client_mosq.c(132): warning C4267: 'function': conversion from 'size_t' to 'uint16_t', possible loss of data
+..\mqtt_src\lib\send_client_mosq.c(190): warning C4267: 'function': conversion from 'size_t' to 'uint16_t', possible loss of data
+..\mqtt_src\lib\send_client_mosq.c(235): warning C4267: 'function': conversion from 'size_t' to 'uint16_t', possible loss of data
+  send_mosq.c
+..\mqtt_src\lib\send_mosq.c(271): warning C4267: 'function': conversion from 'size_t' to 'uint16_t', possible loss of data
+  time_mosq.c
+..\mqtt_src\lib\time_mosq.c(44): warning C4996: 'GetVersionExW': was declared deprecated
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(442): note: see declaration of 'GetVersionExW'
+  tls_mosq.c
+  util_mosq.c
+C:\my\MkrProj\NewUniDriver\MQTT_Service\libwebsockets\lib\libwebsockets.h(46): warning C4005: 'strcasecmp': macro redefinition
+  C:\my\MkrProj\NewUniDriver\MQTT_Service\MqttBroker\mqtt_src\config.h(17): note: see previous definition of 'strcasecmp'
+..\mqtt_src\lib\util_mosq.c(323): warning C4133: 'function': incompatible types - from 'const char *' to 'LPCWSTR'
+..\mqtt_src\lib\util_mosq.c(323): warning C4133: 'function': incompatible types - from 'char [4096]' to 'LPWSTR'
+  will_mosq.c
+  conf.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\errno.h(118): warning C4005: 'EPROTO': macro redefinition
+  C:\my\MkrProj\NewUniDriver\MQTT_Service\MqttBroker\mqtt_src\config.h(28): note: see previous definition of 'EPROTO'
+..\mqtt_src\src\conf.c(331): warning C4101: 'port_tmp': unreferenced local variable
+..\mqtt_src\src\conf.c(330): warning C4101: 'i': unreferenced local variable
+..\mqtt_src\src\conf.c(475): warning C4101: 'len': unreferenced local variable
+..\mqtt_src\src\conf.c(1119): warning C4133: 'function': incompatible types - from 'char [260]' to 'LPCWSTR'
+..\mqtt_src\src\conf.c(1126): warning C4133: 'function': incompatible types - from 'WCHAR [260]' to 'const char *'
+..\mqtt_src\src\conf.c(1132): warning C4477: 'snprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 2 has type 'WCHAR *'
+  ..\mqtt_src\src\conf.c(1132): note: consider using '%ls' in the format string
+  ..\mqtt_src\src\conf.c(1132): note: consider using '%lls' in the format string
+  ..\mqtt_src\src\conf.c(1132): note: consider using '%Ls' in the format string
+  ..\mqtt_src\src\conf.c(1132): note: consider using '%ws' in the format string
+  context.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\errno.h(118): warning C4005: 'EPROTO': macro redefinition
+  C:\my\MkrProj\NewUniDriver\MQTT_Service\MqttBroker\mqtt_src\config.h(28): note: see previous definition of 'EPROTO'
+..\mqtt_src\src\context.c(96): warning C4101: 'i': unreferenced local variable
+  database.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\errno.h(118): warning C4005: 'EPROTO': macro redefinition
+  C:\my\MkrProj\NewUniDriver\MQTT_Service\MqttBroker\mqtt_src\config.h(28): note: see previous definition of 'EPROTO'
+  logging.c
+..\mqtt_src\src\logging.c(64): warning C4133: 'function': incompatible types - from 'char [10]' to 'LPCWSTR'
+..\mqtt_src\src\logging.c(230): warning C4133: 'function': incompatible types - from 'char **' to 'LPCWSTR *'
+  loop.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\errno.h(118): warning C4005: 'EPROTO': macro redefinition
+  C:\my\MkrProj\NewUniDriver\MQTT_Service\MqttBroker\mqtt_src\config.h(28): note: see previous definition of 'EPROTO'
+C:\my\MkrProj\NewUniDriver\MQTT_Service\libwebsockets\lib\libwebsockets.h(46): warning C4005: 'strcasecmp': macro redefinition
+  C:\my\MkrProj\NewUniDriver\MQTT_Service\MqttBroker\mqtt_src\config.h(17): note: see previous definition of 'strcasecmp'
+c:\my\mkrproj\newunidriver\mqtt_service\mqttbroker\mqtt_src\lib\mosquitto.h(40): warning C4005: 'bool': macro redefinition
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\stdbool.h(15): note: see previous definition of 'bool'
+  mosquitto.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\errno.h(118): warning C4005: 'EPROTO': macro redefinition
+  C:\my\MkrProj\NewUniDriver\MQTT_Service\MqttBroker\mqtt_src\config.h(28): note: see previous definition of 'EPROTO'
+C:\my\MkrProj\NewUniDriver\MQTT_Service\libwebsockets\lib\libwebsockets.h(46): warning C4005: 'strcasecmp': macro redefinition
+  C:\my\MkrProj\NewUniDriver\MQTT_Service\MqttBroker\mqtt_src\config.h(17): note: see previous definition of 'strcasecmp'
+c:\my\mkrproj\newunidriver\mqtt_service\mqttbroker\mqtt_src\lib\mosquitto.h(40): warning C4005: 'bool': macro redefinition
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\stdbool.h(15): note: see previous definition of 'bool'
+..\mqtt_src\src\mosquitto.c(329): warning C4018: '>': signed/unsigned mismatch
+..\mqtt_src\src\mosquitto.c(261): warning C4996: 'getpid': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getpid. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\process.h(353): note: see declaration of 'getpid'
+  net.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\errno.h(118): warning C4005: 'EPROTO': macro redefinition
+  C:\my\MkrProj\NewUniDriver\MQTT_Service\MqttBroker\mqtt_src\config.h(28): note: see previous definition of 'EPROTO'
+  persist.c
+  read_handle.c
+  read_handle_client.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\errno.h(118): warning C4005: 'EPROTO': macro redefinition
+  C:\my\MkrProj\NewUniDriver\MQTT_Service\MqttBroker\mqtt_src\config.h(28): note: see previous definition of 'EPROTO'
+  read_handle_server.c
+C:\my\MkrProj\NewUniDriver\MQTT_Service\libwebsockets\lib\libwebsockets.h(46): warning C4005: 'strcasecmp': macro redefinition
+  C:\my\MkrProj\NewUniDriver\MQTT_Service\MqttBroker\mqtt_src\config.h(17): note: see previous definition of 'strcasecmp'
+  Generating Code...
+c:\my\mkrproj\newunidriver\mqtt_service\mqttbroker\mqtt_src\src\logging.c(260): warning C4716: '_mkr_log_vprintf': must return a value
+c:\my\mkrproj\newunidriver\mqtt_service\mqttbroker\mqtt_src\src\logging.c(271): warning C4700: uninitialized local variable 'rc' used
+  Compiling...
+  security.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\errno.h(118): warning C4005: 'EPROTO': macro redefinition
+  C:\my\MkrProj\NewUniDriver\MQTT_Service\MqttBroker\mqtt_src\config.h(28): note: see previous definition of 'EPROTO'
+..\mqtt_src\src\security.c(41): warning C4047: 'function': 'LPWSTR' differs in levels of indirection from 'char **'
+..\mqtt_src\src\security.c(41): warning C4024: 'FormatMessageW': different types for formal and actual parameter 5
+..\mqtt_src\src\security.c(56): warning C4133: 'function': incompatible types - from 'char *' to 'LPCWSTR'
+  security_default.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\errno.h(118): warning C4005: 'EPROTO': macro redefinition
+  C:\my\MkrProj\NewUniDriver\MQTT_Service\MqttBroker\mqtt_src\config.h(28): note: see previous definition of 'EPROTO'
+  send_server.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\errno.h(118): warning C4005: 'EPROTO': macro redefinition
+  C:\my\MkrProj\NewUniDriver\MQTT_Service\MqttBroker\mqtt_src\config.h(28): note: see previous definition of 'EPROTO'
+  service.c
+..\mqtt_src\src\service.c(57): warning C4133: 'function': incompatible types - from 'char [10]' to 'LPCWSTR'
+..\mqtt_src\src\service.c(59): warning C4133: 'function': incompatible types - from 'char [14]' to 'LPCWSTR'
+..\mqtt_src\src\service.c(59): warning C4133: 'function': incompatible types - from 'char [280]' to 'LPWSTR'
+..\mqtt_src\src\service.c(94): warning C4133: 'function': incompatible types - from 'char [265]' to 'LPWSTR'
+..\mqtt_src\src\service.c(99): warning C4133: 'function': incompatible types - from 'char [10]' to 'LPCWSTR'
+..\mqtt_src\src\service.c(99): warning C4133: 'function': incompatible types - from 'char [17]' to 'LPCWSTR'
+..\mqtt_src\src\service.c(102): warning C4133: 'function': incompatible types - from 'char [265]' to 'LPCWSTR'
+..\mqtt_src\src\service.c(105): warning C4133: '=': incompatible types - from 'char [17]' to 'LPWSTR'
+..\mqtt_src\src\service.c(120): warning C4133: 'function': incompatible types - from 'char [10]' to 'LPCWSTR'
+..\mqtt_src\src\service.c(136): warning C4133: 'initializing': incompatible types - from 'char [10]' to 'LPWSTR'
+  subs.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\errno.h(118): warning C4005: 'EPROTO': macro redefinition
+  C:\my\MkrProj\NewUniDriver\MQTT_Service\MqttBroker\mqtt_src\config.h(28): note: see previous definition of 'EPROTO'
+  sys_tree.c
+  websockets.c
+..\mqtt_src\src\websockets.c(448): warning C4996: 'fileno': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _fileno. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(2450): note: see declaration of 'fileno'
+  Generating Code...
+LINK : warning LNK4031: no subsystem specified; CONSOLE assumed
+  mqtt_lib_broker.vcxproj -> C:\my\MkrProj\NewUniDriver\MQTT_Service\MqttBroker\Release\mqtt_lib_broker.exe

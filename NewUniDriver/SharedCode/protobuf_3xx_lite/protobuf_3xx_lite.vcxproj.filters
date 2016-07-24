@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{56825526-ca2b-4b4e-9b46-0e702207ad01}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\ExtLibs\protobuf-master\src\google\protobuf\arena.cc">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExtLibs\protobuf-master\src\google\protobuf\arenastring.cc">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExtLibs\protobuf-master\src\google\protobuf\stubs\bytestream.cc">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExtLibs\protobuf-master\src\google\protobuf\stubs\common.cc">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExtLibs\protobuf-master\src\google\protobuf\stubs\int128.cc">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExtLibs\protobuf-master\src\google\protobuf\io\coded_stream.cc">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExtLibs\protobuf-master\src\google\protobuf\extension_set.cc">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExtLibs\protobuf-master\src\google\protobuf\generated_message_util.cc">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExtLibs\protobuf-master\src\google\protobuf\message_lite.cc">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExtLibs\protobuf-master\src\google\protobuf\stubs\once.cc">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExtLibs\protobuf-master\src\google\protobuf\stubs\status.cc">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExtLibs\protobuf-master\src\google\protobuf\stubs\statusor.cc">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExtLibs\protobuf-master\src\google\protobuf\repeated_field.cc">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExtLibs\protobuf-master\src\google\protobuf\stubs\stringpiece.cc">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExtLibs\protobuf-master\src\google\protobuf\stubs\stringprintf.cc">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExtLibs\protobuf-master\src\google\protobuf\stubs\structurally_valid.cc">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExtLibs\protobuf-master\src\google\protobuf\stubs\strutil.cc">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExtLibs\protobuf-master\src\google\protobuf\stubs\time.cc">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExtLibs\protobuf-master\src\google\protobuf\wire_format_lite.cc">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExtLibs\protobuf-master\src\google\protobuf\io\zero_copy_stream.cc">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExtLibs\protobuf-master\src\google\protobuf\io\zero_copy_stream_impl_lite.cc">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

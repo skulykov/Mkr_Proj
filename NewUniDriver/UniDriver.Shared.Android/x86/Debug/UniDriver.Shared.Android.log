@@ -1,0 +1,10 @@
+﻿  ANDROID_HOME=C:\Android\android-sdk
+  ANT_HOME=C:\Program Files (x86)\Microsoft Visual Studio 14.0\Apps\apache-ant-1.9.3\
+  JAVA_HOME=C:\Program Files (x86)\Java\jdk1.7.0_45
+  NDK_ROOT=C:\ProgramData\Microsoft\AndroidNDK\android-ndk-r10e\
+  pch.h
+  mosquittopp.cpp
+..\SharedCode\mqtt_client\lib_src\cpp\mosquittopp.cpp(18,10): fatal error : 'mosquitto.h' file not found
+  #include <mosquitto.h>
+           ^
+  1 error generated.

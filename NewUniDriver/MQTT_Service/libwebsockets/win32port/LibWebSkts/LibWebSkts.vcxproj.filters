@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="lib_src">
+      <UniqueIdentifier>{b938d3c8-2be6-4b2f-aef1-559969c2080a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\lib\alloc.c">
+      <Filter>lib_src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\base64-decode.c">
+      <Filter>lib_src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\context.c">
+      <Filter>lib_src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\handshake.c">
+      <Filter>lib_src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\header.c">
+      <Filter>lib_src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\libwebsockets.c">
+      <Filter>lib_src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\output.c">
+      <Filter>lib_src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\parsers.c">
+      <Filter>lib_src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\pollfd.c">
+      <Filter>lib_src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\service.c">
+      <Filter>lib_src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\lws-plat-win.c">
+      <Filter>lib_src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\server.c">
+      <Filter>lib_src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\server-handshake.c">
+      <Filter>lib_src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\sha-1.c">
+      <Filter>lib_src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

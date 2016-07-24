@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|ARM">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM">
+      <Configuration>Release</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|ARM64">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM64">
+      <Configuration>Release</Configuration>
+      <Platform>ARM64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x86">
+      <Configuration>Debug</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x86">
+      <Configuration>Release</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{4225349e-7d46-4757-bb53-8190a748a9e2}</ProjectGuid>
+    <Keyword>Android</Keyword>
+    <RootNamespace>lib_protobuf_3xx</RootNamespace>
+    <MinimumVisualStudioVersion>14.0</MinimumVisualStudioVersion>
+    <ApplicationType>Android</ApplicationType>
+    <ApplicationTypeRevision>1.0</ApplicationTypeRevision>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>Gcc_4_9</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>Clang_3_6</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x86'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>Clang_3_6</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x86'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>Clang_3_6</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>Clang_3_6</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>Clang_3_6</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>Clang_3_6</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>Clang_3_6</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Label="Shared" />
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>..\ExtLibs\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x86'">
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
+    <OutDir>..\ExtLibs\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>C:\My\MkrProj\ExtLibs\protobuf-master\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x86'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>C:\My\MkrProj\ExtLibs\protobuf-master\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <CLanguageStandard>c11</CLanguageStandard>
+      <CppLanguageStandard>c++11</CppLanguageStandard>
+      <PreprocessorDefinitions>HAVE_PTHREAD;__ANDROID__;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\ExtLibs\protobuf-master\src\google\protobuf\any.cc" />
+    <ClCompile Include="..\..\..\ExtLibs\protobuf-master\src\google\protobuf\any.pb.cc" />
+    <ClCompile Include="..\..\..\ExtLibs\protobuf-master\src\google\protobuf\api.pb.cc" />
+    <ClCompile Include="..\..\..\ExtLibs\protobuf-master\src\google\protobuf\arena.cc" />
+    <ClCompile Include="..\..\..\ExtLibs\protobuf-master\src\google\protobuf\arenastring.cc" />
+    <ClCompile Include="..\..\..\ExtLibs\protobuf-master\src\google\protobuf\compiler\importer.cc">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExtLibs\protobuf-master\src\google\protobuf\compiler\parser.cc">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExtLibs\protobuf-master\src\google\protobuf\descriptor.cc" />
+    <ClCompile Include="..\..\..\ExtLibs\protobuf-master\src\google\protobuf\descriptor.pb.cc" />
+    <ClCompile Include="..\..\..\ExtLibs\protobuf-master\src\google\protobuf\descriptor_database.cc" />
+    <ClCompile Include="..\..\..\ExtLibs\protobuf-master\src\google\protobuf\duration.pb.cc">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExtLibs\protobuf-master\src\google\protobuf\dynamic_message.cc" />
+    <ClCompile Include="..\..\..\ExtLibs\protobuf-master\src\google\protobuf\empty.pb.cc">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExtLibs\protobuf-master\src\google\protobuf\extension_set.cc" />
+    <ClCompile Include="..\..\..\ExtLibs\protobuf-master\src\google\protobuf\extension_set_heavy.cc" />
+    <ClCompile Include="..\..\..\ExtLibs\protobuf-master\src\google\protobuf\field_mask.pb.cc" />
+    <ClCompile Include="..\..\..\ExtLibs\protobuf-master\src\google\protobuf\generated_message_reflection.cc" />
+    <ClCompile Include="..\..\..\ExtLibs\protobuf-master\src\google\protobuf\generated_message_util.cc" />
+    <ClCompile Include="..\..\..\ExtLibs\protobuf-master\src\google\protobuf\io\coded_stream.cc" />
+    <ClCompile Include="..\..\..\ExtLibs\protobuf-master\src\google\protobuf\io\gzip_stream.cc">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExtLibs\protobuf-master\src\google\protobuf\io\strtod.cc" />
+    <ClCompile Include="..\..\..\ExtLibs\protobuf-master\src\google\protobuf\io\tokenizer.cc" />
+    <ClCompile Include="..\..\..\ExtLibs\protobuf-master\src\google\protobuf\io\zero_copy_stream.cc" />
+    <ClCompile Include="..\..\..\ExtLibs\protobuf-master\src\google\protobuf\io\zero_copy_stream_impl.cc" />
+    <ClCompile Include="..\..\..\ExtLibs\protobuf-master\src\google\protobuf\io\zero_copy_stream_impl_lite.cc" />
+    <ClCompile Include="..\..\..\ExtLibs\protobuf-master\src\google\protobuf\map_field.cc" />
+    <ClCompile Include="..\..\..\ExtLibs\protobuf-master\src\google\protobuf\message.cc" />
+    <ClCompile Include="..\..\..\ExtLibs\protobuf-master\src\google\protobuf\message_lite.cc" />
+    <ClCompile Include="..\..\..\ExtLibs\protobuf-master\src\google\protobuf\reflection_ops.cc" />
+    <ClCompile Include="..\..\..\ExtLibs\protobuf-master\src\google\protobuf\repeated_field.cc" />
+    <ClCompile Include="..\..\..\ExtLibs\protobuf-master\src\google\protobuf\service.cc">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExtLibs\protobuf-master\src\google\protobuf\source_context.pb.cc">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExtLibs\protobuf-master\src\google\protobuf\stubs\bytestream.cc" />
+    <ClCompile Include="..\..\..\ExtLibs\protobuf-master\src\google\protobuf\stubs\common.cc" />
+    <ClCompile Include="..\..\..\ExtLibs\protobuf-master\src\google\protobuf\stubs\int128.cc" />
+    <ClCompile Include="..\..\..\ExtLibs\protobuf-master\src\google\protobuf\stubs\mathlimits.cc" />
+    <ClCompile Include="..\..\..\ExtLibs\protobuf-master\src\google\protobuf\stubs\once.cc" />
+    <ClCompile Include="..\..\..\ExtLibs\protobuf-master\src\google\protobuf\stubs\status.cc" />
+    <ClCompile Include="..\..\..\ExtLibs\protobuf-master\src\google\protobuf\stubs\statusor.cc">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExtLibs\protobuf-master\src\google\protobuf\stubs\stringpiece.cc" />
+    <ClCompile Include="..\..\..\ExtLibs\protobuf-master\src\google\protobuf\stubs\stringprintf.cc" />
+    <ClCompile Include="..\..\..\ExtLibs\protobuf-master\src\google\protobuf\stubs\structurally_valid.cc" />
+    <ClCompile Include="..\..\..\ExtLibs\protobuf-master\src\google\protobuf\stubs\strutil.cc" />
+    <ClCompile Include="..\..\..\ExtLibs\protobuf-master\src\google\protobuf\stubs\substitute.cc" />
+    <ClCompile Include="..\..\..\ExtLibs\protobuf-master\src\google\protobuf\stubs\time.cc">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExtLibs\protobuf-master\src\google\protobuf\text_format.cc" />
+    <ClCompile Include="..\..\..\ExtLibs\protobuf-master\src\google\protobuf\timestamp.pb.cc">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExtLibs\protobuf-master\src\google\protobuf\type.pb.cc">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExtLibs\protobuf-master\src\google\protobuf\unknown_field_set.cc" />
+    <ClCompile Include="..\..\..\ExtLibs\protobuf-master\src\google\protobuf\util\field_comparator.cc" />
+    <ClCompile Include="..\..\..\ExtLibs\protobuf-master\src\google\protobuf\util\field_mask_util.cc" />
+    <ClCompile Include="..\..\..\ExtLibs\protobuf-master\src\google\protobuf\util\internal\datapiece.cc">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExtLibs\protobuf-master\src\google\protobuf\util\internal\default_value_objectwriter.cc">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExtLibs\protobuf-master\src\google\protobuf\util\internal\error_listener.cc">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExtLibs\protobuf-master\src\google\protobuf\util\internal\field_mask_utility.cc" />
+    <ClCompile Include="..\..\..\ExtLibs\protobuf-master\src\google\protobuf\util\internal\object_writer.cc">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExtLibs\protobuf-master\src\google\protobuf\util\internal\type_info.cc">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExtLibs\protobuf-master\src\google\protobuf\util\message_differencer.cc">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExtLibs\protobuf-master\src\google\protobuf\util\time_util.cc">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExtLibs\protobuf-master\src\google\protobuf\wire_format.cc" />
+    <ClCompile Include="..\..\..\ExtLibs\protobuf-master\src\google\protobuf\wire_format_lite.cc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets" />
+</Project>

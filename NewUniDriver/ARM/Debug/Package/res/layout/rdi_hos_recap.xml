@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/right_menu_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/ic_menu_recent_history" />
+        <TextView
+            android:layout_toRightOf="@+id/right_menu_image"
+            android:padding="3dip"
+            android:layout_marginTop="2dip"
+            android:textColor="#ff131123"
+            android:textStyle="bold"
+            android:id="@+id/left_menu_title"
+            android:text="HOS Recap Logs"
+            android:layout_marginLeft="10dip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textSize="20dp"
+            android:layout_centerVertical="true" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <ScrollView
+            android:id="@+id/hos_recap_scroller"
+            android:layout_marginTop="16dip"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:fadingEdgeLength="5dip"
+            android:scrollbars="vertical">
+            <LinearLayout
+                android:id="@+id/hos_recap_tracks"
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="10dip" />
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>

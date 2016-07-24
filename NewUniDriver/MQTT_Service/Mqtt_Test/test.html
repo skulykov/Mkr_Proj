@@ -1,0 +1,198 @@
+﻿<!DOCTYPE HTML>
+<HTML><HEAD><META content="IE=11.0000" http-equiv="X-UA-Compatible">
+<TITLE>TEST</TITLE>	 
+<META name="description" content="UniDriver">
+<META name="keywords" content="UniDriver, google maps">
+<META charset="utf-8">	
+ 
+<!--<LINK href="mkr_files/fonts/font-awesome.min.css" rel="stylesheet" type="text/css" media="screen" charset="utf-8">-->
+<LINK href="mkr_files/webix.css" rel="stylesheet" type="text/css" media="screen" charset="utf-8">		 
+<SCRIPT src="mkr_files/webix.js" type="text/javascript" charset="utf-8"></SCRIPT>
+	 
+
+
+<!--<LINK href="/assets/favicon.ico" rel="shortcut icon">  -->
+<BODY onload="onLoad();" onunload="unLoad();">
+     <script src="mkr_files/app/mqttws31.js" type="text/javascript"></script>
+    <script src="mkr_files/app/track.js" type="text/javascript"></script>
+    <script src="mkr_files/app/chat.js" type="text/javascript"></script>
+     
+    <script src="mkr_files/app/util.js" type="text/javascript"></script>
+<STYLE>
+	body{
+		background: #F2EFEA;
+	}
+	div.country_flag{
+		width: 120px;
+		float: left;
+	}
+
+	div.country_flag img{
+		border: none;
+	}
+	.webix_layout_space, .webix_layout_wide, .webix_layout_accordion{
+		background: url(mkr_files/common/bg.jpg);
+	}
+
+	div.country_info span{
+		display: block;
+		width: 64px;
+		font-weight: bold;
+		float: left;
+	}
+	.country_info, .country_flag{
+		padding:8px;
+		line-height: 21px;
+	}
+	.bigHeader .webix_accordionitem_label{
+		line-height: 45px;
+	}
+	.bigHeader .webix_accordionitem_button{
+		margin-top: 17px;
+	}
+	.fa-mymapicon
+	{
+		background: url(mkr_files/common/icons/map/009_h.png);
+	}
+	.my_wo_rank{
+			float: left;
+			font-weight: bold;
+			padding: 0 5px;
+		}
+		.my_wo_title{
+			width: 250px;
+			overflow: hidden;
+			float: left;
+		}
+		.my_wo_checkbox{
+			padding-left: 10px;
+			height: 60px;
+			padding-top:10px;
+			float:right;
+		}
+
+	/*--------------------mkr add----------------*/
+	.mkr_tree_cust{
+		font-weight: bold;
+	}
+	.mkr_image .webix_template{
+			padding:0px;
+			/*position: relative;
+			background: #aaa;
+			padding: 50px 60px;*/
+
+	}
+	.highlighted_header.header1{
+		background-color: #a693eb !important;
+	}
+	.highlighted_header.header2{
+		 background-color: #f19b60 !important;
+	}
+	
+	/*
+	MAP DIRECTIONS
+*/
+.dir_start {
+	font-weight: bold; padding: 5px; background: #E47D25; color: #fff;
+}
+.dir_end {
+	font-weight: bold; padding: 5px; background: #C16417; color: #fff;
+}
+.dir_summary {
+	padding: 5px;	
+}
+.dir_row{
+	font-size: 14px;
+	padding-right: 10px;	
+}
+.dir_sprite{
+	width:	20px;
+	height:	20px;
+	display: block;
+}
+.turn-sharp-left{ background: url('mkr_files/common/icons/maneuvers-new.png') 0px 0px ;	}
+.turn-sharp-right{ background: url('mkr_files/common/icons/maneuvers-new.png') 0px -20px ; }
+.turn-left{	background: url('mkr_files/common/icons/maneuvers-new.png') 0px -40px ;	}
+.turn-right{ background: url('mkr_files/common/icons/maneuvers-new.png') 0px -60px ; }
+.turn-slight-left{ background: url('mkr_files/common/icons/maneuvers-new.png') 0px -80px ; }
+.turn-slight-right{	background: url('mkr_files/common/icons/maneuvers-new.png') 0px -100px ; }
+.ramp-left{	background: url('mkr_files/common/icons/maneuvers-new.png') 0px -120px ; }
+.ramp-right{ background: url('mkr_files/common/icons/maneuvers-new.png') 0px -140px ; }
+.fork-left{	background: url('mkr_files/common/icons/maneuvers-new.png') 0px -160px ; }
+.fork-right{ background: url('mkr_files/common/icons/maneuvers-new.png') 0px -180px ; }
+.straight{ background: url('mkr_files/common/icons/maneuvers-new.png') 0px -200px ; }
+.merge{ background: url('mkr_files/common/icons/maneuvers-new.png') 0px -220px ; }
+.roundabout-left{ background: url('mkr_files/common/icons/maneuvers-new.png') 0px -240px ; }
+.roundabout-right{ background: url('mkr_files/common/icons/maneuvers-new.png') 0px -260px ; }
+
+.continue{ background: url('mkr_files/common/icons/maneuvers-new.png') 0px -200px ; }
+.keep-left{	background: url('mkr_files/common/icons/maneuvers-new.png') 0px -160px ; }
+.keep-right{ background: url('mkr_files/common/icons/maneuvers-new.png') 0px -180px ; }
+
+/*============for chat================*/ 
+/*
+.webix_list_item span{
+        font-weight: bold;
+        min-width: 100px;
+        float: left;
+        text-align: center;
+    }
+    .webix_list_item span.own{
+        color:#4a4;
+    }  	
+	*/
+ .webix_list_item span.chat_list_item{
+	 	font-weight: bold;
+        min-width: 100px;
+        float: left;
+        text-align: center;
+	 
+        color:#4a4;
+    } 
+</STYLE>
+ 
+<SCRIPT>
+webix.skin.air.layoutPadding.space = 12;
+webix.skin.air.layoutMargin.space = 12;
+
+webix.DataDriver.legacy = webix.extend({
+	records:"/*/row",
+	tagToObject:function(tag,z){
+		if (tag.tagName == "row"){
+			tag.setAttribute("stack", "1");
+			return { cell: webix.DataDriver.xml.tagToObject(tag, z)  };
+		}
+
+		return webix.DataDriver.xml.tagToObject(tag, z);
+	}
+}, webix.DataDriver.xml);
+
+</SCRIPT>
+
+
+<DIV id="my_dirs_box" style="display: none;">
+<DIV id="dirs_id_id" style="width=500px;height:500px;">ZZZ</DIV>
+</DIV> 
+	 
+<DIV id="route_wo_temp" style="display: none;">
+<DIV class="country_flag"><IMG src="">		 </DIV>
+<DIV class="country_info">
+<DIV><SPAN>Name:</SPAN>#name#</DIV>
+<DIV><SPAN>Address:</SPAN>#addr#</DIV>
+<DIV><SPAN>Status:</SPAN>#sts#</DIV></DIV></DIV>
+
+<DIV id="rhos_tmplt" style="display: none;">
+<DIV class="country_flag"><IMG src="">		 </DIV>
+<DIV class="country_info">
+<DIV><SPAN>ID:</SPAN>#id#</DIV>
+<DIV><SPAN>Date:</SPAN>#dt#</DIV>
+<DIV><SPAN>Count:</SPAN>#count#</DIV></DIV></DIV>
+
+<DIV id="dvir_tmplt" style="display: none;">
+<DIV class="country_flag"><IMG src="">		 </DIV>
+<DIV class="country_info">
+<DIV><SPAN>ID:</SPAN>#id#</DIV>
+<DIV><SPAN>Date:</SPAN>#dt#</DIV>
+<DIV><SPAN>Count:</SPAN>#count#</DIV></DIV></DIV>
+
+</BODY></HTML>

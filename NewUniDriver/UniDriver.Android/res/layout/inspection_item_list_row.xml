@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingTop="10sp"
+    android:background="@drawable/inspection_item_selector"
+    android:paddingBottom="10sp">
+    <LinearLayout
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/img_forward_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_forward_small"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:paddingRight="3dp"
+            android:visibility="gone" />
+        <TextView
+            android:id="@+id/txt_ii_att_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textcolor"
+            android:visibility="gone" />
+        <TextView
+            android:id="@+id/txt_insp_report_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+        <TextView
+            android:id="@+id/txt_insp_item_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+        <TextView
+            android:id="@+id/inspection_item_body"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="@color/textcolor" />
+    </LinearLayout>
+    <ImageView
+        android:layout_weight="0"
+        android:id="@+id/img_ic_media_attachment"
+        android:layout_width="32dip"
+        android:layout_height="32dip"
+        android:src="@drawable/ic_menu_attachment"
+        android:layout_gravity="center_vertical"
+        android:visibility="gone" />
+</LinearLayout>
+

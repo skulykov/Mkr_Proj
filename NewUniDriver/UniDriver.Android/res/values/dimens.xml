@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="largeText">24dp</dimen>
+    <dimen name="mediumText">20dp</dimen>
+    <dimen name="smallText">14dp</dimen>
+    <dimen name="smallerText">12dp</dimen>
+    <dimen name="tinyText">10dp</dimen>
+      <dimen name="default_element_height">44dp</dimen>
+      <dimen name="toolbar_height">50dp</dimen>
+</resources>

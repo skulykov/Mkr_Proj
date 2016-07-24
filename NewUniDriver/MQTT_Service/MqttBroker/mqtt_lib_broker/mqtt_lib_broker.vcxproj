@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B5E5B412-AF63-4FC2-B6B2-088A64DA136F}</ProjectGuid>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <Keyword>ManagedCProj</Keyword>
+    <RootNamespace>mqtt_lib_broker</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CLRSupport>false</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CLRSupport>false</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;WITH_BROKER;_CRT_SECURE_NO_WARNINGS;WITH_WEBSOCKETS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <AdditionalIncludeDirectories>C:\my\projects\NewUniDriver\MQTT_Service\libwebsockets\lib;C:\my\projects\NewUniDriver\MQTT_Service\libwebsockets;C:\my\projects\NewUniDriver\MQTT_Service\MqttBroker\mqtt_src;C:\my\projects\NewUniDriver\MQTT_Service\MqttBroker\mqtt_src\src;C:\my\projects\NewUniDriver\MQTT_Service\MqttBroker\mqtt_src\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>WSock32.Lib;Ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;WITH_BROKER;_CRT_SECURE_NO_WARNINGS;WITH_WEBSOCKETS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <AdditionalIncludeDirectories>C:\my\MkrProj\NewUniDriver\MQTT_Service\libwebsockets\lib;C:\my\MkrProj\NewUniDriver\MQTT_Service\libwebsockets;C:\my\MkrProj\NewUniDriver\MQTT_Service\MqttBroker\mqtt_src;C:\my\MkrProj\NewUniDriver\MQTT_Service\MqttBroker\mqtt_src\src;C:\my\MkrProj\NewUniDriver\MQTT_Service\MqttBroker\mqtt_src\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>WSock32.Lib;Ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\mqtt_src\lib\memory_mosq.c" />
+    <ClCompile Include="..\mqtt_src\lib\net_mosq.c" />
+    <ClCompile Include="..\mqtt_src\lib\read_handle_shared.c" />
+    <ClCompile Include="..\mqtt_src\lib\send_client_mosq.c" />
+    <ClCompile Include="..\mqtt_src\lib\send_mosq.c" />
+    <ClCompile Include="..\mqtt_src\lib\time_mosq.c" />
+    <ClCompile Include="..\mqtt_src\lib\tls_mosq.c" />
+    <ClCompile Include="..\mqtt_src\lib\util_mosq.c" />
+    <ClCompile Include="..\mqtt_src\lib\will_mosq.c" />
+    <ClCompile Include="..\mqtt_src\src\conf.c" />
+    <ClCompile Include="..\mqtt_src\src\context.c" />
+    <ClCompile Include="..\mqtt_src\src\database.c" />
+    <ClCompile Include="..\mqtt_src\src\logging.c" />
+    <ClCompile Include="..\mqtt_src\src\loop.c" />
+    <ClCompile Include="..\mqtt_src\src\mosquitto.c" />
+    <ClCompile Include="..\mqtt_src\src\net.c" />
+    <ClCompile Include="..\mqtt_src\src\persist.c" />
+    <ClCompile Include="..\mqtt_src\src\read_handle.c" />
+    <ClCompile Include="..\mqtt_src\src\read_handle_client.c" />
+    <ClCompile Include="..\mqtt_src\src\read_handle_server.c" />
+    <ClCompile Include="..\mqtt_src\src\security.c" />
+    <ClCompile Include="..\mqtt_src\src\security_default.c" />
+    <ClCompile Include="..\mqtt_src\src\send_server.c" />
+    <ClCompile Include="..\mqtt_src\src\service.c" />
+    <ClCompile Include="..\mqtt_src\src\subs.c" />
+    <ClCompile Include="..\mqtt_src\src\sys_tree.c" />
+    <ClCompile Include="..\mqtt_src\src\websockets.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\libwebsockets\win32port\LibWebSkts\LibWebSkts.vcxproj">
+      <Project>{951e88a6-74e3-4405-a2d1-2257a2576d08}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\mqtt_lib\mqtt_lib\mqtt_lib.vcxproj">
+      <Project>{7799ef08-56c1-433c-a860-cdee138c7433}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

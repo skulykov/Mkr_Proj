@@ -1,0 +1,5 @@
+C:\My\projects\NewUniDriver\UniDriver.Android\ARM\Debug\UniDriverMainActivityPackaging.apk.recipe
+C:\My\projects\NewUniDriver\UniDriver.Android\ARM\Debug\UniDriverMainActivityPackaging.apk.recipe.merged
+C:\My\projects\NewUniDriver\UniDriver.Android\ARM\Debug\FileStringReplace.incremental
+C:\My\projects\NewUniDriver\UniDriver.Android\ARM\Debug\UniDriverMainActivityPackaging.apk
+C:\My\projects\NewUniDriver\UniDriver.Android\ARM\Debug\UniDriverMainActivityPackaging.lastsuccessfuldeploy

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
+    android:background="@color/backgroudcolor">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:layout_gravity="top"
+        android:gravity="top">
+        <EditText
+            android:id="@+id/txt_search_veh_name"
+            android:layout_width="match_parent"
+            android:layout_height="48dip"
+            android:textColor="@color/textcolor"
+            android:drawableRight="@drawable/ic_search"
+            android:background="@drawable/edittextstyle"
+            android:popupBackground="@drawable/edittext_background"
+            android:layout_gravity="bottom"
+            android:layout_weight="0"
+            
+            android:textSize="24dp"
+            android:textStyle="normal|bold"
+            android:inputType="text|textNoSuggestions" />
+    <!--  android:background="@drawable/edittext_background"   android:layout_paddingLeft="10dp"-->
+        <RadioGroup
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:id="@+id/radio_group_search_types">
+            <RadioButton
+                android:id="@+id/radio_sap"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textcolor"
+                android:textStyle="bold"
+                android:button="@drawable/radio_btn_selector"
+                android:paddingLeft="0dp"
+                android:layout_weight="1"
+                android:text="@string/str_description" />
+            <RadioButton
+                android:id="@+id/radio_legacy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:button="@drawable/radio_btn_selector"
+                android:paddingLeft="0dp"
+                android:layout_weight="1"
+                android:textColor="@color/textcolor"
+                android:textStyle="bold"
+                android:text="@string/str_license" />
+            <RadioButton
+                android:id="@+id/radio_serial"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:button="@drawable/radio_btn_selector"
+                android:paddingLeft="0dp"
+                android:layout_weight="1"
+                android:textColor="@color/textcolor"
+                android:textStyle="bold"
+                android:text="@string/str_box_id" />
+        </RadioGroup>
+        <ListView
+            android:id="@+id/list_view_vehicles"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:textColor="@color/textcolor"
+            android:dividerHeight="1dp"
+            android:divider="@color/listviewdivider"
+            android:listSelector="@drawable/list_selector"
+            android:layout_weight="1" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:background="@color/bottom_toolbar"
+        android:minHeight="60dp"
+        android:gravity="center">
+        <ImageButton
+            android:id="@+id/button_vehicle_cancel"
+            android:src="@drawable/ic_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/action_item_bkg_transparent"
+            android:onClick="CancelThisAct"
+            android:layout_weight="1" />
+        <ImageButton
+            android:id="@+id/imgBtnCameraScan"
+            android:src="@drawable/ic_qr_btn"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:onClick="scanQRCode" 
+            android:background="@drawable/action_item_bkg_transparent" />
+        <ImageButton
+            android:id="@+id/new_veh_id"
+            android:src="@drawable/ic_new"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:onClick="CreateNewVeh" 
+            android:background="@drawable/action_item_bkg_transparent" />
+    </LinearLayout>
+</LinearLayout>
+
+
+
+
+
+<!-- 
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+     <Button android:id="@+id/scan_qr_code" 
+             android:layout_width="fill_parent" 
+             android:layout_height="wrap_content" 
+             android:onClick="scanQRCode" 
+             android:text="@string/scan_qr_code"/> 
+    
+
+</LinearLayout>
+-->

@@ -1,0 +1,70 @@
+//option java_package = "crosby.binary";
+//protoc --java_out=../.. fileformat.proto
+
+
+syntax="proto2";
+package my_comm_proto;
+
+option optimize_for = LITE_RUNTIME;
+
+import "my_common_proto_comm_lite.proto";
+
+// [START java_declaration]
+option java_package = "com.mkr.models.proto";
+option java_outer_classname = "CommPackets";
+// [END java_declaration]
+
+// [START csharp_declaration]
+option csharp_namespace = "Google.Protobuf.MyCommProto.CommPackets";
+// [END csharp_declaration]
+
+//********* these 2 messages used to send inpection reports data to server ****************
+message PInspectionReportMediaFile
+{
+    required string fname=1;
+	required bytes payload=2;
+}
+message PInspectionReports
+{
+	required  PInspectionRowList reports=1;
+	repeated PInspectionReportMediaFile mfiles=2;
+}
+//this message to send new created vehicles data to the server
+message PVehicleReports
+{
+	required  PBoxIdVehicleRowList vehicles=1;
+	repeated PInspectionReportMediaFile mfiles=2;
+}
+
+
+message ClsLoginMD
+{
+		required bool res=1;
+		required  int32 cid=2;
+        
+		required  string user=3;
+        required  string pass=4;
+       optional  int32 ResourceID=5;
+       optional  string DrName=6;
+         
+      optional PBoxIdVehicleRowList vehicles=7;  //A repeated field is inherently optional: you just don't add any values.
+       optional  PConfiguration config=8;
+       optional  PEmployeeRow driverProf=9;
+}
+message PMobileHB
+{
+	 required int32 rid=1;
+        required  float lat=2;
+        required  float lon=3;
+        required  int32 spd=4;
+        required  int32 cog=5;
+        required  int64 ts=6;  
+}
+message CommPacket
+{
+	required  int32 req=1;
+      required  int32 rID=2;
+      required  int32 cID=3;
+	 required  string user=4;
+     required bytes payload=5;
+}

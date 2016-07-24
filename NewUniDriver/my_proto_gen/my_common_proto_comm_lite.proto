@@ -1,0 +1,301 @@
+//option java_package = "crosby.binary";
+//protoc --java_out=../.. fileformat.proto
+syntax="proto2";
+package my_comm_proto;
+
+option optimize_for = LITE_RUNTIME;
+
+
+// [START java_declaration]
+option java_package = "com.mkr.models.proto";
+option java_outer_classname = "CommPackets";
+// [END java_declaration]
+
+// [START csharp_declaration]
+option csharp_namespace = "Google.Protobuf.MyCommProto.CommPackets";
+// [END csharp_declaration]
+
+//=================================WorkOrders=====================================
+//enum PAMessageDirection
+//	{
+//		FromMobile=0;
+//		FromServer=1;
+//	}
+message PAMessage
+	{
+		  required  int32 aID=1;
+		  required  int32 rID=2;
+		  required  string msg=3;
+		  required  int64 ts=4;                               //DateTime ts;
+		  required   int32 type=5;        //PAMessageDirection 1- from mobile , 2 - from server
+		
+	}
+message PWOIStatus
+{
+    required  int64 ID=1;
+    required int32 status=2;
+    //required string comments=3;
+}
+message PWorkOrderItem {
+   required  int64 ID = 1; 
+   required  string Name = 2; 
+  
+   required  string Caller =3;
+   optional  string Phone =4;
+   required  string Reference =5;
+
+ 		 required  string LocationName =6;
+ 		 optional  string Street =7;
+ 		 optional  string City =9;
+ 		 optional  string Country =10;
+ 		 optional  string PostalCode =11;
+ 		// required  string Region =12;
+ 		 optional  string Province =13;
+ 		 required  string Instructions =14;
+
+ 		 required  int64 StartTime =15;
+ 		 required  int64 EndTime =16;
+		 required  string ActInstrs = 17;//ActivityInstructions
+
+		 optional  int64 CreatedTS = 18; // CreatedTimeStamp
+		 optional  int64 LastUpdtdTS = 19;//LastUpdatedTimeStamp
+
+		 optional  int64 AcceptedTS = 20; // this time coming from dispatcher OR from mobile worker
+		 optional  int64 CompletedTS =21;
+		
+		 required  int32 status=22;
+		 required  int32 serviceGroup=23;
+		 required  int64 resourceID=24;
+		 optional  float Lat=25;
+		 optional  float Lon=26;
+
+		optional  int32 editFlag=27;        ////in DB  EditF // 0 - new Activity , 1 - updated
+
+}
+message PWorkOrderList
+{
+	repeated PWorkOrderItem wo_items=1;
+}
+message PWOIStatusList
+{
+	repeated PWOIStatus wosts_items=1;
+}
+//===================================Login=========================
+message PBoxIdVehicleRow
+{
+ required  int64 ID=1;//BoxId = -1; // vehicle id
+         required  int64 mTS = 2;// current time in milliseconds since Epoch
+         required  string desc = 3;
+         required  int32 weight = 4;
+         required  int32 flag=5;//vehicleFlag = 0;
+         required  string VL=6;//VehicleLicensePlate = "";
+         required  string VLP=7;//VehicleLicenseProvince = "";
+
+         required  int32 cid = 8;  // client id
+         required  string Img = 9;
+         optional  string maker = 10;
+		 optional  string model = 11;
+		 optional  string color = 12;
+         optional  int32 year = 13;
+}
+message PBoxIdVehicleRowList
+{
+   repeated PBoxIdVehicleRow vitem=1;
+}
+message PConfiguration
+{
+  required  int32 inspHD = 1;
+  required  int32 inspHA = 2;
+  required  int32 imagesLimit = 3;
+         required  int32 violationthreshold = 4;  // HOS violation threshold 
+         required  int32 login = 5;  //  0- inspection screen goes first after login, 1 - HOS
+         required bool _scan_flag = 6;
+         required  string SearchType = 7; // SearchType is delimited by ','
+         required  int32 ScreenLock = 8;   // if 1 then Lock the HOS screen ( do not allow to change driver status)
+         required  int32 OdoInputFlag = 9;  //0 - do not allow manual Odometer modification
+         required  int32 WeightThreshold = 10;  // threshold for vehicle weight 
+}
+message PEmployeeRow
+{
+    required  string ID = 1;                  //// the same as ResourceID
+         required  string DriverName = 2;
+         optional  string UserName = 3;
+         optional  string Email = 4;
+         optional  string Password = 5;
+         optional  string License = 6;
+         optional  string Country = 7;
+
+         optional  string Signature = 8;
+         optional  string Domain = 9;                            // the same as ClientID
+         optional  int32 Cycle = 10;//HOSCYCLE Cycle = HOSCYCLE.Canadian_70hr_7day;
+        optional  int32 HOSExcept = 11;
+		optional int32 ApplyDTS=12;//applyDTS - apply Day Time Savings
+        optional float TZ= 13;           //TimeZone
+      
+         optional  string HomeAddress = 14;
+         optional bool IsSupervisor = 15;
+         optional  string State = 16;
+         optional  string OrgName = 17;
+		 optional  string OrgAddr = 18;
+       //  optional  string TimeZone = 20;
+         optional bool DLS = 21;   // DayLightSavings
+
+         optional  string photo=22;
+}
+//======================TimeLogRow=========================
+message PTimeLogRow
+{
+		 required int32 Event = 1;
+         required int64 LogTime = 2;
+         required bool Signed = 3;
+         required int32 TLID = 4;
+         required int32 Type = 5;
+     
+         optional int32 Odo = 6;
+		 required int32 Logbookstopid = 7; //30 min break -> make an assignement = AuditLogic.ThirtyMinutesOffDutyStart
+	
+		
+        
+		 optional string EqNo = 8;
+        
+		 optional float Lat = 9;
+         optional float Lon = 10;
+         required string Comment = 11;
+         required string DriverId = 12;
+         optional string State = 13; // Devin Added for audit
+         required int32 BoxID = 14;
+
+		 required int64 OLT = 15;//OrigLogTime = DateTime.MinValue; // used when editing timelog record
+         optional int32 Editor = 16;                           // 1- TimeLog has been edited
+		 optional float TZ = 17;
+		 optional float DST=18;   //TimeZone(TZ) added recently -> ApplyDST(DTS) Daylight Saving Time
+         optional string Addr = 19;
+		 optional int32 arGeo = 20;  // -1 - No Reverse Geocoding, 0- Reverse Geocoding ( address resolution) is in progress, 1 - DONE
+		 optional string CoDriver=21;
+		optional int32 QualifyRadiusRule=22;
+
+}
+ message PHosAlertRow
+ {
+		 required int64 dt=1;
+		 required string ondutyruleviolated=2;
+		 required string drivingruleviolated=3; // rule violated
+		 required int32 alertType=4;
+		 required int32 drivingAvailable=5; // driving time available
+		 required int32 ondutyAvailable=6; // On Duty time available
+
+		// bool haveSent = false;
+	}
+
+	message PRecapRow 
+	{
+		required int64 date=1 ;
+		required int32 today=2;
+		required int32 cycleTotal=3;
+		required int32 cycleAvailable=4;
+		required string cycle = 5;
+		
+		// DataRowIdentifier DataRowID { get { return DataRowIdentifier.RecapRow; } }
+        required bool sent = 6;  //haveSent
+	}
+	message PRuleSelectionHistoryRow
+			{
+			
+				required int32 RSHID = 1;
+				required int32 Ruleid = 2;//HOSCYCLE::NONE;
+				required int64 selectTime=3;//DateTime selectTime = DateTime::MinValue;
+				required string country = 4;
+				required int32 ruleException = 5;//RuleExceptions::None;
+				required bool sent = 6;
+			}
+
+	message PTimeLogRowList
+	{
+		repeated PTimeLogRow list=1;
+	}
+	message PRecapRowList
+	{
+		repeated PRecapRow list=1;
+	}
+	message PRuleSelectionHistoryRowList
+	{
+		repeated PRuleSelectionHistoryRow list=1;
+	}
+	//=========================Inspection Objects======================================================
+	message PInspectionItem 
+	{
+		required int32 iID = 1;
+		required int32 cID = 2;
+
+		required string Defect = 3;
+		optional string DefAbbr = 4;
+		optional int32 DefLevel=5; //DefLevels DefLevel = DefLevels.Defect; //0- minor, 1- major
+		optional string Comments = 6;
+		optional bool isDefect = 7; // To be able to track which item is actually added as deffect so that we can mark them in CategoryAdapter
+		repeated string media_files = 8;  // to keep all media files accociated with this Inspection Item
+		optional string attID=9;    // if empty this belongs to vehicle -> otherwise to attachment (e.g. trailor)
+		optional string Clrd=10;
+		optional string ClrdId=11;
+		optional string ClrdName=12;
+		optional int32 hasChildren=13;
+        optional int32 parentId=14;
+		repeated PInspectionItem children=15;    //used for hierarchy
+	}
+   message PInspectionItemList
+	{
+         repeated PInspectionItem list=1;
+	}
+	message PInspectionCategoryRow 
+	{
+		 required int32 cID = 1;
+		 required string desc =2;
+		 required int32 groupID = 3;
+		 required int32 color =4;
+		 optional int32 BarCodeID=5;  // It's required to scan to inspect this category !!!!!!!!
+		 optional string BCLoc=6;
+		 //repeated PInspectionItem items=6;
+          optional PInspectionItemList items=7;
+
+		// To be able to track which Category is check when driver does the circle check
+		optional int32 isChecked=8;  //CheckType isChecked=CheckType.NotChecked;// bool isCheckedFromScanner = false;
+		
+	}
+
+	//==========for report==============================================
+	message PInspectionRow 
+	{
+		 required int32 InsRID = 1;
+		 required int64 InsTime=2; //DateTime InsTime = TimeUtil.DateTime_Now();
+		// LocationInfoRow location = new LocationInfoRow();
+		 optional string EqID = 3;
+		 optional int32 odo = 4;
+		 required bool Signed = 5;
+		 repeated PInspectionItem Defects=6; //List<InspectionItem> Defects = new List<InspectionItem>();// ArrayList Defects = new ArrayList();
+
+		 required string drId = 7;
+		 optional string drName = 8;
+		 required int32 InsType=9;  //InspectionType InsType = InspectionType.None;
+		 required string cb_cats = 10;
+		 optional string cb_a_cats=11;  // Devin request ?? not sure if it's right -> Contains all checked category for attachment
+		 required int32 BoxID = 12;
+		 optional int32 tzOf=13;	// UTC offset 
+		 optional float Lat = 14;
+		 optional float Lon = 15;
+		 optional string attID=16;  // AttachmentID -> need when inspection contains attachment (e.g. trailor) 
+	}
+message PInspectionRowList
+{
+  repeated PInspectionRow list = 1;
+}
+message PInspectionCategoryRowList
+{
+	repeated PInspectionCategoryRow list=1;
+}
+//---------------------------------------------------------------
+message PRegister
+{
+required string user=1;
+required string pass=2;
+required string fname=3;
+required string email=4;
+}

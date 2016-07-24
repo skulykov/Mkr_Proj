@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\MkrLibSource\JsonCpp\src\json_reader.cpp">
+      <Filter>Source\JsonCpp\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MkrLibSource\JsonCpp\src\json_value.cpp">
+      <Filter>Source\JsonCpp\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MkrLibSource\JsonCpp\src\json_writer.cpp">
+      <Filter>Source\JsonCpp\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MkrLibSource\Network\my_socket.cpp">
+      <Filter>Source\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MkrLibSource\MkrLib.cpp" />
+    <ClCompile Include="..\MkrLibSource\CommonUtils\Dbg.cpp">
+      <Filter>Source\CommonUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MkrLibSource\CommonUtils\my_time.cpp">
+      <Filter>Source\CommonUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MkrLibSource\Network\Convert.cpp">
+      <Filter>Source\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MkrLibSource\CommonUtils\my_utils.cpp">
+      <Filter>Source\CommonUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MkrLibSource\Log\LogFile.cpp">
+      <Filter>Source\Log</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\MkrLibSource\JsonCpp\include\json\assertions.h">
+      <Filter>Source\JsonCpp\include\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MkrLibSource\JsonCpp\include\json\autolink.h">
+      <Filter>Source\JsonCpp\include\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MkrLibSource\JsonCpp\include\json\config.h">
+      <Filter>Source\JsonCpp\include\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MkrLibSource\JsonCpp\include\json\features.h">
+      <Filter>Source\JsonCpp\include\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MkrLibSource\JsonCpp\include\json\forwards.h">
+      <Filter>Source\JsonCpp\include\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MkrLibSource\JsonCpp\include\json\json.h">
+      <Filter>Source\JsonCpp\include\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MkrLibSource\JsonCpp\include\json\reader.h">
+      <Filter>Source\JsonCpp\include\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MkrLibSource\JsonCpp\include\json\value.h">
+      <Filter>Source\JsonCpp\include\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MkrLibSource\JsonCpp\include\json\version.h">
+      <Filter>Source\JsonCpp\include\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MkrLibSource\JsonCpp\include\json\writer.h">
+      <Filter>Source\JsonCpp\include\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MkrLibSource\MkrHeader.h" />
+    <ClInclude Include="..\MkrLibSource\MkrLib.h" />
+    <ClInclude Include="..\MkrLibSource\CommonUtils\my_types.h">
+      <Filter>Source\CommonUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MkrLibSource\Network\TcpRequest.h">
+      <Filter>Source\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MkrLibSource\CommonUtils\my_time.h">
+      <Filter>Source\CommonUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MkrLibSource\CommonUtils\my_utils.h">
+      <Filter>Source\CommonUtils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{3006b6e6-3d37-4088-a8e8-e0afd2555da0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\JsonCpp">
+      <UniqueIdentifier>{0c5b8ab3-6da3-4871-bc03-20c0de2b81e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\JsonCpp\src">
+      <UniqueIdentifier>{35834327-c634-4843-b70f-c30b329eefa3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\JsonCpp\include">
+      <UniqueIdentifier>{165c05fe-5ced-41e0-8b4a-cd60650fd779}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\JsonCpp\include\json">
+      <UniqueIdentifier>{ff3bc2ca-a9a7-4eb8-b757-c04ab0b203a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Network">
+      <UniqueIdentifier>{b357c112-63d1-4fdb-8a29-d841b19363e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\CommonUtils">
+      <UniqueIdentifier>{f162c2c7-7552-44da-a5e6-2ae43d9ebabb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Log">
+      <UniqueIdentifier>{1ac6e5bf-3c33-4a86-b0b1-95453c9635b4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

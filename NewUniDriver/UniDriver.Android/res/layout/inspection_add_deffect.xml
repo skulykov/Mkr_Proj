@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
+    android:background="@color/backgroundGrey">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+    <!--<UniDriver.CustomControls.ClearableEditText -->
+        <EditText
+            android:id="@+id/txt_deffect_comment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/h_rounded_edittext"
+            android:inputType="textMultiLine"
+            android:textColor="@color/textcolor"
+            android:layout_margin="10dp"
+            android:hint="@string/str_add_defect_comment"
+            android:layout_weight="1"
+            android:textSize="24sp"
+            android:gravity="top" />
+    <!-- <cheesebaron.horizontallistview.HorizontalListView -->
+    <!--<LinearLayout
+            android:id="@+id/imgslist"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/rounded_edittext"
+            android:layout_weight="1" />  -->
+        <GridView
+            android:id="@+id/gridview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:columnWidth="90dp"
+            android:numColumns="auto_fit"
+            android:verticalSpacing="10dp"
+            android:horizontalSpacing="10dp"
+            android:stretchMode="columnWidth"
+            android:gravity="center"
+            android:background="@color/backgroundGrey"
+            android:imeOptions="actionDone"
+            android:layout_weight="1" />
+    <!--  android:background="@drawable/rounded_edittext"-->
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll_defect_tb"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:background="@color/bottom_toolbar"
+        android:minHeight="60dp"
+        android:gravity="center">
+        <!-- <ImageButton
+            android:id="@+id/button_deffect_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:src="@drawable/ic_cancel"
+            android:background="@drawable/action_item_bkg_transparent" />  -->
+    <!-- android:background="@drawable/button_background"  -->
+        <ImageButton
+            android:id="@+id/button_clear_deffect"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:src="@drawable/ic_erase"
+            android:onClick="BtnClearDefect"
+            android:background="@drawable/action_item_bkg_transparent" />
+        <ImageButton
+            android:id="@+id/button_add_picture"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:src="@drawable/ic_camera"
+            android:onClick="BtnGetPicture"
+            android:background="@drawable/action_item_bkg_transparent" />
+        <ImageButton
+            android:id="@+id/button_add_video"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:src="@drawable/ic_video"
+            android:background="@drawable/action_item_bkg_transparent"
+            android:visibility="gone" />
+        <ImageButton
+            android:id="@+id/button_deffect_add"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:onClick="BtnSaveDefect"
+            android:src="@drawable/ic_save"
+            android:background="@drawable/action_item_bkg_transparent" />
+    </LinearLayout>
+</LinearLayout>

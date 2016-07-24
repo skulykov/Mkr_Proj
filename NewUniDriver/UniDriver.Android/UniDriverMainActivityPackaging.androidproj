@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|ARM">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM">
+      <Configuration>Release</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x86">
+      <Configuration>Debug</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x86">
+      <Configuration>Release</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <RootNamespace>UniDriverMainActivityPackaging</RootNamespace>
+    <MinimumVisualStudioVersion>14.0</MinimumVisualStudioVersion>
+    <ProjectVersion>1.0</ProjectVersion>
+    <ProjectGuid>06941caa-7846-4b27-b089-bb0338c13c03</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="$(AndroidTargetsPath)\Android.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'" Label="Configuration">
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <TargetName>$(RootNamespace)</TargetName>
+    <OutDir>$(ProjectDir)\$(Platform)\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'" Label="Configuration">
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <TargetName>$(RootNamespace)</TargetName>
+    <OutDir>$(ProjectDir)\$(Platform)\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x86'" Label="Configuration">
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <TargetName>$(RootNamespace)</TargetName>
+    <OutDir>$(ProjectDir)\$(Platform)\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x86'" Label="Configuration">
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <TargetName>$(RootNamespace)</TargetName>
+    <OutDir>$(ProjectDir)\$(Platform)\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <Import Project="$(AndroidTargetsPath)\Android.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
+    <AntPackage>
+      <WorkingDirectory>$(ProjectDir)</WorkingDirectory>
+      <ApplicationName>UniDriverMainActivity</ApplicationName>
+    </AntPackage>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
+    <AntPackage>
+      <WorkingDirectory>$(ProjectDir)</WorkingDirectory>
+      <ApplicationName>UniDriverMainActivity</ApplicationName>
+    </AntPackage>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">
+    <AntPackage>
+      <WorkingDirectory>$(ProjectDir)</WorkingDirectory>
+      <ApplicationName>UniDriverMainActivity</ApplicationName>
+    </AntPackage>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x86'">
+    <AntPackage>
+      <WorkingDirectory>$(ProjectDir)</WorkingDirectory>
+      <ApplicationName>UniDriverMainActivity</ApplicationName>
+    </AntPackage>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <AndroidManifest Include="AndroidManifest.xml" />
+    <AntProjectPropertiesFile Include="project.properties" />
+    <AntBuildXml Include="build.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include=".classpath" />
+    <Content Include=".project" />
+    <Content Include=".settings\org.eclipse.jdt.core.prefs" />
+    <Content Include="ARM\Debug\.unsuccessfulbuild" />
+    <Content Include="ARM\Debug\FileStringReplace.incremental" />
+    <Content Include="ARM\Debug\GenerateAndroidAntScript.incremental" />
+    <Content Include="ARM\Debug\NewUniDriver.Android.androidproj.FileListAbsolute.txt" />
+    <Content Include="ARM\Debug\Test_UniDriver.Android.androidproj.FileListAbsolute.txt" />
+    <Content Include="ARM\Debug\UniDriverMainActivityPackaging.apk.recipe" />
+    <Content Include="ARM\Debug\UniDriverMainActivityPackaging.apk.recipe.merged" />
+    <Content Include="ARM\Release\GenerateAndroidAntScript.incremental" />
+    <Content Include="ARM\Release\UniDriver.Android.androidproj.FileListAbsolute.txt" />
+    <Content Include="libs\android-support-v4.jar" />
+    <Content Include="libs\android-support-v7-appcompat.jar" />
+    <Content Include="libs\armeabi-v7a\gdbserver" />
+    <Content Include="libs\armeabi-v7a\libgnustl_static.a" />
+    <Content Include="libs\armeabi-v7a\libUniDriver_Shared_Android.so" />
+    <Content Include="libs\core-3.0.0.jar" />
+    <Content Include="lint.xml" />
+    <Content Include="NewUniDriver.Android.androidproj" />
+    <Content Include="NewUniDriver.Android.androidproj.user" />
+    <Content Include="res\anim\fadein.xml" />
+    <Content Include="res\anim\fadeout.xml" />
+    <Content Include="res\anim\popup_appear.xml" />
+    <Content Include="res\anim\popup_disappear.xml" />
+    <Content Include="res\anim\slide_out_down.xml" />
+    <Content Include="res\anim\slide_up_dialog.xml" />
+    <Content Include="res\drawable-hdpi\ic_drawer_light.png" />
+    <Content Include="res\drawable-hdpi\logo.png" />
+    <Content Include="res\drawable-mdpi\action_item_selected.9.png" />
+    <Content Include="res\drawable-mdpi\button_normal.9.png" />
+    <Content Include="res\drawable-mdpi\drawer_shadow_dark.9.png" />
+    <Content Include="res\drawable-mdpi\drawer_shadow_light.9.png" />
+    <Content Include="res\drawable-mdpi\help.png" />
+    <Content Include="res\drawable-mdpi\hos.png" />
+    <Content Include="res\drawable-mdpi\hos_48.png" />
+    <Content Include="res\drawable-mdpi\icon.png" />
+    <Content Include="res\drawable-mdpi\ic_camera.png" />
+    <Content Include="res\drawable-mdpi\ic_login.png" />
+    <Content Include="res\drawable-mdpi\ic_menu_cc.png" />
+    <Content Include="res\drawable-mdpi\inspection.png" />
+    <Content Include="res\drawable-mdpi\logout.png" />
+    <Content Include="res\drawable-mdpi\messaging.png" />
+    <Content Include="res\drawable-mdpi\navigation.png" />
+    <Content Include="res\drawable-mdpi\repeat_bg.png" />
+    <Content Include="res\drawable-mdpi\settings.png" />
+    <Content Include="res\drawable-mdpi\user_blank.png" />
+    <Content Include="res\drawable-mdpi\vehicle.png" />
+    <Content Include="res\drawable-mdpi\work_order.png" />
+    <Content Include="res\drawable-xhdpi\bubble_green.9.png" />
+    <Content Include="res\drawable-xhdpi\bubble_yellow.9.png" />
+    <Content Include="res\drawable\action_item_bkg_transparent.xml" />
+    <Content Include="res\drawable\action_item_btn.xml" />
+    <Content Include="res\drawable\checkbox_selector.xml" />
+    <Content Include="res\drawable\checkedbox32x32.png" />
+    <Content Include="res\drawable\checkedbox48x48.png" />
+    <Content Include="res\drawable\custom_btn_genoa.xml" />
+    <Content Include="res\drawable\edit_text_style.xml" />
+    <Content Include="res\drawable\footer_repeat.xml" />
+    <Content Include="res\drawable\glossy_gradient.xml" />
+    <Content Include="res\drawable\header_gradient.xml" />
+    <Content Include="res\drawable\h_rounded_edittext.xml" />
+    <Content Include="res\drawable\menu_item_sel_bkgnd.xml" />
+    <Content Include="res\drawable\mydialog_shape.xml" />
+    <Content Include="res\drawable\red_button.xml" />
+    <Content Include="res\drawable\rounded_layout.xml" />
+    <Content Include="res\drawable\rounded_text.xml" />
+    <Content Include="res\drawable\rounded_text_title.xml" />
+    <Content Include="res\drawable\unchekedbox32x32.png" />
+    <Content Include="res\drawable\unchekedbox48x48.png" />
+    <Content Include="res\layout\custom_action_bar.xml" />
+    <Content Include="res\layout\custom_dialog_title.xml" />
+    <Content Include="res\layout\left_drawer_li.xml" />
+    <Content Include="res\layout\listitem_chat.xml" />
+    <Content Include="res\layout\login.xml" />
+    <Content Include="res\layout\main_drawer_layout.xml" />
+    <Content Include="res\layout\my_chat_layout.xml" />
+    <Content Include="res\layout\my_dialog_layout.xml" />
+    <Content Include="res\layout\users_spinner_item.xml" />
+    <Content Include="res\layout\user_spinner_item_dd.xml" />
+    <Content Include="res\layout\vehicles_layout.xml" />
+    <Content Include="res\menu\drawer_main.xml" />
+    <Content Include="res\values\colors.xml" />
+    <Content Include="res\values\dimens.xml" />
+    <Content Include="res\values\strings.xml" />
+    <Content Include="res\values\styles.xml" />
+    <Content Include="UniDriver.AndroidPackaging.androidproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <JavaCompile Include="src\com\mkr\adapters\LeftPaneMenuAdapter.java" />
+    <JavaCompile Include="src\com\mkr\chat\ChatArrayAdapter.java" />
+    <JavaCompile Include="src\com\mkr\chat\ChatMessage.java" />
+    <JavaCompile Include="src\com\mkr\chat\ChatUser.java" />
+    <JavaCompile Include="src\com\mkr\chat\UsersArrayAdapter.java" />
+    <JavaCompile Include="src\com\mkr\fragments\BaseFragment.java" />
+    <JavaCompile Include="src\com\mkr\fragments\MessagingFragment.java" />
+    <JavaCompile Include="src\com\mkr\models\MenuItem.java" />
+    <JavaCompile Include="src\com\mkr\service\IMkrMessageParam.java" />
+    <JavaCompile Include="src\com\mkr\service\MkrAppService.java" />
+    <JavaCompile Include="src\com\mkr\service\MkrMsgBox.java" />
+    <JavaCompile Include="src\com\mkr\service\MkrNLib.java" />
+    <JavaCompile Include="src\com\mkr\service\MkrNVMng.java" />
+    <JavaCompile Include="src\com\mkr\unidriver\BaseActivity.java" />
+    <JavaCompile Include="src\com\mkr\unidriver\BaseDrawerActivity.java" />
+    <JavaCompile Include="src\com\mkr\unidriver\LoginActivity.java" />
+    <JavaCompile Include="src\com\mkr\unidriver\MainDrawerActivity.java" />
+    <JavaCompile Include="src\com\mkr\unidriver\MessageActivity.java" />
+    <JavaCompile Include="src\com\mkr\unidriver\VehiclesActivity.java" />
+    <JavaCompile Include="src\com\mkr\utils\Util.java" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\UniDriver.Shared.Android\UniDriver.Shared.Android.vcxproj" />
+  </ItemGroup>
+  <Import Project="$(AndroidTargetsPath)\Android.targets" />
+  <ImportGroup Label="ExtensionTargets" />
+</Project>

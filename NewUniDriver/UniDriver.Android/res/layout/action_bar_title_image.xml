@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="60dip"
+    android:orientation="horizontal">
+<!--- android:background="@drawable/action_bar_gradient" -->
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="60dip"
+        android:layout_weight="1"
+        android:orientation="vertical">
+    <!---   android:layout_weight="1" make a trick if you want this LL to fill all available space -->
+        <TextView
+            android:id="@+id/abar_title_id"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="60dip"
+            android:textSize="18dp"
+            android:text="**"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textStyle="bold" />
+    <!--- android:layout_alignParentLeft="true" android:layout_centerInParent="true" -->
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/abar_title1_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:textSize="16dp"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/abar_title2_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:textSize="16dp"
+                android:textColor="@color/white" />
+        </RelativeLayout>
+    </LinearLayout>
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="48dip"
+        android:layout_height="48dip"
+        android:layout_gravity="top"
+        android:layout_marginRight="0dp"
+        android:background="@null"
+        android:src="@drawable/hos_48" />
+</LinearLayout>

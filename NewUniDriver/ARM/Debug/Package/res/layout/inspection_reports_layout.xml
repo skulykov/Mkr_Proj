@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ListView
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/list_inspection_reports"
+            android:dividerHeight="1dp"
+            android:divider="@color/listviewdivider"
+            android:listSelector="@drawable/list_selector"
+            android:background="@color/backgroudcolor" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:background="@color/bottom_toolbar"
+            android:minHeight="60dp"
+            android:gravity="center">
+     
+            <ImageButton
+                android:id="@+id/imgBtnNewInspection"
+                android:src="@drawable/ic_new"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:onClick="NewReport"
+                android:background="@drawable/action_item_bkg_transparent" />
+            <ImageButton
+                android:id="@+id/imgBtnSyncInspection"
+                android:src="@drawable/ic_refresh"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:onClick="SyncReport"
+                android:background="@drawable/action_item_bkg_transparent" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

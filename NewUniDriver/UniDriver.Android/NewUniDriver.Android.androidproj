@@ -1,0 +1,435 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|ARM">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM">
+      <Configuration>Release</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x86">
+      <Configuration>Debug</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x86">
+      <Configuration>Release</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <RootNamespace>UniDriver.Android</RootNamespace>
+    <MinimumVisualStudioVersion>14.0</MinimumVisualStudioVersion>
+    <ProjectVersion>1.0</ProjectVersion>
+    <ProjectGuid>{83fa21a7-de09-4063-91e7-d9775af2e2d1}</ProjectGuid>
+    <_PackagingProjectWithoutNativeComponent>true</_PackagingProjectWithoutNativeComponent>
+    <LaunchActivity Condition="'$(LaunchActivity)' == ''">com.UniDriver.Android.UniDriver.Android</LaunchActivity>
+  </PropertyGroup>
+  <Import Project="$(AndroidTargetsPath)\Android.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'" Label="Configuration">
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <TargetName>$(RootNamespace)</TargetName>
+    <AndroidAPILevel>android-16</AndroidAPILevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'" Label="Configuration">
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <TargetName>$(RootNamespace)</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x86'" Label="Configuration">
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <TargetName>$(RootNamespace)</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x86'" Label="Configuration">
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <TargetName>$(RootNamespace)</TargetName>
+  </PropertyGroup>
+  <Import Project="$(AndroidTargetsPath)\Android.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x86'">
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
+    <AntPackage>
+      <AndroidAppLibName />
+    </AntPackage>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">
+    <AntPackage>
+      <AndroidAppLibName />
+    </AntPackage>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Content Include="ARM\Debug\.unsuccessfulbuild" />
+    <Content Include="ARM\Debug\GenerateAndroidAntScript.incremental" />
+    <Content Include="ARM\Release\GenerateAndroidAntScript.incremental" />
+    <Content Include="ARM\Release\UniDriver.Android.androidproj.FileListAbsolute.txt" />
+    <Content Include="libs\android-support-v4.jar" />
+    <Content Include="libs\android-support-v7-appcompat.jar" />
+    <Content Include="libs\armeabi-v7a\gdbserver" />
+    <Content Include="libs\armeabi-v7a\libgnustl_static.a" />
+    <Content Include="libs\armeabi-v7a\libUniDriver_Shared_Android.so" />
+    <Content Include="libs\core-3.0.0.jar" />
+    <Content Include="res\anim\disappear.xml" />
+    <Content Include="res\anim\fadein.xml" />
+    <Content Include="res\anim\fadeout.xml" />
+    <Content Include="res\anim\grow_from_bottom.xml" />
+    <Content Include="res\anim\grow_from_bottomleft_to_topright.xml" />
+    <Content Include="res\anim\grow_from_bottomright_to_topleft.xml" />
+    <Content Include="res\anim\grow_from_top.xml" />
+    <Content Include="res\anim\grow_from_topleft_to_bottomright.xml" />
+    <Content Include="res\anim\grow_from_topright_to_bottomleft.xml" />
+    <Content Include="res\anim\popup_appear.xml" />
+    <Content Include="res\anim\popup_disappear.xml" />
+    <Content Include="res\anim\pull_in_left.xml" />
+    <Content Include="res\anim\pull_in_right.xml" />
+    <Content Include="res\anim\pump_bottom.xml" />
+    <Content Include="res\anim\pump_top.xml" />
+    <Content Include="res\anim\push_out_left.xml" />
+    <Content Include="res\anim\push_out_right.xml" />
+    <Content Include="res\anim\rail.xml" />
+    <Content Include="res\anim\shrink_from_bottom.xml" />
+    <Content Include="res\anim\shrink_from_bottomleft_to_topright.xml" />
+    <Content Include="res\anim\shrink_from_bottomright_to_topleft.xml" />
+    <Content Include="res\anim\shrink_from_top.xml" />
+    <Content Include="res\anim\shrink_from_topleft_to_bottomright.xml" />
+    <Content Include="res\anim\shrink_from_topright_to_bottomleft.xml" />
+    <Content Include="res\anim\slide_out_down.xml" />
+    <Content Include="res\anim\slide_up_dialog.xml" />
+    <Content Include="res\drawable-hdpi\btn_check_off.png" />
+    <Content Include="res\drawable-hdpi\btn_check_on.png" />
+    <Content Include="res\drawable-hdpi\custom_info_bubble.9.png" />
+    <Content Include="res\drawable-hdpi\icon.png" />
+    <Content Include="res\drawable-hdpi\ic_drawer_light.png" />
+    <Content Include="res\drawable-ldpi\action_item_selected.9.png" />
+    <Content Include="res\drawable-ldpi\arrow_down.png" />
+    <Content Include="res\drawable-ldpi\arrow_up.png" />
+    <Content Include="res\drawable-ldpi\cb_off.png" />
+    <Content Include="res\drawable-ldpi\cb_on.png" />
+    <Content Include="res\drawable-ldpi\hos_driving.png" />
+    <Content Include="res\drawable-ldpi\hos_emerg.png" />
+    <Content Include="res\drawable-ldpi\hos_off_d.png" />
+    <Content Include="res\drawable-ldpi\hos_on_break.png" />
+    <Content Include="res\drawable-ldpi\hos_on_d.png" />
+    <Content Include="res\drawable-ldpi\hos_person.png" />
+    <Content Include="res\drawable-ldpi\hos_sleep.png" />
+    <Content Include="res\drawable-ldpi\ic_backward.png" />
+    <Content Include="res\drawable-ldpi\ic_cleared.png" />
+    <Content Include="res\drawable-ldpi\ic_forward.png" />
+    <Content Include="res\drawable-ldpi\ic_forward_small.png" />
+    <Content Include="res\drawable-ldpi\ic_menu_attachment.png" />
+    <Content Include="res\drawable-ldpi\ic_qr_checked.png" />
+    <Content Include="res\drawable-ldpi\ic_refresh.png" />
+    <Content Include="res\drawable-ldpi\ic_save.png" />
+    <Content Include="res\drawable-ldpi\ic_trash.png" />
+    <Content Include="res\drawable-ldpi\menu_up_arrow.png" />
+    <Content Include="res\drawable-ldpi\popup.9.png" />
+    <Content Include="res\drawable-ldpi\post_trip.png" />
+    <Content Include="res\drawable-ldpi\pre_trip.png" />
+    <Content Include="res\drawable-ldpi\wo_sts_accept_24.png" />
+    <Content Include="res\drawable-ldpi\wo_sts_complete_24.png" />
+    <Content Include="res\drawable-ldpi\wo_sts_dispatched_24.png" />
+    <Content Include="res\drawable-ldpi\wo_sts_open_24.png" />
+    <Content Include="res\drawable-ldpi\wo_sts_reject_24.png" />
+    <Content Include="res\drawable-ldpi\wo_sts_start_24.png" />
+    <Content Include="res\drawable-mdpi\atten.png" />
+    <Content Include="res\drawable-mdpi\back_white_32.png" />
+    <Content Include="res\drawable-mdpi\button_normal.9.png" />
+    <Content Include="res\drawable-mdpi\checkedbox32x32.png" />
+    <Content Include="res\drawable-mdpi\checkedbox48x48.png" />
+    <Content Include="res\drawable-mdpi\drawer_shadow_dark.9.png" />
+    <Content Include="res\drawable-mdpi\drawer_shadow_light.9.png" />
+    <Content Include="res\drawable-mdpi\help.png" />
+    <Content Include="res\drawable-mdpi\hos.png" />
+    <Content Include="res\drawable-mdpi\hos_48.png" />
+    <Content Include="res\drawable-mdpi\ic_camera.png" />
+    <Content Include="res\drawable-mdpi\ic_cancel.png" />
+    <Content Include="res\drawable-mdpi\ic_erase.png" />
+    <Content Include="res\drawable-mdpi\ic_login.png" />
+    <Content Include="res\drawable-mdpi\ic_menu_add.png" />
+    <Content Include="res\drawable-mdpi\ic_menu_cc.png" />
+    <Content Include="res\drawable-mdpi\ic_new.png" />
+    <Content Include="res\drawable-mdpi\ic_post_trip.png" />
+    <Content Include="res\drawable-mdpi\ic_pre_trip.png" />
+    <Content Include="res\drawable-mdpi\ic_qr.png" />
+    <Content Include="res\drawable-mdpi\ic_qr_btn.png" />
+    <Content Include="res\drawable-mdpi\ic_search.png" />
+    <Content Include="res\drawable-mdpi\ic_send_email.png" />
+    <Content Include="res\drawable-mdpi\ic_signature.png" />
+    <Content Include="res\drawable-mdpi\ic_signed.png" />
+    <Content Include="res\drawable-mdpi\ic_video.png" />
+    <Content Include="res\drawable-mdpi\inspection.png" />
+    <Content Include="res\drawable-mdpi\login_white.png" />
+    <Content Include="res\drawable-mdpi\logout.png" />
+    <Content Include="res\drawable-mdpi\messaging.png" />
+    <Content Include="res\drawable-mdpi\navigation.png" />
+    <Content Include="res\drawable-mdpi\repeat_bg.png" />
+    <Content Include="res\drawable-mdpi\settings.png" />
+    <Content Include="res\drawable-mdpi\three_lines.png" />
+    <Content Include="res\drawable-mdpi\unchekedbox32x32.png" />
+    <Content Include="res\drawable-mdpi\unchekedbox48x48.png" />
+    <Content Include="res\drawable-mdpi\user_blank.png" />
+    <Content Include="res\drawable-mdpi\vehicle.png" />
+    <Content Include="res\drawable-mdpi\work_order.png" />
+    <Content Include="res\drawable-xhdpi\apptheme_textfield_activated_holo_light.9.png" />
+    <Content Include="res\drawable-xhdpi\apptheme_textfield_default_holo_light.9.png" />
+    <Content Include="res\drawable-xhdpi\apptheme_textfield_disabled_focused_holo_light.9.png" />
+    <Content Include="res\drawable-xhdpi\apptheme_textfield_disabled_holo_light.9.png" />
+    <Content Include="res\drawable-xhdpi\apptheme_textfield_focused_holo_light.9.png" />
+    <Content Include="res\drawable-xhdpi\bubble_green.9.png" />
+    <Content Include="res\drawable-xhdpi\bubble_yellow.9.png" />
+    <Content Include="res\drawable\action_item_bkg_transparent.xml" />
+    <Content Include="res\drawable\action_item_btn.xml" />
+    <Content Include="res\drawable\apptheme_edit_text_holo_light.xml" />
+    <Content Include="res\drawable\bar_bg1.png" />
+    <Content Include="res\drawable\button_background.xml" />
+    <Content Include="res\drawable\cb_background.xml" />
+    <Content Include="res\drawable\checkbox_selector.xml" />
+    <Content Include="res\drawable\custom_btn_genoa.xml" />
+    <Content Include="res\drawable\edittextstyle.xml" />
+    <Content Include="res\drawable\edittext_background.xml" />
+    <Content Include="res\drawable\edit_text_style.xml" />
+    <Content Include="res\drawable\footer_repeat.xml" />
+    <Content Include="res\drawable\glossy_gradient.xml" />
+    <Content Include="res\drawable\header_gradient.xml" />
+    <Content Include="res\drawable\h_rounded_edittext.xml" />
+    <Content Include="res\drawable\inspection_item_selector.xml" />
+    <Content Include="res\drawable\list_selector.xml" />
+    <Content Include="res\drawable\menu_item_selected_background.xml" />
+    <Content Include="res\drawable\menu_item_sel_bkgnd.xml" />
+    <Content Include="res\drawable\mydialog_shape.xml" />
+    <Content Include="res\drawable\my_profile_multitext_bottom.xml" />
+    <Content Include="res\drawable\my_profile_multitext_top.xml" />
+    <Content Include="res\drawable\my_profile_rounded_edittext.xml" />
+    <Content Include="res\drawable\red_button.xml" />
+    <Content Include="res\drawable\rounded_bkg_no_border.xml" />
+    <Content Include="res\drawable\rounded_edittext.xml" />
+    <Content Include="res\drawable\rounded_layout.xml" />
+    <Content Include="res\drawable\rounded_stroke_bkg.xml" />
+    <Content Include="res\drawable\rounded_stroke_selector.xml" />
+    <Content Include="res\drawable\rounded_text.xml" />
+    <Content Include="res\drawable\rounded_text_title.xml" />
+    <Content Include="res\drawable\tab_background_selector.xml" />
+    <Content Include="res\drawable\tab_focused.xml" />
+    <Content Include="res\drawable\tab_normal.xml" />
+    <Content Include="res\drawable\tab_selected.xml" />
+    <Content Include="res\drawable\tab_text_selector.xml" />
+    <Content Include="res\layout-ldpi\action_item_horizontal.xml" />
+    <Content Include="res\layout-ldpi\action_item_vertical.xml" />
+    <Content Include="res\layout-ldpi\horiz_separator.xml" />
+    <Content Include="res\layout-ldpi\popup_horizontal.xml" />
+    <Content Include="res\layout-ldpi\popup_vertical.xml" />
+    <Content Include="res\layout\action_bar_title.xml" />
+    <Content Include="res\layout\action_bar_title_image.xml" />
+    <Content Include="res\layout\coworker_list.xml" />
+    <Content Include="res\layout\coworker_list_row.xml" />
+    <Content Include="res\layout\custom_ab_help.xml" />
+    <Content Include="res\layout\custom_action_bar.xml" />
+    <Content Include="res\layout\custom_action_bar_hos_daily_logs.xml" />
+    <Content Include="res\layout\custom_dialog_title.xml" />
+    <Content Include="res\layout\custom_info_window.xml" />
+    <Content Include="res\layout\email_send_layout.xml" />
+    <Content Include="res\layout\horiz_list_img_item.xml" />
+    <Content Include="res\layout\hos_daily_logs_container_layout.xml" />
+    <Content Include="res\layout\hos_daily_logs_fragment_layout.xml" />
+    <Content Include="res\layout\hos_event_edit_layout.xml" />
+    <Content Include="res\layout\hos_event_list_row.xml" />
+    <Content Include="res\layout\hos_main_layout.xml" />
+    <Content Include="res\layout\hos_rules.xml" />
+    <Content Include="res\layout\inspection_add_deffect.xml" />
+    <Content Include="res\layout\inspection_cat_form_layout.xml" />
+    <Content Include="res\layout\inspection_items_form_layout.xml" />
+    <Content Include="res\layout\inspection_item_list_row.xml" />
+    <Content Include="res\layout\inspection_reports_layout.xml" />
+    <Content Include="res\layout\inspection_reports_tabs.xml" />
+    <Content Include="res\layout\inspection_report_list_row.xml" />
+    <Content Include="res\layout\insp_category_list_row.xml" />
+    <Content Include="res\layout\jobs_item_details_layout.xml" />
+    <Content Include="res\layout\jobs_item_detail_chat.xml" />
+    <Content Include="res\layout\jobs_item_layout.xml" />
+    <Content Include="res\layout\jobs_main_layout.xml" />
+    <Content Include="res\layout\left_drawer_li.xml" />
+    <Content Include="res\layout\listitem_chat.xml" />
+    <Content Include="res\layout\login.xml" />
+    <Content Include="res\layout\login_cow.xml" />
+    <Content Include="res\layout\login_register.xml" />
+    <Content Include="res\layout\main_drawer_layout.xml" />
+    <Content Include="res\layout\marker_demo.xml" />
+    <Content Include="res\layout\my_chat_layout.xml" />
+    <Content Include="res\layout\my_dialog_layout.xml" />
+    <Content Include="res\layout\my_insp_tab.xml" />
+    <Content Include="res\layout\my_profile_layout.xml" />
+    <Content Include="res\layout\my_prof_signature_layout.xml" />
+    <Content Include="res\layout\my_webview.xml" />
+    <Content Include="res\layout\rdi_hos_recap.xml" />
+    <Content Include="res\layout\rdi_hos_recap_item.xml" />
+    <Content Include="res\layout\rdi_hos_times.xml" />
+    <Content Include="res\layout\sectional_list_header.xml" />
+    <Content Include="res\layout\sf_route_info_layout.xml" />
+    <Content Include="res\layout\sf_route_info_list_item.xml" />
+    <Content Include="res\layout\users_spinner_item.xml" />
+    <Content Include="res\layout\user_spinner_item_dd.xml" />
+    <Content Include="res\layout\vehicles_layout.xml" />
+    <Content Include="res\layout\vehicle_add_layout.xml" />
+    <Content Include="res\layout\view_media.xml" />
+    <Content Include="res\menu\drawer_main.xml" />
+    <Content Include="res\values\colors.xml" />
+    <Content Include="res\values\dimens.xml" />
+    <Content Include="res\values\strings.xml" />
+    <AntBuildXml Include="build.xml">
+      <SubType>Designer</SubType>
+    </AntBuildXml>
+    <AndroidManifest Include="AndroidManifest.xml">
+      <SubType>Designer</SubType>
+    </AndroidManifest>
+    <AntProjectPropertiesFile Include="project.properties" />
+    <Content Include="res\values\styles.xml" />
+    <Content Include="src\com\mkr\chat\ChatArrayAdapter.java" />
+    <Content Include="src\com\mkr\chat\ChatMessage.java" />
+    <Content Include="src\com\mkr\chat\ChatUser.java" />
+    <Content Include="src\com\mkr\chat\UsersArrayAdapter.java" />
+    <Content Include="src\com\mkr\service\IMkrMessageParam.java" />
+    <Content Include="src\com\mkr\service\MkrMsgBox.java" />
+    <Content Include="src\com\mkr\service\MkrNLib.java" />
+    <Content Include="src\com\mkr\unidriver\LoginActivity.java" />
+    <Content Include="src\com\mkr\unidriver\MessageActivity.java" />
+    <Content Include="src\com\mkr\utils\Util.java" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="assets\" />
+  </ItemGroup>
+  <ItemGroup>
+    <JavaCompile Include="gen\com\mkr\unidriver\BuildConfig.java" />
+    <JavaCompile Include="gen\com\mkr\unidriver\R.java" />
+    <JavaCompile Include="src\com\google\protobuf\AbstractMessageLite.java" />
+    <JavaCompile Include="src\com\google\protobuf\AbstractParser.java" />
+    <JavaCompile Include="src\com\google\protobuf\AbstractProtobufList.java" />
+    <JavaCompile Include="src\com\google\protobuf\BooleanArrayList.java" />
+    <JavaCompile Include="src\com\google\protobuf\ByteString.java" />
+    <JavaCompile Include="src\com\google\protobuf\CodedInputStream.java" />
+    <JavaCompile Include="src\com\google\protobuf\CodedOutputStream.java" />
+    <JavaCompile Include="src\com\google\protobuf\DoubleArrayList.java" />
+    <JavaCompile Include="src\com\google\protobuf\ExtensionLite.java" />
+    <JavaCompile Include="src\com\google\protobuf\ExtensionRegistryLite.java" />
+    <JavaCompile Include="src\com\google\protobuf\FieldSet.java" />
+    <JavaCompile Include="src\com\google\protobuf\FloatArrayList.java" />
+    <JavaCompile Include="src\com\google\protobuf\GeneratedMessageLite.java" />
+    <JavaCompile Include="src\com\google\protobuf\IntArrayList.java" />
+    <JavaCompile Include="src\com\google\protobuf\Internal.java" />
+    <JavaCompile Include="src\com\google\protobuf\InvalidProtocolBufferException.java" />
+    <JavaCompile Include="src\com\google\protobuf\LazyField.java" />
+    <JavaCompile Include="src\com\google\protobuf\LazyFieldLite.java" />
+    <JavaCompile Include="src\com\google\protobuf\LazyStringArrayList.java" />
+    <JavaCompile Include="src\com\google\protobuf\LazyStringList.java" />
+    <JavaCompile Include="src\com\google\protobuf\LongArrayList.java" />
+    <JavaCompile Include="src\com\google\protobuf\MapEntryLite.java" />
+    <JavaCompile Include="src\com\google\protobuf\MapFieldLite.java" />
+    <JavaCompile Include="src\com\google\protobuf\MessageLite.java" />
+    <JavaCompile Include="src\com\google\protobuf\MessageLiteOrBuilder.java" />
+    <JavaCompile Include="src\com\google\protobuf\MessageLiteToString.java" />
+    <JavaCompile Include="src\com\google\protobuf\MutabilityOracle.java" />
+    <JavaCompile Include="src\com\google\protobuf\NioByteString.java" />
+    <JavaCompile Include="src\com\google\protobuf\Parser.java" />
+    <JavaCompile Include="src\com\google\protobuf\ProtobufArrayList.java" />
+    <JavaCompile Include="src\com\google\protobuf\ProtocolStringList.java" />
+    <JavaCompile Include="src\com\google\protobuf\RopeByteString.java" />
+    <JavaCompile Include="src\com\google\protobuf\SmallSortedMap.java" />
+    <JavaCompile Include="src\com\google\protobuf\TextFormatEscaper.java" />
+    <JavaCompile Include="src\com\google\protobuf\UninitializedMessageException.java" />
+    <JavaCompile Include="src\com\google\protobuf\UnknownFieldSetLite.java" />
+    <JavaCompile Include="src\com\google\protobuf\UnmodifiableLazyStringList.java" />
+    <JavaCompile Include="src\com\google\protobuf\UnsafeByteOperations.java" />
+    <JavaCompile Include="src\com\google\protobuf\Utf8.java" />
+    <JavaCompile Include="src\com\google\protobuf\WireFormat.java" />
+    <JavaCompile Include="src\com\mkr\adapters\FormCategoryAdapter.java" />
+    <JavaCompile Include="src\com\mkr\adapters\FormInspectionItemAdapter.java" />
+    <JavaCompile Include="src\com\mkr\adapters\HosEventAdapter.java" />
+    <JavaCompile Include="src\com\mkr\adapters\ImageListAdaptor.java" />
+    <JavaCompile Include="src\com\mkr\adapters\InspectionReportAdapter.java" />
+    <JavaCompile Include="src\com\mkr\adapters\LeftPaneMenuAdapter.java" />
+    <JavaCompile Include="src\com\mkr\adapters\RightPaneHosRecapAdapter.java" />
+    <JavaCompile Include="src\com\mkr\adapters\SeparatedListAdapter.java" />
+    <JavaCompile Include="src\com\mkr\adapters\WorkOrdersAdapter.java" />
+    <JavaCompile Include="src\com\mkr\fragments\BaseFragment.java" />
+    <JavaCompile Include="src\com\mkr\fragments\HosViewFragment.java" />
+    <JavaCompile Include="src\com\mkr\fragments\InspectionFragment.java" />
+    <JavaCompile Include="src\com\mkr\fragments\MessagingFragment.java" />
+    <JavaCompile Include="src\com\mkr\fragments\SettingsFragment.java" />
+    <JavaCompile Include="src\com\mkr\fragments\WorkOrdersFragment.java" />
+    <JavaCompile Include="src\com\mkr\models\HosRecapMenuItem.java" />
+    <JavaCompile Include="src\com\mkr\models\JsonMessageCls.java" />
+    <JavaCompile Include="src\com\mkr\models\MenuItem.java" />
+    <JavaCompile Include="src\com\mkr\models\MyLocation.java" />
+    <JavaCompile Include="src\com\mkr\models\proto\CommPackets.java" />
+    <JavaCompile Include="src\com\mkr\models\RecapSummary.java" />
+    <JavaCompile Include="src\com\mkr\service\LocationService.java" />
+    <JavaCompile Include="src\com\mkr\service\MkrApp.java" />
+    <JavaCompile Include="src\com\mkr\unidriver\BaseDrawerActivity.java" />
+    <JavaCompile Include="src\com\mkr\unidriver\BasicMapActivity.java" />
+    <JavaCompile Include="src\com\mkr\unidriver\CreateVehicleActivity.java" />
+    <JavaCompile Include="src\com\mkr\unidriver\HelpActivity.java" />
+    <JavaCompile Include="src\com\mkr\unidriver\hos\CoWorkerLoginActivity.java" />
+    <JavaCompile Include="src\com\mkr\unidriver\hos\CoWorkerLogoutActivity.java" />
+    <JavaCompile Include="src\com\mkr\unidriver\hos\dailylogs\FixedSpeedScroller.java" />
+    <JavaCompile Include="src\com\mkr\unidriver\hos\dailylogs\HosDailyLogsPagerActivity.java" />
+    <JavaCompile Include="src\com\mkr\unidriver\hos\dailylogs\HosDailyLogsPagerAdapter.java" />
+    <JavaCompile Include="src\com\mkr\unidriver\hos\dailylogs\HosEventEditActivity.java" />
+    <JavaCompile Include="src\com\mkr\unidriver\hos\dailylogs\MyViewPager.java" />
+    <JavaCompile Include="src\com\mkr\unidriver\hos\dailylogs\PagerFragment.java" />
+    <JavaCompile Include="src\com\mkr\unidriver\hos\EmailActivity.java" />
+    <JavaCompile Include="src\com\mkr\unidriver\hos\HosActivity.java" />
+    <JavaCompile Include="src\com\mkr\unidriver\hos\HosHelper.java" />
+    <JavaCompile Include="src\com\mkr\unidriver\hos\RulesActivity.java" />
+    <JavaCompile Include="src\com\mkr\unidriver\inspection\AddDeffectActivity.java" />
+    <JavaCompile Include="src\com\mkr\unidriver\inspection\CheckType.java" />
+    <JavaCompile Include="src\com\mkr\unidriver\inspection\InspCatFormActivity.java" />
+    <JavaCompile Include="src\com\mkr\unidriver\inspection\InspectionActivity.java" />
+    <JavaCompile Include="src\com\mkr\unidriver\inspection\InspectionReportActivity.java" />
+    <JavaCompile Include="src\com\mkr\unidriver\inspection\InspHelper.java" />
+    <JavaCompile Include="src\com\mkr\unidriver\inspection\InspItemsActivity.java" />
+    <JavaCompile Include="src\com\mkr\unidriver\inspection\ViewMediaActivity.java" />
+    <JavaCompile Include="src\com\mkr\unidriver\MainDrawerActivity.java" />
+    <JavaCompile Include="src\com\mkr\unidriver\MyProfileActivity.java" />
+    <JavaCompile Include="src\com\mkr\unidriver\OnResultBaseActivity.java" />
+    <JavaCompile Include="src\com\mkr\unidriver\RegisterActivity.java" />
+    <JavaCompile Include="src\com\mkr\unidriver\route\RouteInfoActivity.java" />
+    <JavaCompile Include="src\com\mkr\unidriver\route\RouteItem.java" />
+    <JavaCompile Include="src\com\mkr\unidriver\route\RouteListAdapter.java" />
+    <JavaCompile Include="src\com\mkr\unidriver\VehiclesActivity.java" />
+    <JavaCompile Include="src\com\mkr\unidriver\workorders\JobStatusPopUp.java" />
+    <JavaCompile Include="src\com\mkr\unidriver\workorders\WODetailsChatActivity.java" />
+    <JavaCompile Include="src\com\mkr\unidriver\workorders\WorkOrderChatAdapter.java" />
+    <JavaCompile Include="src\com\mkr\unidriver\workorders\WorkOrderDetailsActivity.java" />
+    <JavaCompile Include="src\com\mkr\unidriver\workorders\WorkOrdersActivity.java" />
+    <JavaCompile Include="src\com\mkr\utils\DateUtil.java" />
+    <JavaCompile Include="src\com\mkr\utils\GConst.java" />
+    <JavaCompile Include="src\com\mkr\utils\MediaFile.java" />
+    <JavaCompile Include="src\com\mkr\utils\Screen.java" />
+    <JavaCompile Include="src\com\mkr\views\CaptureSignatureView.java" />
+    <JavaCompile Include="src\com\mkr\views\EditHosGraphView.java" />
+    <JavaCompile Include="src\com\mkr\views\HosCyclePopUp.java" />
+    <JavaCompile Include="src\com\mkr\views\HosEditStatusPU.java" />
+    <JavaCompile Include="src\com\mkr\views\HosGraphView.java" />
+    <JavaCompile Include="src\com\mkr\views\HosMenuQA.java" />
+    <JavaCompile Include="src\com\mkr\views\HosRecapIndicatorsElement.java" />
+    <JavaCompile Include="src\com\mkr\views\HosRecapIndicatorView.java" />
+    <JavaCompile Include="src\com\mkr\views\HosStatusCustomView.java" />
+    <JavaCompile Include="src\com\mkr\views\HosStatusPopup.java" />
+    <JavaCompile Include="src\com\mkr\views\InspectionReportView.java" />
+    <JavaCompile Include="src\com\mkr\views\SignatureDialog.java" />
+    <JavaCompile Include="src\net\londatiga\android\ActionItem.java" />
+    <JavaCompile Include="src\net\londatiga\android\PopupWindows.java" />
+    <JavaCompile Include="src\net\londatiga\android\QuickAction.java" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\UniDriver.Shared.Android\UniDriver.Shared.Android.vcxproj" />
+  </ItemGroup>
+  <Import Project="$(AndroidTargetsPath)\Android.targets" />
+  <ImportGroup Label="ExtensionTargets" />
+</Project>

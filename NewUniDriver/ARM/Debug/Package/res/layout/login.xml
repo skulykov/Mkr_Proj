@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/backgroudcolor"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/dialogLayout"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp">
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="48dip"
+            android:id="@+id/userName"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:ellipsize="start"
+            android:gravity="center"
+            android:drawableLeft="@drawable/ic_menu_cc"
+            android:paddingLeft="4dip"
+            android:hint="@string/str_username"
+            android:textColor="@color/textcolor"
+            android:background="@drawable/edit_text_style"
+            android:textSize="24dp"
+            android:textStyle="normal|bold"
+            android:inputType="text" />
+        <EditText
+            android:inputType="textPassword"
+            android:layout_width="fill_parent"
+            android:layout_height="48dip"
+            android:id="@+id/password"
+            android:hint="@string/str_pw"
+            android:textColor="@color/textcolor"
+            android:background="@drawable/edit_text_style"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:ellipsize="start"
+            android:gravity="center"
+            android:drawableLeft="@drawable/ic_login"
+            android:paddingLeft="4dip"
+            android:textStyle="normal|bold"
+            android:textSize="24dp" />
+    <!--android:drawableLeft="@android:drawable/ic_lock_lock" -->
+        <TextView
+            android:text="@string/str_wrong_usrpw"
+            android:textColor="#FF0000"
+            android:layout_width="fill_parent"
+            android:layout_height="48dip"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:textSize="24dp"
+            android:visibility="gone"
+            android:id="@+id/txt_login_error" />
+        <Button
+            android:id="@+id/log_in"
+            android:text="@string/str_login"
+            android:layout_width="200.0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:textSize="24dp"
+            android:textStyle="normal|bold"
+            android:background="@drawable/red_button" />
+    <!--  <Button
+            android:background="@drawable/red_button"
+            android:id="@+id/log_in"
+            android:layout_width="120.0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/str_login"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="30dp"
+            style="@style/button_text" /> -->
+    <!-- android:layout_below="@+id/domainName"-->
+    <!-- <CheckBox
+            android:id="@+id/chkRememberMe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/log_in"
+            android:textColor="@color/textcolor"
+            android:textSize="14dp"
+            android:text="@string/str_remember_me"
+            android:layout_centerInParent="true"
+            android:paddingRight="5dp"
+            android:scaleX="1.2"
+            android:scaleY="1.2" /> -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="bottom">
+            <Button
+                android:background="@drawable/action_item_btn"
+                android:id="@+id/log_reg_id"
+                android:layout_width="200.0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/str_login_reg"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="20dp"
+                android:onClick="RegisterBtn"
+                style="@style/button_text" />
+        </RelativeLayout>
+    <!-- android:background="@drawable/action_item_btn"  style="@style/button_text" -->
+    </LinearLayout>
+</LinearLayout>

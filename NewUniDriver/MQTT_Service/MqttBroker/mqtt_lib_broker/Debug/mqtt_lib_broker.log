@@ -1,0 +1,38 @@
+﻿Build started 11/14/2015 3:32:27 PM.
+     1>Project "C:\My\projects\NewUniDriver\MQTT_Service\MqttBroker\mqtt_lib_broker\mqtt_lib_broker.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\My\projects\NewUniDriver\MQTT_Service\MqttBroker\Debug\mqtt_lib_broker.exe" /INCREMENTAL /NOLOGO WSock32.Lib Ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\My\projects\NewUniDriver\MQTT_Service\MqttBroker\Debug\mqtt_lib_broker.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\My\projects\NewUniDriver\MQTT_Service\MqttBroker\Debug\mqtt_lib_broker.lib" /MACHINE:X86 Debug\memory_mosq.obj
+         Debug\net_mosq.obj
+         Debug\read_handle_shared.obj
+         Debug\send_client_mosq.obj
+         Debug\send_mosq.obj
+         Debug\time_mosq.obj
+         Debug\tls_mosq.obj
+         Debug\util_mosq.obj
+         Debug\will_mosq.obj
+         Debug\conf.obj
+         Debug\context.obj
+         Debug\database.obj
+         Debug\logging.obj
+         Debug\loop.obj
+         Debug\mosquitto.obj
+         Debug\net.obj
+         Debug\persist.obj
+         Debug\read_handle.obj
+         Debug\read_handle_client.obj
+         Debug\read_handle_server.obj
+         Debug\security.obj
+         Debug\security_default.obj
+         Debug\send_server.obj
+         Debug\subs.obj
+         Debug\sys_tree.obj
+         Debug\websockets.obj
+         C:\My\projects\NewUniDriver\MQTT_Service\MqttBroker\Debug\LibWebSkts.lib
+         C:\My\projects\NewUniDriver\MQTT_Service\MqttBroker\Debug\mqtt_lib.lib
+     1>LINK : warning LNK4031: no subsystem specified; CONSOLE assumed
+         mqtt_lib_broker.vcxproj -> C:\My\projects\NewUniDriver\MQTT_Service\MqttBroker\Debug\mqtt_lib_broker.exe
+     1>Done Building Project "C:\My\projects\NewUniDriver\MQTT_Service\MqttBroker\mqtt_lib_broker\mqtt_lib_broker.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.50

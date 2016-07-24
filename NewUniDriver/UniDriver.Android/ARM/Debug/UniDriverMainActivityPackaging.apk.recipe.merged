@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<project>
+  <SOLibPaths>C:\My\projects\NewUniDriver\ARM\Debug\libUniDriver_Shared_Android.so;C:\ProgramData\Microsoft\AndroidNDK\android-ndk-r10e\prebuilt\android-arm\gdbserver\gdbserver;C:\ProgramData\Microsoft\AndroidNDK\android-ndk-r10e\sources\cxx-stl\gnu-libstdc++\4.9\libs\armeabi-v7a\thumb\libgnustl_static.a</SOLibPaths>
+  <OObjPaths>C:\My\projects\NewUniDriver\UniDriver.Shared.Android\ARM\Debug</OObjPaths>
+  <Configuration>Debug</Configuration>
+  <Platform>ARM</Platform>
+  <AndroidArchitecture>armeabi-v7a</AndroidArchitecture>
+</project>

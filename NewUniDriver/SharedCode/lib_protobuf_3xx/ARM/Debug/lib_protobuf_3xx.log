@@ -1,0 +1,62 @@
+﻿  ANDROID_HOME=C:\Android\android-sdk
+  ANT_HOME=C:\Program Files (x86)\Microsoft Visual Studio 14.0\Apps\apache-ant-1.9.3\
+  JAVA_HOME=C:\Program Files (x86)\Java\jdk1.6.0_39
+  NDK_ROOT=C:\ProgramData\Microsoft\AndroidNDK\android-ndk-r10e
+  pch.h
+  any.cc
+  any.pb.cc
+  api.pb.cc
+  arena.cc
+  arenastring.cc
+  descriptor.cc
+  descriptor.pb.cc
+  descriptor_database.cc
+  dynamic_message.cc
+  extension_set.cc
+  extension_set_heavy.cc
+  field_mask.pb.cc
+  generated_message_reflection.cc
+..\..\..\ExtLibs\protobuf-master\src\google\protobuf\generated_message_reflection.cc(76,13): warning : unused function 'SupportsArenas' [-Wunused-function]
+  inline bool SupportsArenas(const Descriptor* descriptor) {
+              ^
+  1 warning generated.
+  generated_message_util.cc
+  coded_stream.cc
+  strtod.cc
+  tokenizer.cc
+  zero_copy_stream.cc
+  zero_copy_stream_impl.cc
+  zero_copy_stream_impl_lite.cc
+  map_field.cc
+  message.cc
+  message_lite.cc
+  reflection_ops.cc
+  repeated_field.cc
+  bytestream.cc
+  common.cc
+  int128.cc
+  mathlimits.cc
+  once.cc
+  status.cc
+  stringpiece.cc
+  stringprintf.cc
+  structurally_valid.cc
+  strutil.cc
+  substitute.cc
+  text_format.cc
+..\..\..\ExtLibs\protobuf-master\src\google\protobuf\text_format.cc(77,13): warning : unused function 'GetAnyFieldDescriptors' [-Wunused-function]
+  inline bool GetAnyFieldDescriptors(const Message& message,
+              ^
+  1 warning generated.
+  unknown_field_set.cc
+  field_comparator.cc
+  field_mask_util.cc
+  field_mask_utility.cc
+..\..\..\ExtLibs\protobuf-master\src\google\protobuf\util\internal\field_mask_utility.cc(47,14): warning : unused function 'CreatePublicError' [-Wunused-function]
+  util::Status CreatePublicError(util::error::Code code,
+               ^
+  1 warning generated.
+  wire_format.cc
+  wire_format_lite.cc
+  C:\ProgramData\Microsoft\AndroidNDK\android-ndk-r10e\toolchains\arm-linux-androideabi-4.9\prebuilt\windows\bin\arm-linux-androideabi-ar.exe: creating ..\ExtLibs\liblib_protobuf_3xx.a
+  lib_protobuf_3xx.vcxproj -> ..\ExtLibs\liblib_protobuf_3xx.a

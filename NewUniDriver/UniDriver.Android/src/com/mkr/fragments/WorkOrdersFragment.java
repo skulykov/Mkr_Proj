@@ -1,0 +1,28 @@
+package com.mkr.fragments;
+
+import android.app.Activity;
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.view.Window;
+
+import com.mkr.unidriver.hos.HosActivity;
+import com.mkr.unidriver.workorders.WorkOrdersActivity;
+
+public class WorkOrdersFragment extends BaseFragment  
+{
+	@Override
+	  public View onCreateView(LayoutInflater inflater, ViewGroup container,Bundle savedInstanceState) {
+	   // View view = inflater.inflate(R.layout.fragment_rssitem_detail, container, false);
+		Activity act=getActivity(); 
+		Intent intent = new Intent(act, WorkOrdersActivity.class);
+		Window window = localManager.startActivity ("WorkOrdersActivity", intent);
+		 View currentView = window.getDecorView();
+     currentView.setVisibility(View.VISIBLE);
+     currentView.setFocusableInTouchMode(true);
+     ((ViewGroup)currentView).setDescendantFocusability(ViewGroup.FOCUS_AFTER_DESCENDANTS/*DescendantFocusability.AfterDescendants*/);
+	    return currentView;
+	  }
+}

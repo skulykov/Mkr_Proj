@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Log">
+      <UniqueIdentifier>{16ac5617-be3e-42af-ba41-ecd23d843e22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Audit">
+      <UniqueIdentifier>{12e0685f-6690-4677-a755-cf1d54416da2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data">
+      <UniqueIdentifier>{0e44e91b-0f3d-47d5-9f46-1e58b2dd0f23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Models">
+      <UniqueIdentifier>{d84d5506-cba8-4a90-ac15-84f4835bc130}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\HosEngine\Data\Definitions.cpp">
+      <Filter>Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HosEngine\Data\SharedObjects.cpp">
+      <Filter>Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HosEngine\Data\HOSAgent.cpp">
+      <Filter>Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HosEngine\Data\TimeUtil.cpp">
+      <Filter>Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HosEngine\Data\Utils.cpp">
+      <Filter>Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HosEngine\Audit\AuditLogic.cpp">
+      <Filter>Audit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HosEngine\HourCalculator.cpp" />
+    <ClCompile Include="..\HosEngine\Data\employee_row.cpp">
+      <Filter>Data\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HosEngine\Data\timelog_row.cpp">
+      <Filter>Data\Models</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\HosEngine\HourCalculator.h" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/backgroundGrey"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@color/green"
+        android:minHeight="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text=""
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="22dp"
+            android:textColor="@color/red"
+            android:textStyle="normal|bold"
+            android:gravity="center"
+            android:id="@+id/wo_title_id" />
+    <!--  android:background="@drawable/h_rounded_edittext"-->
+        <TextView
+            android:text=""
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:textStyle="normal|bold"
+            android:gravity="center"
+            android:id="@+id/wo_title1_id" />
+        <TextView
+            android:text=""
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:textStyle="normal|bold"
+            android:gravity="center"
+            android:id="@+id/wo_title2_id" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@color/backgroundGrey"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ListView
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="4dp"
+            android:id="@+id/list_jobs_id"
+            android:dividerHeight="1dp"
+            android:divider="@color/listviewdivider"
+            android:listSelector="@drawable/list_selector" />
+    <!-- android:background="@color/backgroudcolor"-->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:background="@color/bottom_toolbar"
+            android:minHeight="@dimen/toolbar_height"
+            android:gravity="center">
+            <ImageButton
+                android:id="@+id/jobs_btn_close_id"
+                android:src="@null"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:visibility="invisible"
+                android:background="@drawable/action_item_bkg_transparent" />
+        <!-- android:background="@drawable/button_background" -->
+            <ImageButton
+                android:id="@+id/jobs_btn_sync_id"
+                android:src="@drawable/ic_refresh"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/action_item_bkg_transparent"
+                android:layout_weight="1" />
+        <!--android:background="@drawable/button_background" -->
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

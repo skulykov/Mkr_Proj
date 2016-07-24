@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Test</string>
+    
+    
+    <string name="str_no_conn_title"> No Connection</string>
+    <string name="str_no_conn_msg"> You do not have an Internet connection.. Try later</string> 
+    <string name="str_incorrect_up"> Incorrect Username or Password</string>
+    <string name="str_no_users">NO Users</string>
+    <string name="str_no_users_msg">There are no registered users yet</string>
+    <string name="str_map_loc">Map location</string>
+    <string name="str_save"> Save credentials</string>
+   
+    <string name="str_barcode_scan">Barcode scan</string>
+    <string name="str_sign_done">Signature Done</string>
+    <string name="str_take_pict">Take Pictire</string>
+    <string name="str_capt_video">Capture Video</string>
+    
+     <!-- For Login screen -->
+    <string name="str_logout">Logout</string>
+    <string name="str_login">Login</string>
+    <string name="str_login_reg">Register</string>
+    <string name="str_username">Username</string>
+    <string name="str_pw">Password</string>
+    <string name="str_wrong_usrpw">Incorrect credentials</string>
+    <string name="str_please_wait">Please wait..</string>
+    
+    
+       
+    <!-- Main Tabs -->
+    <string name="str_disp">Dispatched</string>
+    <string name="str_started">Started</string>
+    <string name="str_messages">Messages</string>
+     <string name="str_camera">Camera</string>
+    
+     <string name="str_accepted">Accepted</string>
+     <string name="str_rejected">Rejected</string>
+     <string name="str_completed">Completed</string>
+    
+     <string name="str_invalid_loc_title_id">Invalid Location</string>
+     <string name="str_invalid_loc_msg_id">Your current location or destination is invalid</string>
+      
+     
+     <string name="str_Settings">Settings</string>
+     <string name="map_not_ready">Map is not ready yet</string>
+     <string name="clear_map">Clear</string>
+      <string name="reset_map">Reset</string>
+      
+           
+      
+       <string name="str_attention">Attention</string>
+       <string name="str_sel_asset">Select the asset first</string>
+       <string name="str_Space">----------</string>
+       
+       <string name="str_assets">Assets</string>
+       <string name="str_Trail">Trail</string>
+       <string name="str_clear">Clear</string>
+       
+       <!--  Report timing -->
+       <string name="str_start_time">Start</string>
+       <string name="str_end_time">End</string>
+       <string name="str_location_report">Location Report</string>
+       
+        <string name="draweropen">Open</string>
+        <string name="drawerclose">Close</string>
+        
+        <string name="ok_button">OK</string>
+        <string name="result_succeeded">OK</string>
+        <string name="result_failed">Failed</string>
+        <string name="result_failed_why">Failed Why</string>
+        <string name="scan_qr_code">Scan</string>
+   
+           	
+    	<!--  MyProfileActivity -->
+	<string name="my_profile_title">My Profile</string>
+	<string name="str_pw_mismatch">Password mismatch. Update new password or cancel password change</string>
+	<string name="str_change_pw_cancel">Cancel Change</string>
+	<string name="str_change_pw">Change Password</string>
+	<string name="str_current_pw">Current Password </string>
+	<string name="str_new_pw">New Password </string>
+	<string name="str_new_pw_confirm">Confirm Password </string>
+	<string name="str_signature">Signature</string>
+	<string name="str_change_signature">Change Signature</string>
+	<string name="str_is_day_light">Is Daylight Savings: </string>
+	<string name="str_hos_cycle">HOS Cycle: </string>
+	<string name="str_name">Name </string>
+	<string name="str_home_address">Home Address </string>	
+	<string name="str_licence">Driver Licence </string>
+	<string name="str_employee_id">Employee ID </string>
+	<string name="str_hos_time_zone">Time Zone: </string>
+    	
+	
+	<!---  HOS part    -->
+	<string name="str_off_d">OFF DUTY</string>
+    <string name="str_on_d">ON DUTY</string>
+    <string name="str_sleeping">SLEEPING BERTH</string>
+    <string name="str_driving">DRIVING</string>
+    <string name="str_emerg_dri">Emergency</string>
+    <string name="str_pers_dri">Personal Driving</string>
+
+    <string name="str_avail_onduty">Available on duty</string>
+    <string name="str_avail_dr">Available driving</string>
+
+    <!---  HOS menu    -->
+	<string name="str_recap">Hos Recap</string>
+    <string name="str_daily_logs">Daily Logs</string>
+    <string name="str_hos_rules">Hos Rules</string>
+    <string name="str_coworker">Co-worker login</string>
+    <string name="str_coworker_list">Co-workers list</string>
+    <string name="str_send_email">Send email</string>
+    <string name="str_email">Email</string>
+    <string name="str_full_name">Full name</string>
+      
+    <string name="str_hos_lbl_evnts">Hos Events</string>
+    <string name="str_hee_lbl_starttime">Start</string>
+    <string name="str_hee_lbl_status">Status</string>
+    <string name="str_hee_lbl_comments">Comments</string>
+    
+    <string name="str_description">Description</string>
+    <string name="str_license">License</string>
+    <string name="str_box_id">Vehicle ID</string>
+    
+    <!--  Inspections -->
+    <string name="str_recent_insp">Recent Inspections</string>
+    <string name="str_old_insp">Older Inspections</string>
+    <string name="str_add_defect_comment">Add defect description</string>
+    
+    <!--    HOS Rules -->
+   <string name="str_hos_veh_type">Vehicle Type: </string>
+	<string name="str_exceptions">U.S. Exceptions: </string>
+	<string name="str_24_cycle_reset">24 hrs cycle reset §395.1</string>
+	<string name="str_oilfield_waiting_time">Oilfield waiting time §395.1</string>
+	<string name="str_100_air_mile_radius">100 air-mile radius driver §395.1</string>
+	<string name="str_trans_construct_sandequipment">Transportation construction material sand equipment</string>
+	<string name="str_property_veh">Property-carrying</string>
+	<string name="str_passenger_veh">Passenger-carrying</string>
+	
+	  <!--  EmailActivity -->    
+	<string name="email_title">Send Email</string>
+	<string name="date_not_in_range">Selected date not within alowed period!</string>
+	<string name="email_not_valid">Valid Email required!</string>
+	<string name="email_need_attachment">Need at least 1 attachment!</string>
+	<string name="email_sent">Email was sent!</string>
+	<string name="email_not_all_signed">Not all logsheets have been signed!</string>
+	<string name="email_sign_send">Sign-Send</string>
+	<string name="str_email_address">Email Address:</string>
+	<string name="str_from">From:</string>
+	<string name="str_to">To:</string>
+	<string name="str_log_sheet">Log Sheet</string>
+	<string name="str_pre_trip">PreTrip</string>
+	<string name="str_post_trip">PostTrip</string>
+	<string name="str_pre_trip_insp">PreTrip Inspection</string>
+	<string name="str_post_trip_insp">PostTrip Inspection</string>
+	
+	<!---   WorkOrder Details  -->
+	<string name="str_instructions">Instructions</string>
+	<string name="str_taskno">Task#</string>
+	<string name="str_refno">Ref#</string>
+	<string name="str_caller">Caller</string>
+	<string name="str_address">Address</string>
+	<string name="str_status">Status</string>
+
+	<!---   WorkOrder Job Status  -->
+	<string name="str_job_disp">Dispatched</string>
+	<string name="str_job_accept">Accepted</string>
+	<string name="str_job_start">Started</string>
+	<string name="str_job_done">Completed</string>
+	<string name="str_job_rej">Rejected</string>
+
+	<string name="str_disp_chat">Dispatcher chat</string>
+	<string name="str_send">Send</string>
+
+
+	<string name="str_map_route">Show Route</string>
+	<string name="str_map_dirs">Directions</string>
+	<string name="str_map_allwo">All Workorders</string>
+	
+	
+</resources>

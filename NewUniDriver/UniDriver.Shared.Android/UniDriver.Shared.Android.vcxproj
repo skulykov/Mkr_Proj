@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|ARM">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x86">
+      <Configuration>Debug</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM">
+      <Configuration>Release</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x86">
+      <Configuration>Release</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{9e6065d7-1f67-4efd-bef3-22c42e73aec8}</ProjectGuid>
+    <Keyword>Android</Keyword>
+    <RootNamespace>UniDriver_Shared_Android</RootNamespace>
+    <MinimumVisualStudioVersion>14.0</MinimumVisualStudioVersion>
+    <ApplicationType>Android</ApplicationType>
+    <ApplicationTypeRevision>1.0</ApplicationTypeRevision>
+    <ProjectName>UniDriver.Shared.Android</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x86'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>Clang_3_6</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>Gcc_4_9</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x86'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>Clang_3_6</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>Clang_3_6</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Label="Shared" />
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>C:\My\MkrProj\NewUniDriver\my_proto_gen\src;C:\My\MkrProj\ExtLibs\protobuf-master\src;C:\My\MkrProj\NewUniDriver\SharedCode\HosEngine;C:\My\MkrProj\NewUniDriver\SharedCode\HosEngine\Data;C:\My\MkrProj\NewUniDriver\SharedCode\mqtt_client\lib_src;C:\My\MkrProj\NewUniDriver\SharedCode\mqtt_client\lib_src\cpp;C:\my\MkrProj\NewUniDriver\SharedCode\MkrLibSource\CommonUtils;C:\my\MkrProj\NewUniDriver\SharedCode\SQLiteWrapper\inc;C:\My\MkrProj\NewUniDriver\UniDriver.Shared.Android\Source\DataBase;C:\My\MkrProj\NewUniDriver\UniDriver.Shared.Android\Source\Models;C:\My\MkrProj\CPP\Mkr_Mobile_Uni\UniDriver\SharedCode\SQLiteWrapper\inc;C:\My\MkrProj\NewUniDriver\SharedCode\MkrLibSource;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>DEBUG=1;_DEBUG=1;ANDROID=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ExceptionHandling>Enabled</ExceptionHandling>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <AdditionalOptions>-fsigned-char -std=c++11 -std=gnu++11 -w</AdditionalOptions>
+      <CLanguageStandard>c11</CLanguageStandard>
+      <CppLanguageStandard>c++11</CppLanguageStandard>
+      <EnableNeonCodegen>true</EnableNeonCodegen>
+    </ClCompile>
+    <Link>
+      <AdditionalOptions>
+      </AdditionalOptions>
+      <LibraryDependencies>MkrLib;protobuf_3xx_lite;SQLiteLib_Android;mqtt_client;HosEngineProj;GLESv2;%(LibraryDependencies)</LibraryDependencies>
+      <AdditionalDependencies>-lm</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\My\MkrProj\NewUniDriver\SharedCode\ExtLibs;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy /Y "$(SolutionDir)ARM\Debug\libUniDriver_Shared_Android.so" "$(SolutionDir)UniDriver.Android\libs\armeabi-v7a"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x86'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>C:\My\projects\CPP\Mkr_Mobile_Uni\UniDriver\UniDriver.Shared.Android\Source\CustomGUI;C:\My\projects\CPP\Mkr_Mobile_Uni\UniDriver\SharedCode\SQLiteWrapper\inc;C:\My\projects\CPP\Mkr_Mobile_Uni\UniDriver\SharedCode\JuceLibraryCode\modules\juce_core\network;C:\My\projects\CPP\Mkr_Mobile_Uni\UniDriver\SharedCode\JuceLibraryCode;C:\My\projects\CPP\Mkr_Mobile_Uni\UniDriver\UniDriver.Shared.Android\Source\CommonUtils;C:\My\projects\CPP\Mkr_Mobile_Uni\UniDriver\SharedCode\JuceLibraryCode\modules;C:\My\projects\CPP\Mkr_Mobile_Uni\UniDriver\UniDriver.Shared.Android\Source\DataBase;C:\My\projects\CPP\Mkr_Mobile_Uni\UniDriver\UniDriver.Shared.Android\Source\Network;C:\My\projects\CPP\Mkr_Mobile_Uni\UniDriver\UniDriver.Shared.Android\Source\Models;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ExceptionHandling>Enabled</ExceptionHandling>
+      <EnableNeonCodegen>true</EnableNeonCodegen>
+      <CLanguageStandard>c11</CLanguageStandard>
+      <CppLanguageStandard>c++11</CppLanguageStandard>
+      <PreprocessorDefinitions>JUCE_ANDROID=1;JUCE_ANDROID_ACTIVITY_CLASSNAME=com_mkr_unidriver_UniDriverMainActivity;JUCE_ANDROID_ACTIVITY_CLASSPATH="com/mkr/unidriver/UniDriverMainActivity";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\my_proto_gen\src\my_common_proto_comm_lite.pb.h" />
+    <ClInclude Include="..\my_proto_gen\src\my_proto_comm_lite.pb.h" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="Source\BizLogic\Hos\hos_events.h" />
+    <ClInclude Include="Source\BizLogic\Hos\hos_interface.h" />
+    <ClInclude Include="Source\BizLogic\Inspection\InspHelper.h" />
+    <ClInclude Include="Source\DataBase\BaseDB.h" />
+    <ClInclude Include="Source\JniApi\JniHos.h" />
+    <ClInclude Include="Source\JniApi\JniInspection.h" />
+    <ClInclude Include="Source\JniApi\JniObj.h" />
+    <ClInclude Include="Source\JniApi\MkrMsgBox.h" />
+    <ClInclude Include="Source\JniApi\MkrNVMng.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="Source\JniApi\threadInf.h" />
+    <ClInclude Include="Source\JniApi\JniApi.h" />
+    <ClInclude Include="Source\Models\Global.h" />
+    <ClInclude Include="Source\Models\JsonHelper.h" />
+    <ClInclude Include="Source\mqtt_client\ClsMqtt.h" />
+    <ClInclude Include="Source\Network\tcp_client.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\my_proto_gen\src\my_common_proto_comm_lite.pb.cc" />
+    <ClCompile Include="..\my_proto_gen\src\my_proto_comm_lite.pb.cc" />
+    <ClCompile Include="..\SharedCode\mqtt_client\lib_src\cpp\mosquittopp.cpp" />
+    <ClCompile Include="my_proto_comm.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Source\BizLogic\Hos\hos_events.cpp" />
+    <ClCompile Include="Source\BizLogic\Hos\hos_interface.cpp" />
+    <ClCompile Include="Source\BizLogic\Hos\run_hos_engine.cpp" />
+    <ClCompile Include="Source\BizLogic\Inspection\InspHelper.cpp" />
+    <ClCompile Include="Source\BizLogic\workorders\workorders_interface.cpp" />
+    <ClCompile Include="Source\DataBase\BaseDB.cpp" />
+    <ClCompile Include="Source\DataBase\db_interface.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Source\DataBase\EmployeeDB.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Source\DataBase\InspectionDB.cpp" />
+    <ClCompile Include="Source\DataBase\TimeLogDB.cpp" />
+    <ClCompile Include="Source\DataBase\WorkOrderDB.cpp" />
+    <ClCompile Include="Source\JniApi\JniHos.cpp" />
+    <ClCompile Include="Source\JniApi\JniInspection.cpp" />
+    <ClCompile Include="Source\JniApi\JniObj.cpp" />
+    <ClCompile Include="Source\JniApi\JniWorkOrders.cpp" />
+    <ClCompile Include="Source\JniApi\MkrMsgBox.cpp" />
+    <ClCompile Include="Source\JniApi\MkrNVMng.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Source\JniApi\threadInf.cpp" />
+    <ClCompile Include="Source\JniApi\JniApi.cpp" />
+    <ClCompile Include="Source\Models\Global.cpp" />
+    <ClCompile Include="Source\Models\JsonMessageCls.cpp" />
+    <ClCompile Include="Source\mqtt_client\ClsMqtt.cpp" />
+    <ClCompile Include="Source\mqtt_client\mqtt_client.cpp" />
+    <ClCompile Include="Source\Network\NetComm.cpp" />
+    <ClCompile Include="Source\Network\NetTcp.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Source\Network\RouteTable.cpp" />
+    <ClCompile Include="Source\Network\tcp_client.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets" />
+</Project>

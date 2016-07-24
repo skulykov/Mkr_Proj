@@ -1,0 +1,31 @@
+﻿  will_mosq.c
+  util_mosq.c
+  time_mosq.c
+  thread_mosq.c
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\errno.h(118): warning C4005: 'EPROTO': macro redefinition
+  c:\my\mkrproj\newunidriver\mqtt_service\mqttclient\mqtt_src\config.h(28): note: see previous definition of 'EPROTO'
+  srv_mosq.c
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\errno.h(118): warning C4005: 'EPROTO': macro redefinition
+  c:\my\mkrproj\newunidriver\mqtt_service\mqttclient\mqtt_src\config.h(28): note: see previous definition of 'EPROTO'
+  socks_mosq.c
+  send_mosq.c
+c:\my\mkrproj\newunidriver\mqtt_service\mqttclient\mqtt_src\lib\send_mosq.c(271): warning C4267: 'function': conversion from 'size_t' to 'uint16_t', possible loss of data
+  send_client_mosq.c
+c:\my\mkrproj\newunidriver\mqtt_service\mqttclient\mqtt_src\lib\send_client_mosq.c(99): warning C4267: 'function': conversion from 'size_t' to 'uint16_t', possible loss of data
+c:\my\mkrproj\newunidriver\mqtt_service\mqttclient\mqtt_src\lib\send_client_mosq.c(101): warning C4267: 'function': conversion from 'size_t' to 'uint16_t', possible loss of data
+c:\my\mkrproj\newunidriver\mqtt_service\mqttclient\mqtt_src\lib\send_client_mosq.c(124): warning C4267: 'function': conversion from 'size_t' to 'uint16_t', possible loss of data
+c:\my\mkrproj\newunidriver\mqtt_service\mqttclient\mqtt_src\lib\send_client_mosq.c(126): warning C4267: 'function': conversion from 'size_t' to 'uint16_t', possible loss of data
+c:\my\mkrproj\newunidriver\mqtt_service\mqttclient\mqtt_src\lib\send_client_mosq.c(130): warning C4267: 'function': conversion from 'size_t' to 'uint16_t', possible loss of data
+c:\my\mkrproj\newunidriver\mqtt_service\mqttclient\mqtt_src\lib\send_client_mosq.c(132): warning C4267: 'function': conversion from 'size_t' to 'uint16_t', possible loss of data
+c:\my\mkrproj\newunidriver\mqtt_service\mqttclient\mqtt_src\lib\send_client_mosq.c(190): warning C4267: 'function': conversion from 'size_t' to 'uint16_t', possible loss of data
+c:\my\mkrproj\newunidriver\mqtt_service\mqttclient\mqtt_src\lib\send_client_mosq.c(235): warning C4267: 'function': conversion from 'size_t' to 'uint16_t', possible loss of data
+  read_handle_shared.c
+  read_handle_client.c
+  read_handle.c
+  net_mosq.c
+  mosquitto.c
+c:\my\mkrproj\newunidriver\mqtt_service\mqttclient\mqtt_src\lib\mosquitto.c(901): warning C4018: '>': signed/unsigned mismatch
+  messages_mosq.c
+  logging_mosq.c
+  Generating Code...
+  mqtt_lib.vcxproj -> C:\my\MkrProj\NewUniDriver\MQTT_Service\MqttClient\Debug\mqtt_lib.lib

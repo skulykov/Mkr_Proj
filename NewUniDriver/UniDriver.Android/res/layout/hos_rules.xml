@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroudcolor">
+    <ScrollView
+        android:id="@+id/profile_scrollview"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:text="@string/str_hos_cycle"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:textColor="@color/textcolor"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp" />
+        <!--
+            <Spinner
+                android:id="@+id/spinner_cycle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_background" /> -->
+            <Button
+                android:text=""
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:drawableRight="@drawable/three_lines"
+                android:id="@+id/rule_cycle_btn"
+                android:onClick="CycleBtn"
+                android:layout_marginTop="0dp" />
+            <TextView
+                android:text="@string/str_hos_veh_type"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:textColor="@color/textcolor"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp" />
+
+            <RadioGroup
+                android:id="@+id/radio_group_veh_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="48dip"
+                android:orientation="vertical" >
+
+                <RadioButton
+                    android:id="@+id/radio_property_veh"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/str_property_veh"
+                    android:textColor="@color/default_back_color"
+                    android:checked="true"
+                    android:textSize="20dp" />
+
+                <RadioButton
+                    android:id="@+id/radio_passenger_veh"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/str_passenger_veh"
+                    android:textColor="@color/default_back_color"
+                    android:textSize="20dp" />
+            </RadioGroup>
+
+            <TextView
+                android:text="@string/str_exceptions"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:textColor="@color/textcolor"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp" />
+            <CheckBox
+                android:id="@+id/chk_24_cycle_reset"
+                android:text="@string/str_24_cycle_reset"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:button="@drawable/cb_background"
+                android:textColor="@color/textcolor" />
+            <CheckBox
+                android:id="@+id/chk_oilfield_waiting_time"
+                android:text="@string/str_oilfield_waiting_time"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:button="@drawable/cb_background"
+                android:textColor="@color/textcolor" />
+            <CheckBox
+                android:id="@+id/chk_100_air_mile_radius"
+                android:text="@string/str_100_air_mile_radius"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:button="@drawable/cb_background"
+                android:textColor="@color/textcolor" />
+            <CheckBox
+                android:id="@+id/chk_trans_construct_sandequipment"
+                android:text="@string/str_trans_construct_sandequipment"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:button="@drawable/cb_background"
+                android:textColor="@color/textcolor" />
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:background="@color/bottom_toolbar"
+        android:minHeight="60dp"
+        android:gravity="center">
+        <ImageButton
+            android:id="@+id/button_rules_cancel"
+            android:src="@drawable/ic_cancel"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:onClick="CancelBtn"
+            android:background="@drawable/action_item_bkg_transparent" />
+        <ImageButton
+            android:id="@+id/button_rules_save"
+            android:src="@drawable/ic_save"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:onClick="SaveBtn"
+            android:background="@drawable/action_item_bkg_transparent" />
+    </LinearLayout>
+</LinearLayout>
+

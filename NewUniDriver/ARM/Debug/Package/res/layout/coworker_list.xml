@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroudcolor">
+    <ListView
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:id="@+id/list_coworkers"
+        android:layout_weight="0.5"
+        android:dividerHeight="1dp"
+        android:divider="@color/listviewdivider"
+        android:listSelector="@drawable/list_selector"
+        android:background="@color/backgroudcolor" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bottom_toolbar"
+        android:layout_weight="0"
+        android:minHeight="60dp"
+        android:gravity="center">
+        <ImageButton
+            android:id="@+id/btn_coworker_cancel"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:src="@drawable/ic_cancel"
+            android:layout_weight="1"
+            android:onClick="CancelBtn"
+            android:background="@drawable/action_item_bkg_transparent" />
+        <ImageButton
+            android:id="@+id/btn_coworker_logout"
+            android:src="@drawable/ic_login"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:onClick="LogoutBtn"
+            android:background="@drawable/action_item_bkg_transparent" />
+    </LinearLayout>
+</LinearLayout>
+

@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
+    android:background="@color/backgroudcolor">
+    <ScrollView
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp">
+          <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/str_email_address"
+                android:imeOptions="actionDone"
+                android:textStyle="bold"
+                android:textColor="@color/textcolor" /> 
+             <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_email_address"
+                android:imeOptions="actionDone"
+                style="@style/EditTextCustomHolo"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:singleLine="true" />
+            
+             <!-- 
+            <AutoCompleteTextView
+                android:id="@+id/txt_email_address"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textcolor"
+                android:inputType="text"
+                android:background="@drawable/edittext_background" />  -->
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:layout_gravity="center_vertical"
+                android:paddingTop="10dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/str_from"
+                    android:textStyle="bold"
+                    android:textColor="@color/textcolor" />
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right">
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/btn_email_from_date_less"
+                        android:src="@drawable/ic_backward"
+                        android:onClick="FromLessBtn"
+                        android:background="@drawable/button_background" />
+                    <EditText
+                        android:id="@+id/txt_email_from_date"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:focusable="false"
+                        android:clickable="true"
+                        android:layout_marginTop="8dp"
+                        android:textStyle="bold"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/textcolor" />
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/btn_email_from_date_more"
+                        android:onClick="FromMoreBtn"
+                        android:src="@drawable/ic_forward"
+                        android:background="@drawable/button_background" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:layout_gravity="center_vertical"
+                android:paddingTop="10dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/str_to"
+                    android:textStyle="bold"
+                    android:textColor="@color/textcolor" />
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right">
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/btn_email_to_date_less"
+                        android:onClick="ToLessBtn"
+                        android:src="@drawable/ic_backward"
+                        android:background="@drawable/button_background" />
+                    <EditText
+                        android:id="@+id/txt_email_to_date"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:focusable="false"
+                        android:clickable="true"
+                        android:layout_marginTop="8dp"
+                        android:textStyle="bold"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/textcolor" />
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/btn_email_to_date_more"
+                        android:onClick="ToMoreBtn"
+                        android:src="@drawable/ic_forward"
+                        android:background="@drawable/button_background" />
+                </LinearLayout>
+            </LinearLayout>
+            <CheckBox
+                android:id="@+id/chk_email_log_sheet"
+                android:text="@string/str_log_sheet"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textcolor"
+                android:textStyle="bold"
+                android:button="@drawable/cb_background"
+                android:layout_marginTop="10dp" />
+            <CheckBox
+                android:id="@+id/chk_email_pre_trip_insp"
+                android:text="@string/str_pre_trip_insp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textcolor"
+                android:textStyle="bold"
+                android:button="@drawable/cb_background"
+                android:layout_marginTop="5dp" />
+            <CheckBox
+                android:id="@+id/chk_email_post_trip_insp"
+                android:text="@string/str_post_trip_insp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textcolor"
+                android:textStyle="bold"
+                android:button="@drawable/cb_background"
+                android:layout_marginTop="5dp" />
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:background="@color/bottom_toolbar"
+        android:minHeight="60dp"
+        android:gravity="center">
+        <ImageButton
+            android:id="@+id/btn_email_cancel"
+            android:src="@drawable/ic_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/action_item_bkg_transparent"
+            android:onClick="CancelBtn"
+            android:layout_weight="1" />
+    <!--android:visibility="gone"-->
+        <ImageButton
+            android:id="@+id/btn_email_send"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:src="@drawable/ic_send_email"
+            android:onClick="SaveBtn"
+            android:background="@drawable/action_item_bkg_transparent" />
+    </LinearLayout>
+</LinearLayout>
+

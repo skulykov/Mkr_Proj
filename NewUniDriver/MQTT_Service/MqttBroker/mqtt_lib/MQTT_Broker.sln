@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mqtt_lib", "mqtt_lib\mqtt_lib.vcxproj", "{7799EF08-56C1-433C-A860-CDEE138C7433}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mqtt_lib_broker", "..\mqtt_lib_broker\mqtt_lib_broker.vcxproj", "{B5E5B412-AF63-4FC2-B6B2-088A64DA136F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7799EF08-56C1-433C-A860-CDEE138C7433}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7799EF08-56C1-433C-A860-CDEE138C7433}.Debug|Win32.Build.0 = Debug|Win32
+		{7799EF08-56C1-433C-A860-CDEE138C7433}.Release|Win32.ActiveCfg = Release|Win32
+		{7799EF08-56C1-433C-A860-CDEE138C7433}.Release|Win32.Build.0 = Release|Win32
+		{B5E5B412-AF63-4FC2-B6B2-088A64DA136F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B5E5B412-AF63-4FC2-B6B2-088A64DA136F}.Debug|Win32.Build.0 = Debug|Win32
+		{B5E5B412-AF63-4FC2-B6B2-088A64DA136F}.Release|Win32.ActiveCfg = Release|Win32
+		{B5E5B412-AF63-4FC2-B6B2-088A64DA136F}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

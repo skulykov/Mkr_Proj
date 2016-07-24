@@ -1,0 +1,132 @@
+package com.mkr.service;
+
+
+import android.app.Activity;
+import android.app.Service;
+import android.content.Context;
+import android.content.Intent;
+import android.os.IBinder;
+import android.util.Log;
+import android.widget.Toast;
+
+public class MkrApp extends Service {
+
+	LocationService loc_service=null;
+	
+	    public static void StartApp( Context aContext, Runnable aResumeEvent )
+	    {
+	    	StartApp( aContext, aResumeEvent, APP_MODE_NORMAL );
+	    }
+	    public static void StopApp( Context aContext, Runnable aResumeEvent )
+	    {
+	    	 if ( MkrApp.IsInitialized() )
+	            {
+	            	Intent intent = new Intent( aContext, MkrApp.class );
+	            	aContext.stopService( intent );
+	            }
+	    }
+	    public static void StartApp( Context aContext, Runnable aResumeEvent, int aAppMode )
+	    {
+	        try
+	        {
+	         	MkrNLib.Get().initOnStart();       
+		     
+		        if ( !MkrApp.IsInitialized() )
+	            {
+	            	Intent intent = new Intent( aContext, MkrApp.class );
+	            	aContext.startService( intent );
+	            }
+		     
+	        }
+	        catch( Exception ex )
+	        {
+	        	Log.e( "MKR", "Error starting the application " + ex.getMessage() );
+	        	ex.printStackTrace();
+	        }
+
+	    }
+	    
+	    public static boolean IsInitialized()
+	    {
+	        return ( mInstance != null );
+	    }
+	    /*************************************************************************************************
+	     * Returns the application context reference
+	     * 
+	     * @param void
+	     * @return Context object of the process           
+	     */
+	    public static Context getAppContext()
+	    {
+	    	if ( mInstance != null )
+	    		return mInstance.getApplicationContext();
+	    	
+	    	if ( currentOnTopAct != null )
+	    		return currentOnTopAct.getApplicationContext();
+	    	
+			return null;
+	    }
+	    public static LocationService GetLocationService()
+	    {
+	    	return mInstance != null?mInstance.loc_service:null;
+	    }
+	    /*************************************************************************************************
+	     * The activity being used as a main activity
+	     */
+	   
+	    public static void SetCurrentOnTopActivity( Activity act )
+	    {
+	        currentOnTopAct = act;
+	    }
+	    public static Activity GetCurrentOnTopActivity()
+	    {
+	        return currentOnTopAct;
+	    }
+	    public static void SetMainActivity(Activity act)
+		{
+			main_act=act;
+		}
+
+		public static Activity GetMainActivity ()
+		{
+			return main_act;
+		} 
+	    
+	   	  
+	    
+	    public final static int APP_MODE_NORMAL = 0;	
+	    
+	    private static Activity currentOnTopAct;                // current on top activity
+	    private static Activity main_act;
+	    
+	 	  
+	    private static MkrApp    mInstance  = null;
+	    private final static String         LOG_TAG  = "MKRSrv";
+	    
+
+
+		@Override
+		public IBinder onBind(Intent arg0) {
+			// TODO Auto-generated method stub
+			return null;
+		}
+	    
+
+		@Override
+		   public int onStartCommand(Intent intent, int flags, int startId) {
+		      // Let it continue running until it is stopped.
+		      Toast.makeText(this, "Service Started", Toast.LENGTH_LONG).show();
+		      mInstance=this;
+	    	  mInstance.loc_service=new LocationService ();
+		      return START_STICKY;
+		   }
+		   
+		   @Override
+		   public void onDestroy() {
+		      super.onDestroy();
+		      mInstance=null;
+		      Toast.makeText(this, "Service Destroyed", Toast.LENGTH_LONG).show();
+		   }
+
+
+}

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="44dp"
+        android:background="#6B8AAD"
+        android:orientation="horizontal"
+        android:padding="0dip">
+        <TextView
+            android:id="@+id/prof_emp_name_id"
+            style="@style/TitleText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="5dip"
+            android:padding="0dip"
+            android:text="+++" />
+        <TextView
+            android:id="@+id/prof_emp_id_id"
+            style="@style/TitleText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:padding="0dip"
+            android:text="***" />
+    </RelativeLayout>
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/backgroundGrey">
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/backgroundGrey"
+            android:padding="15dip"
+            android:stretchColumns="1">
+            <TableRow
+                android:layout_marginBottom="10dip"
+                android:background="@drawable/my_profile_rounded_edittext">
+                <TextView
+                    style="@style/BoldText"
+                    android:padding="7dip"
+                    android:text="@string/str_username" />
+                <TextView
+                    android:id="@+id/prof_un_id"
+                    style="@style/DetailRightText"
+                    android:gravity="right"
+                    android:padding="7dip"
+                    android:singleLine="true" />
+            </TableRow>
+            <TableRow
+                android:layout_marginBottom="0dip"
+                android:background="@drawable/my_profile_multitext_top">
+                <TextView
+                    style="@style/BoldText"
+                    android:padding="7dip"
+                    android:text="@string/str_email" />
+            </TableRow>
+            <TableRow
+                android:layout_marginBottom="10dip"
+                android:background="@drawable/my_profile_multitext_bottom">
+                <TextView
+                    android:id="@+id/prof_email_id"
+                    style="@style/DetailRightText"
+                    android:layout_width="0dip"
+                    android:layout_span="2"
+                    android:gravity="right"
+                    android:padding="7dip" />
+            </TableRow>
+            <TableRow
+                android:background="@drawable/my_profile_multitext_top">
+                <TextView
+                    style="@style/BoldText"
+                    android:layout_span="2"
+                    android:padding="7dip"
+                    android:text="@string/str_home_address" />
+            </TableRow>
+            <TableRow
+                android:layout_marginBottom="10dip"
+                android:background="@drawable/my_profile_multitext_bottom">
+                <TextView
+                    android:id="@+id/prof_h_addr_id"
+                    style="@style/DetailMessageText"
+                    android:layout_span="2"
+                    android:layout_weight="1"
+                    android:padding="7dip" />
+            </TableRow>
+            <TableRow
+                android:layout_marginBottom="10dip"
+                android:background="@drawable/my_profile_rounded_edittext">
+                <TextView
+                    style="@style/BoldText"
+                    android:padding="7dip"
+                    android:text="@string/str_hos_cycle" />
+                <TextView
+                    android:id="@+id/prof_cycle_id"
+                    style="@style/DetailRightText"
+                    android:gravity="right"
+                    android:padding="7dip"
+                    android:singleLine="true" />
+            </TableRow>
+            <TableRow
+                android:layout_marginBottom="10dip"
+                android:background="@drawable/my_profile_rounded_edittext">
+                <TextView
+                    style="@style/BoldText"
+                    android:padding="7dip"
+                    android:text="@string/str_licence" />
+                <TextView
+                    android:id="@+id/prof_license_id"
+                    style="@style/DetailRightText"
+                    android:gravity="right"
+                    android:padding="7dip"
+                    android:singleLine="true" />
+            </TableRow>
+        <!-- Time Zone  -->
+            <TableRow
+                android:layout_marginBottom="10dip"
+                android:background="@drawable/my_profile_rounded_edittext">
+                <TextView
+                    style="@style/BoldText"
+                    android:padding="7dip"
+                    android:text="@string/str_hos_time_zone" />
+                <TextView
+                    android:id="@+id/prof_tz_id"
+                    style="@style/DetailRightText"
+                    android:gravity="right"
+                    android:padding="7dip"
+                    android:singleLine="true" />
+            </TableRow>
+        <!--  Signature -->
+            <TableRow
+                android:background="@drawable/my_profile_multitext_top"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_span="2">
+                    <TextView
+                        style="@style/BoldText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/str_signature"
+                        android:padding="7dp" />
+                    <Button
+                        android:id="@+id/btn_change_sign_id"
+                        android:background="@drawable/rounded_stroke_selector"
+                        android:text="Change"
+                        android:layout_width="100.0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:onClick="ChangeSignature"
+                        style="@style/ButtonText" />
+                <!-- android:background="@drawable/action_item_btn"   android:layout_marginLeft="20dp" android:textStyle="normal|bold" -->
+                </RelativeLayout>
+            </TableRow>
+            <TableRow
+                android:layout_marginBottom="10dip"
+                android:background="@drawable/my_profile_multitext_bottom">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:id="@+id/ll_cur_signature"
+                    android:layout_width="fill_parent"
+                    android:layout_height="180dp"
+                    android:layout_span="2" />
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+</LinearLayout>
+

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/hos_edit_root_id"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
+    android:background="@color/backgroudcolor">
+    <ScrollView
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:layout_gravity="top"
+        android:gravity="top"
+        android:fillViewport="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="240dp"
+                android:orientation="vertical"
+                android:id="@+id/hos_graph_view_id"
+                android:layout_marginRight="0.0dp" />
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:layout_gravity="center_vertical"
+                android:paddingTop="10dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/str_hee_lbl_starttime"
+                    android:textColor="@color/textcolor" />
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right">
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/btn_hea_time_less_id"
+                        android:src="@drawable/ic_backward"
+                        android:onClick="LessBtn"
+                        android:background="@drawable/button_background" />
+                    <EditText
+                        android:id="@+id/txt_hea_start_time_id"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:focusable="false"
+                        android:clickable="true"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/textcolor" />
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/btn_hea_time_more_id"
+                        android:src="@drawable/ic_forward"
+                        android:onClick="MoreBtn"
+                        android:background="@drawable/button_background" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:layout_gravity="center_vertical"
+                android:paddingTop="10dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/str_hee_lbl_status"
+                    android:textColor="@color/textcolor"
+                    android:paddingRight="30dp" />
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right">
+                <!--<Spinner
+                        android:id="@+id/spinner_hea_status_id"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/button_background"
+                        android:entries="@array/hos_manual_status_items" />-->
+                    <Button
+                        android:text=""
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="#FFFFFF"
+                        android:drawableRight="@drawable/three_lines"
+                        android:id="@+id/hea_sts_id"
+                        android:onClick="StatusBtnClick"
+                        android:layout_marginTop="0dp" />
+                </LinearLayout>
+            </LinearLayout>
+        <!-- odometer
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:layout_gravity="center_vertical"
+                android:paddingTop="10dp">
+                <TextView
+                    android:id="@+id/txt_hea_odo_title_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/textcolor"
+                    android:text="@string/str_odo_title"
+                    android:layout_marginRight="2dp" />
+                <TextView
+                    android:id="@+id/txtV_hea_odo_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/textcolor" />
+                <EditText
+                    android:id="@+id/txt_hea_odo_id"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:layout_width="150dip"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/textcolor"
+                    android:inputType="number"
+                    android:background="@drawable/edittext_background"
+                    android:visibility="gone" />
+            </LinearLayout> -->
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:layout_gravity="center_vertical"
+                android:paddingTop="10dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/str_hee_lbl_comments"
+                    android:textColor="@color/textcolor" />
+                <EditText
+                    android:id="@+id/txt_comments_id"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"
+                    android:textColor="@color/textcolor"
+                    android:background="@drawable/edittext_background" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:background="@color/bottom_toolbar"
+        android:minHeight="60dp"
+        android:gravity="center">
+        <ImageButton
+            android:id="@+id/btn_hea_cancel_id"
+            android:src="@drawable/ic_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:onClick="CancelBtn"
+            android:background="@drawable/action_item_bkg_transparent"
+            android:layout_weight="1" />
+        <ImageButton
+            android:id="@+id/btn_hea_save_id"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:onClick="SaveBtn"
+            android:src="@drawable/ic_save"
+            android:background="@drawable/action_item_bkg_transparent" />
+    </LinearLayout>
+</LinearLayout>
+

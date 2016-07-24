@@ -1,0 +1,355 @@
+//option java_package = "crosby.binary";
+//protoc --java_out=../.. fileformat.proto
+syntax="proto3";
+package my_comm_proto;
+
+//option optimize_for = LITE_RUNTIME;
+
+
+// [START java_declaration]
+option java_package = "com.example.tutorial";
+option java_outer_classname = "AddressBookProtos";
+// [END java_declaration]
+
+// [START csharp_declaration]
+option csharp_namespace = "Google.Protobuf.MyCommProto.CommPackets";
+// [END csharp_declaration]
+
+//=================================WorkOrders=====================================
+//enum PAMessageDirection
+//	{
+//		FromMobile=0;
+//		FromServer=1;
+//	}
+message PAMessage
+	{
+		    int32 aID=1;
+		    int32 rID=2;
+		    string msg=3;
+		    int64 ts=4;                               //DateTime ts;
+		    int32 type=5;        //PAMessageDirection 1- from mobile , 2 - from server
+		
+	}
+message PWOIStatus
+{
+    int64 ID=1;
+	int32 status=2;
+	//string comments=3;
+}
+message PWorkOrderItem {
+     int64 ID = 1; 
+     string Name = 2; 
+  
+     string Caller =3;
+  		   string Phone =4;
+  	   string Reference =5;
+
+ 		   string LocationName =6;
+ 		   string Street =7;
+ 		  
+ 		   string City =9;
+ 		   string Country =10;
+ 		   string PostalCode =11;
+ 		   string Region =12;
+ 		   string Province =13;
+ 		   string Instructions =14;
+
+ 		   int64 StartTime =15;
+ 		   int64 EndTime =16;
+
+		   string ActInstrs = 17;//ActivityInstructions
+
+		   int64 CreatedTS = 18; // CreatedTimeStamp
+		   int64 LastUpdtdTS = 19;//LastUpdatedTimeStamp
+
+		   int64 AcceptedTS = 20; // this time coming from dispatcher OR from mobile worker
+		   int64 CompletedTS =21;
+
+		   int32 status=22;
+		   int32 serviceGroup=23;
+		   int64 resourceID=24;
+		   double Lat=25;
+		   double Lon=26;
+
+		  // int32 addrLookupIndex=27;   //in DB  AddrLUP
+		   int32 editFlag=27;        ////in DB  EditF // 0 - new Activity , 1 - updated
+
+}
+message PWorkOrderList
+{
+	repeated PWorkOrderItem wo_items=1;
+}
+message PWOIStatusList
+{
+	repeated PWOIStatus wosts_items=1;
+}
+//===================================Login=========================
+message PBoxIdVehicleRow
+{
+   int64 ID=1;//BoxId = -1; // vehicle id
+           int64 mTS = 2;// current time in milliseconds since Epoch
+           string desc = 3;
+           int32 weight = 4;
+           int32 flag=5;//vehicleFlag = 0;
+           string VL=6;//VehicleLicensePlate = "";
+           string VLP=7;//VehicleLicenseProvince = "";
+
+           int32 cid = 8;  // client id
+           string Img = 9;
+           string maker = 10;
+		   string model = 11;
+		   string color = 12;
+           int32 year = 13;
+}
+message PBoxIdVehicleRowList
+{
+   repeated PBoxIdVehicleRow vitem=1;
+}
+message PConfiguration
+{
+    int32 inspHD = 1;
+    int32 inspHA = 2;
+    int32 imagesLimit = 3;
+           int32 violationthreshold = 4;  // HOS violation threshold 
+           int32 login = 5;  //  0- inspection screen goes first after login, 1 - HOS
+          bool _scan_flag = 6;
+           string SearchType = 7; // SearchType is delimited by ','
+           int32 ScreenLock = 8;   // if 1 then Lock the HOS screen ( do not allow to change driver status)
+           int32 OdoInputFlag = 9;  //0 - do not allow manual Odometer modification
+           int32 WeightThreshold = 10;  // threshold for vehicle weight 
+}
+message PEmployeeRow
+{
+      string ID = 1;                  //// the same as ResourceID
+           string DriverName = 2;
+           string UserName = 3;
+           string Email = 4;
+           string Password = 5;
+           string License = 6;
+           string Country = 7;
+
+           string Signature = 8;
+           string Domain = 9;                            // the same as ClientID
+           int32 Cycle = 10;//HOSCYCLE Cycle = HOSCYCLE.Canadian_70hr_7day;
+          int32 HOSExcept = 11;
+		  int32 ApplyDTS=12;//applyDTS - apply Day Time Savings
+         float TZ= 13;           //TimeZone
+      
+           string HomeAddress = 14;
+          bool IsSupervisor = 15;
+           string State = 16;
+           string OrgName = 17;
+		   string OrgAddr = 18;
+           string TimeZone = 20;
+          bool DLS = 21;   // DayLightSavings
+
+           string photo=22;
+}
+message PTimeLogRow
+{
+		  int32 Event = 1;
+          int64 LogTime = 2;
+          bool Signed = 3;
+         int32 TLID = 4;
+         int32 Type = 5;
+     
+         int32 Odo = 6;
+		 int32 Logbookstopid = 7; //30 min break -> make an assignement = AuditLogic.ThirtyMinutesOffDutyStart
+	
+		
+        
+		 string EqNo = 8;
+        
+		 float Lat = 9;
+         float Lon = 10;
+         string Comment = 11;
+         string DriverId = 12;
+         string State = 13; // Devin Added for audit
+         int32 BoxID = 14;
+
+		 int64 OLT = 15;//OrigLogTime = DateTime.MinValue; // used when editing timelog record
+         int32 Editor = 16;                           // 1- TimeLog has been edited
+		 float TZ = 17;
+		 float DST=18;   //TimeZone(TZ) added recently -> ApplyDST(DTS) Daylight Saving Time
+         string Addr = 19;
+		 int32 arGeo = 20;  // -1 - No Reverse Geocoding, 0- Reverse Geocoding ( address resolution) is in progress, 1 - DONE
+		 string CoDriver=21;
+		int32 QualifyRadiusRule=22;
+
+}
+ message PHosAlertRow
+ {
+		 int64 dt=1;
+		 string ondutyruleviolated=2;
+		 string drivingruleviolated=3; // rule violated
+		 int32 alertType=4;
+		 int32 drivingAvailable=5; // driving time available
+		 int32 ondutyAvailable=6; // On Duty time available
+
+		// bool haveSent = false;
+	}
+
+	message PRecapRow 
+	{
+		int64 date=1 ;
+		int32 today=2;
+		int32 cycleTotal=3;
+		int32 cycleAvailable=4;
+		string cycle = 5;
+		
+		// DataRowIdentifier DataRowID { get { return DataRowIdentifier.RecapRow; } }
+        bool sent = 6;  //haveSent
+	}
+	message PRuleSelectionHistoryRow
+			{
+			
+				 int32 RSHID = 1;
+				 int32 Ruleid = 2;//HOSCYCLE::NONE;
+				 int64 selectTime=3;//DateTime selectTime = DateTime::MinValue;
+				 string country = 4;
+				 int32 ruleException = 5;//RuleExceptions::None;
+				 bool sent = 6;
+			}
+	message PTimeLogRowList
+	{
+		repeated PTimeLogRow list=1;
+	}
+	message PRecapRowList
+	{
+		repeated PRecapRow list=1;
+	}
+	message PRuleSelectionHistoryRowList
+	{
+		repeated PRuleSelectionHistoryRow list=1;
+	}
+	//=========================Inspection Objects======================================================
+	message PInspectionItem 
+	{
+		 int32 iID = 1;
+		 int32 cID = 2;
+
+		 string Defect = 3;
+		 string DefAbbr = 4;
+		 int32 DefLevel=5; //DefLevels DefLevel = DefLevels.Defect; //0- minor, 1- major
+		 string Comments = 6;
+		 bool isDefect = 7; // To be able to track which item is actually added as deffect so that we can mark them in CategoryAdapter
+		 repeated string media_files = 8;  // to keep all media files accociated with this Inspection Item
+		 string attID=9;    // if empty this belongs to vehicle -> otherwise to attachment (e.g. trailor)
+		 string Clrd=10;
+		 string ClrdId=11;
+		 string ClrdName=12;
+	}
+	message PInspectionItemList
+	{
+         repeated PInspectionItem list=1;
+	}
+
+	message PInspectionCategoryRow 
+	{
+		 int32 cID = 1;
+		 string desc =2;
+		 int32 groupID = 3;
+		 int32 BarCodeID=4;  // It's  to scan to inspect this category !!!!!!!!
+		 string BCLoc=5;
+		 //repeated PInspectionItem items=6;
+		PInspectionItemList items=6;
+
+		// To be able to track which Category is check when driver does the circle check
+		// bool isChecked = false;   // need to be changed  ------------====================----------------------===========
+		int32 isChecked=7;  //CheckType isChecked=CheckType.NotChecked;// bool isCheckedFromScanner = false;
+	}
+
+	//==========for report==============================================
+	message PInspectionRow 
+	{
+		 int32 InsRID = 1;
+		 int64 InsTime=2; //DateTime InsTime = TimeUtil.DateTime_Now();
+		// LocationInfoRow location = new LocationInfoRow();
+		 string EqID = 3;
+		 int32 odo = 4;
+		 bool Signed = 5;
+		 repeated PInspectionItem Defects=6; //List<InspectionItem> Defects = new List<InspectionItem>();// ArrayList Defects = new ArrayList();
+
+		 string drId = 7;
+		 string drName = 8;
+		 int32 InsType=9;  //InspectionType InsType = InspectionType.None;
+		 string cb_cats = 10;
+		 string cb_a_cats=11;  // Devin request ?? not sure if it's right -> Contains all checked category for attachment
+		 int32 BoxID = 12;
+		 int32 tzOf=13;	// UTC offset 
+		 float Lat = 14;
+		 float Lon = 15;
+		 string attID=16;  // AttachmentID -> need when inspection contains attachment (e.g. trailor) 
+	}
+	message PInspectionRowList
+{
+  repeated PInspectionRow list = 1;
+}
+message PInspectionCategoryRowList
+{
+repeated PInspectionCategoryRow list=1;
+}
+
+//---------------------------------------------------------------------------------
+
+//these 2 messages used to send inpection reports data to server
+message PInspectionReportMediaFile
+{
+    string fname=1;
+	bytes payload=2;
+}
+message PInspectionReports
+{
+	PInspectionRowList reports=1;
+	repeated PInspectionReportMediaFile mfiles=2;
+}
+
+//this message to send new created vehicles data to the server
+message PVehicleReports
+{
+	PBoxIdVehicleRowList vehicles=1;
+	repeated PInspectionReportMediaFile mfiles=2;
+}
+
+
+
+message ClsLoginMD
+{
+		 bool res=1;
+		  int32 cid=2;
+        
+		  string user=3;
+          string pass=4;
+         int32 ResourceID=5;
+           string DrName=6;
+         
+        /* repeated*/ PBoxIdVehicleRowList vehicles=7;
+          PConfiguration config=8;
+          PEmployeeRow driverProf=9;
+}
+message PMobileHB
+{
+	  int32 rid=1;
+         float lat=2;
+         float lon=3;
+         int32 spd=4;
+         int32 cog=5;
+         int64 ts=6;  
+}
+
+message CommPacket
+{
+	  int32 req=1;
+        int32 rID=2;
+        int32 cID=3;
+	   string user=4;
+      bytes payload=5;
+}
+
+message PRegister
+{
+string user=1;
+string pass=2;
+string fname=3;
+string email=4;
+}

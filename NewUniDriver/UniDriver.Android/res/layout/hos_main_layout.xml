@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
+    android:background="@color/backgroundGrey">
+<!-- android:background="@color/primarybackground"    android:background="@color/white"-->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="130dip"
+        android:id="@+id/linearLayout1"
+        android:layout_marginBottom="0.0dp">
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:id="@+id/hos_status_view"
+            android:orientation="vertical"
+            android:layout_margin="0dp" />
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/hos_options_view"
+            android:orientation="vertical"
+            android:layout_marginBottom="0.0dp">
+            <TextView
+                android:text="Canadian 140hrs/14days"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:textColor="@color/red"
+                android:textStyle="normal|bold"
+                android:background="@drawable/h_rounded_edittext"
+                android:gravity="center"
+                android:id="@+id/hos_cycle_id" />
+            <Button
+                android:text="More.."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:drawableRight="@drawable/three_lines"
+                android:id="@+id/hos_opt_btn"
+                android:layout_marginTop="10dp" />
+        </LinearLayout>
+    </LinearLayout>
+    <ScrollView
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:layout_weight="1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="32dp"
+                android:background="@color/red"
+                android:orientation="horizontal"
+                android:id="@+id/hos_major_def_ll_id"
+                android:visibility="gone">
+                <ImageButton
+                    android:id="@+id/imageButton"
+                    android:layout_width="32dip"
+                    android:layout_height="32dip"
+                    android:layout_gravity="top"
+                    android:layout_marginRight="0dp"
+                    android:background="@null"
+                    android:src="@drawable/atten" />
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginTop="0dp"
+                    android:textSize="16dp"
+                    android:text=""
+                    android:textColor="@color/white"
+                    android:textStyle="normal|bold"
+                    android:gravity="center"
+                    android:id="@+id/hos_major_def_text_id" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="40dp"
+                android:id="@+id/hos_gr_header"
+                android:layout_marginRight="0.0dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20dp"
+                    android:textColor="@color/black"
+                    android:textStyle="normal|bold"
+                    android:gravity="center"
+                    android:id="@+id/hos_ts_id" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="200dip"
+                android:id="@+id/hos_graph_view"
+                android:orientation="vertical"
+                android:layout_marginRight="0.0dp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="40dp"
+                android:id="@+id/hos_footer_view"
+                android:layout_marginRight="0.0dp">
+                <TableLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/backgroundGrey"
+                    android:padding="15dip"
+                    android:stretchColumns="1">
+                    <TableRow
+                        android:layout_marginBottom="10dip"
+                        android:background="@drawable/my_profile_rounded_edittext">
+                        <TextView
+                            style="@style/BoldText"
+                            android:padding="7dip"
+                            android:text="@string/str_avail_onduty" />
+                        <TextView
+                            android:id="@+id/hos_avail_on_d_id"
+                            style="@style/HOSDetailRightText"
+                            android:gravity="right"
+                            android:padding="7dip"
+                            android:singleLine="true" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_marginBottom="10dip"
+                        android:background="@drawable/my_profile_rounded_edittext">
+                        <TextView
+                            style="@style/BoldText"
+                            android:padding="7dip"
+                            android:text="@string/str_avail_dr" />
+                        <TextView
+                            android:id="@+id/hos_avail_dr_id"
+                            style="@style/HOSDetailRightText"
+                            android:gravity="right"
+                            android:padding="7dip"
+                            android:singleLine="true" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_marginBottom="10dip"
+                        android:background="@drawable/my_profile_rounded_edittext">
+                        <TextView
+                            style="@style/BoldText"
+                            android:padding="7dip"
+                            android:text="Co-worker" />
+                        <EditText
+                            android:id="@+id/hos_cow_id"
+                            
+                            style="@style/EditTextCustomHolo"
+                            android:singleLine="true" /> <!-- style="@style/HOSEditText" -->
+                    </TableRow>
+                    <TableRow
+                        android:background="@drawable/my_profile_multitext_top">
+                        <TextView
+                            style="@style/BoldText"
+                            android:layout_span="2"
+                            android:padding="7dip"
+                            android:text="@string/str_home_address" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_marginBottom="10dip"
+                        android:background="@drawable/my_profile_multitext_bottom">
+                        <TextView
+                            android:id="@+id/hos_h_addr_id"
+                            style="@style/DetailMessageText"
+                            android:layout_span="2"
+                            android:layout_weight="1"
+                            android:padding="7dip" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_marginBottom="10dip"
+                        android:background="@drawable/my_profile_rounded_edittext">
+                        <TextView
+                            style="@style/BoldText"
+                            android:padding="7dip"
+                            android:text="@string/str_hos_time_zone" />
+                        <TextView
+                            android:id="@+id/hos_tz_id"
+                            style="@style/HOSDetailRightText"
+                            android:gravity="right"
+                            android:padding="7dip"
+                            android:singleLine="true" />
+                    </TableRow>
+                </TableLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+
