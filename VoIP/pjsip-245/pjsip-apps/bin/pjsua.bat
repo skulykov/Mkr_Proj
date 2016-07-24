@@ -1,0 +1,1 @@
+pjsua-i386-Win32-vc8-Debug.exe --config-file sergey.cfg
