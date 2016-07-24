@@ -1,0 +1,4 @@
+﻿  Building Custom Rule C:/My/MkrProj/ExtLibs/protobuf-master/cmake/CMakeLists.txt
+  CMake does not need to re-run because C:\My\MkrProj\ExtLibs\protobuf-master\cmake\build\solution\CMakeFiles\generate.stamp is up-to-date.
+  main.cc
+  protoc.vcxproj -> C:\My\MkrProj\ExtLibs\protobuf-master\cmake\build\solution\Debug\protoc.exe

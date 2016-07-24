@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{0945703a-5522-45e1-86d0-94e4e47373df}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SQLiteWrapper\src\KompexSQLiteBlob.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="SQLiteWrapper\src\KompexSQLiteDatabase.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="SQLiteWrapper\src\KompexSQLiteStatement.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="SQLiteWrapper\src\sqlite3.c">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

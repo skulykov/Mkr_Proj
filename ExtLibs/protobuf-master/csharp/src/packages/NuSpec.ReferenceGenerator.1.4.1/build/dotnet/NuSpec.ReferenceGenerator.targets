@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+
+  <!-- Look for .nuspec file -->
+
+  <ItemGroup Condition="@(NuSpecLibContent) == '' ">
+    <!-- Default to project output -->
+    <NuSpecLibContent Include="$(TargetPath)">
+      <Visible>False</Visible>
+    </NuSpecLibContent>
+  </ItemGroup>
+  <ItemGroup Condition="@(NuSpecProjectFile) == ''">
+    <NuSpecProjectFile Include="$(ProjectDir)$(ProjectFileName)">
+      <Visible>False</Visible>
+    </NuSpecProjectFile>
+  </ItemGroup>
+  
+  <PropertyGroup>
+    <NuSpecSearchRoot>$(SolutionDir)</NuSpecSearchRoot>
+    <NuSpecSearchRoot Condition="$(NuSpecSearchRoot) == '' Or $(NuSpecSearchRoot) == '*Undefined*'">$(MSBuildProjectDirectory)\..\</NuSpecSearchRoot>
+  </PropertyGroup>
+  
+  <ItemGroup Condition="@(NuSpecFile) == ''">
+    <!-- Look for a nuspec that matches the output name -->
+    <NuSpecFile Include="$(NuSpecSearchRoot)**\$(TargetName).nuspec">
+      <Visible>False</Visible>
+    </NuSpecFile>
+  </ItemGroup>
+
+  <PropertyGroup Condition="$(NuSpecTfm) == '' and '$(TargetPlatformIdentifier)' == 'UAP'">
+    <NuSpecTfm>uap10.0</NuSpecTfm>
+  </PropertyGroup>
+  <PropertyGroup Condition="$(NuSpecTfm) == ''">
+    <NuSpecTfm>dotnet</NuSpecTfm>
+  </PropertyGroup>
+
+  <Target Name="UpdateNuspecDependencies"
+          AfterTargets="Build"
+          Condition=" @(NuSpecFile) != '' and $(NuSpecTfm) != '' and @(NuSpecLibContent) != '' and @(NuSpecProjectFile) != ''" >
+
+
+    <!-- Build the command here as quotes are easier this way -->
+    <PropertyGroup Condition="'$(OS)' == 'Windows_NT'">
+      <RefGenExecCmd>"$(MSBuildThisFileDirectory)..\..\tools\RefGen.exe" "$(NuGetTargetMoniker);$(_NuGetTargetFallbackMoniker)" $(NuSpecTfm) "@(NuSpecFile)" "@(NuSpecProjectFile)" "@(NuSpecLibContent)"</RefGenExecCmd>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(OS)' != 'Windows_NT'">
+      <RefGenExecCmd>mono "$(MSBuildThisFileDirectory)../../tools/RefGen.exe" "$(NuGetTargetMoniker);$(_NuGetTargetFallbackMoniker)" $(NuSpecTfm) "@(NuSpecFile)" "@(NuSpecProjectFile)" "@(NuSpecLibContent)"</RefGenExecCmd>
+    </PropertyGroup>
+
+    <Exec Command="$(RefGenExecCmd)" Condition="'$(OS)' == 'Windows_NT'" />
+    <Message Text="Updated Nuspec" Condition="'$(OS)' == 'Windows_NT'" />
+    <Message Text="Warning Nuspec Reference Generator Does not support Linux/Unix yet" Condition="'$(OS)' != 'Windows_NT'" />
+
+  </Target>
+</Project>

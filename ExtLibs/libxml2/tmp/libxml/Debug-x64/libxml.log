@@ -1,0 +1,97 @@
+﻿Build started 1/5/2016 12:19:24 PM.
+     1>Project "E:\my\GIS\extLibs\libxml2\libxml.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I../zlib /I.\include /Zi /nologo /W0 /WX- /Od /D _DEBUG /D WIN32 /D _LIB /D HAVE_ZLIB_H /D _CRT_SECURE_NO_DEPRECATE /D _WINDLL /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"E:\my\GIS\extLibs\libxml2\tmp\libxml\Debug-x64\\" /Fd"E:\my\GIS\extLibs\libxml2\tmp\libxml\Debug-x64\vc120.pdb" /Gd /TC /errorReport:prompt /MP ..\libxml2\c14n.c ..\libxml2\catalog.c ..\libxml2\chvalid.c ..\libxml2\debugXML.c ..\libxml2\dict.c ..\libxml2\DOCBparser.c ..\libxml2\encoding.c ..\libxml2\entities.c ..\libxml2\error.c ..\libxml2\globals.c ..\libxml2\hash.c ..\libxml2\HTMLparser.c ..\libxml2\HTMLtree.c ..\libxml2\legacy.c ..\libxml2\list.c ..\libxml2\nanoftp.c ..\libxml2\nanohttp.c ..\libxml2\parser.c ..\libxml2\parserInternals.c ..\libxml2\pattern.c ..\libxml2\relaxng.c ..\libxml2\SAX.c ..\libxml2\SAX2.c ..\libxml2\schematron.c ..\libxml2\threads.c ..\libxml2\tree.c ..\libxml2\uri.c ..\libxml2\valid.c ..\libxml2\xinclude.c ..\libxml2\xlink.c ..\libxml2\xmlIO.c ..\libxml2\xmlmemory.c ..\libxml2\xmlmodule.c ..\libxml2\xmlreader.c ..\libxml2\xmlregexp.c ..\libxml2\xmlsave.c ..\libxml2\xmlschemas.c ..\libxml2\xmlschemastypes.c ..\libxml2\xmlstring.c ..\libxml2\xmlunicode.c ..\libxml2\xmlwriter.c ..\libxml2\xpath.c ..\libxml2\xpointer.c
+         c14n.c
+         catalog.c
+         chvalid.c
+         debugXML.c
+         dict.c
+         DOCBparser.c
+         encoding.c
+         entities.c
+         error.c
+         globals.c
+         hash.c
+         HTMLparser.c
+         HTMLtree.c
+         legacy.c
+         list.c
+         nanoftp.c
+         nanohttp.c
+         parser.c
+         parserInternals.c
+         pattern.c
+         relaxng.c
+         SAX.c
+         SAX2.c
+         schematron.c
+         threads.c
+         tree.c
+         uri.c
+         valid.c
+         xinclude.c
+         xlink.c
+         xmlIO.c
+         xmlmemory.c
+         xmlmodule.c
+         xmlreader.c
+         xmlregexp.c
+         xmlsave.c
+         xmlschemas.c
+         xmlschemastypes.c
+         xmlstring.c
+         xmlunicode.c
+         xmlwriter.c
+         xpath.c
+         xpointer.c
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\my\GIS\extLibs\libxml2\\binLibs\Debug-x64\libxmld.dll" /NOLOGO /LIBPATH:"C:\my\GIS\extLibs\binLibs\Debug-x64" Ws2_32.lib zlibwapi.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"E:\my\GIS\extLibs\libxml2\\binLibs\Debug-x64\libxmld.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\my\GIS\extLibs\libxml2\\binLibs\Debug-x64\libxmld.lib" /MACHINE:X64 /DLL "E:\my\GIS\extLibs\libxml2\tmp\libxml\Debug-x64\c14n.obj"
+         "E:\my\GIS\extLibs\libxml2\tmp\libxml\Debug-x64\catalog.obj"
+         "E:\my\GIS\extLibs\libxml2\tmp\libxml\Debug-x64\chvalid.obj"
+         "E:\my\GIS\extLibs\libxml2\tmp\libxml\Debug-x64\debugXML.obj"
+         "E:\my\GIS\extLibs\libxml2\tmp\libxml\Debug-x64\dict.obj"
+         "E:\my\GIS\extLibs\libxml2\tmp\libxml\Debug-x64\DOCBparser.obj"
+         "E:\my\GIS\extLibs\libxml2\tmp\libxml\Debug-x64\encoding.obj"
+         "E:\my\GIS\extLibs\libxml2\tmp\libxml\Debug-x64\entities.obj"
+         "E:\my\GIS\extLibs\libxml2\tmp\libxml\Debug-x64\error.obj"
+         "E:\my\GIS\extLibs\libxml2\tmp\libxml\Debug-x64\globals.obj"
+         "E:\my\GIS\extLibs\libxml2\tmp\libxml\Debug-x64\hash.obj"
+         "E:\my\GIS\extLibs\libxml2\tmp\libxml\Debug-x64\HTMLparser.obj"
+         "E:\my\GIS\extLibs\libxml2\tmp\libxml\Debug-x64\HTMLtree.obj"
+         "E:\my\GIS\extLibs\libxml2\tmp\libxml\Debug-x64\legacy.obj"
+         "E:\my\GIS\extLibs\libxml2\tmp\libxml\Debug-x64\list.obj"
+         "E:\my\GIS\extLibs\libxml2\tmp\libxml\Debug-x64\nanoftp.obj"
+         "E:\my\GIS\extLibs\libxml2\tmp\libxml\Debug-x64\nanohttp.obj"
+         "E:\my\GIS\extLibs\libxml2\tmp\libxml\Debug-x64\parser.obj"
+         "E:\my\GIS\extLibs\libxml2\tmp\libxml\Debug-x64\parserInternals.obj"
+         "E:\my\GIS\extLibs\libxml2\tmp\libxml\Debug-x64\pattern.obj"
+         "E:\my\GIS\extLibs\libxml2\tmp\libxml\Debug-x64\relaxng.obj"
+         "E:\my\GIS\extLibs\libxml2\tmp\libxml\Debug-x64\SAX.obj"
+         "E:\my\GIS\extLibs\libxml2\tmp\libxml\Debug-x64\SAX2.obj"
+         "E:\my\GIS\extLibs\libxml2\tmp\libxml\Debug-x64\schematron.obj"
+         "E:\my\GIS\extLibs\libxml2\tmp\libxml\Debug-x64\threads.obj"
+         "E:\my\GIS\extLibs\libxml2\tmp\libxml\Debug-x64\tree.obj"
+         "E:\my\GIS\extLibs\libxml2\tmp\libxml\Debug-x64\uri.obj"
+         "E:\my\GIS\extLibs\libxml2\tmp\libxml\Debug-x64\valid.obj"
+         "E:\my\GIS\extLibs\libxml2\tmp\libxml\Debug-x64\xinclude.obj"
+         "E:\my\GIS\extLibs\libxml2\tmp\libxml\Debug-x64\xlink.obj"
+         "E:\my\GIS\extLibs\libxml2\tmp\libxml\Debug-x64\xmlIO.obj"
+         "E:\my\GIS\extLibs\libxml2\tmp\libxml\Debug-x64\xmlmemory.obj"
+         "E:\my\GIS\extLibs\libxml2\tmp\libxml\Debug-x64\xmlmodule.obj"
+         "E:\my\GIS\extLibs\libxml2\tmp\libxml\Debug-x64\xmlreader.obj"
+         "E:\my\GIS\extLibs\libxml2\tmp\libxml\Debug-x64\xmlregexp.obj"
+         "E:\my\GIS\extLibs\libxml2\tmp\libxml\Debug-x64\xmlsave.obj"
+         "E:\my\GIS\extLibs\libxml2\tmp\libxml\Debug-x64\xmlschemas.obj"
+         "E:\my\GIS\extLibs\libxml2\tmp\libxml\Debug-x64\xmlschemastypes.obj"
+         "E:\my\GIS\extLibs\libxml2\tmp\libxml\Debug-x64\xmlstring.obj"
+         "E:\my\GIS\extLibs\libxml2\tmp\libxml\Debug-x64\xmlunicode.obj"
+         "E:\my\GIS\extLibs\libxml2\tmp\libxml\Debug-x64\xmlwriter.obj"
+         "E:\my\GIS\extLibs\libxml2\tmp\libxml\Debug-x64\xpath.obj"
+         "E:\my\GIS\extLibs\libxml2\tmp\libxml\Debug-x64\xpointer.obj"
+     1>LINK : fatal error LNK1181: cannot open input file 'zlibwapi.lib'
+     1>Done Building Project "E:\my\GIS\extLibs\libxml2\libxml.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.33

@@ -1,0 +1,29 @@
+﻿   Assembling: inffasx64.asm
+  Microsoft (R) Macro Assembler (x64) Version 14.00.23506.0
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+   Assembling: gvmat64.asm
+  Microsoft (R) Macro Assembler (x64) Version 14.00.23506.0
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  adler32.c
+  compress.c
+  crc32.c
+  deflate.c
+  gzclose.c
+  gzlib.c
+  gzread.c
+  gzwrite.c
+  infback.c
+  inffas8664.c
+  inffast.c
+  inflate.c
+  inftrees.c
+  ioapi.c
+  iowin32.c
+  trees.c
+  uncompr.c
+  zutil.c
+  unzip.c
+  zip.c
+  zlibvc.vcxproj -> C:\My\GIS\libosmscout-code\windows\\binLibs\Release-x64\zlibwapi.lib

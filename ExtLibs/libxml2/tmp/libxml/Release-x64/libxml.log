@@ -1,0 +1,61 @@
+﻿Build started 7/4/2012 7:43:25 PM.
+     1>Project "C:\my\GIS\extLibs\libxml2\libxml.vcxproj" on node 2 (build target(s)).
+     1>C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets(1200,9): warning : The referenced project 'zlib.vcxproj' does not exist.
+     1>InitializeBuildStatus:
+         Creating "C:\my\GIS\extLibs\libxml2\tmp\libxml\Release-x64\libxml.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       Lib:
+         All outputs are up-to-date.
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\Lib.exe /OUT:"C:\my\GIS\extLibs\libxml2\..\binLibs\Release-x64\\libxml.lib" Ws2_32.lib /NOLOGO /NODEFAULTLIB /MACHINE:X64 "C:\my\GIS\extLibs\libxml2\tmp\libxml\Release-x64\c14n.obj"
+         "C:\my\GIS\extLibs\libxml2\tmp\libxml\Release-x64\catalog.obj"
+         "C:\my\GIS\extLibs\libxml2\tmp\libxml\Release-x64\chvalid.obj"
+         "C:\my\GIS\extLibs\libxml2\tmp\libxml\Release-x64\debugXML.obj"
+         "C:\my\GIS\extLibs\libxml2\tmp\libxml\Release-x64\dict.obj"
+         "C:\my\GIS\extLibs\libxml2\tmp\libxml\Release-x64\DOCBparser.obj"
+         "C:\my\GIS\extLibs\libxml2\tmp\libxml\Release-x64\encoding.obj"
+         "C:\my\GIS\extLibs\libxml2\tmp\libxml\Release-x64\entities.obj"
+         "C:\my\GIS\extLibs\libxml2\tmp\libxml\Release-x64\error.obj"
+         "C:\my\GIS\extLibs\libxml2\tmp\libxml\Release-x64\globals.obj"
+         "C:\my\GIS\extLibs\libxml2\tmp\libxml\Release-x64\hash.obj"
+         "C:\my\GIS\extLibs\libxml2\tmp\libxml\Release-x64\HTMLparser.obj"
+         "C:\my\GIS\extLibs\libxml2\tmp\libxml\Release-x64\HTMLtree.obj"
+         "C:\my\GIS\extLibs\libxml2\tmp\libxml\Release-x64\legacy.obj"
+         "C:\my\GIS\extLibs\libxml2\tmp\libxml\Release-x64\list.obj"
+         "C:\my\GIS\extLibs\libxml2\tmp\libxml\Release-x64\nanoftp.obj"
+         "C:\my\GIS\extLibs\libxml2\tmp\libxml\Release-x64\nanohttp.obj"
+         "C:\my\GIS\extLibs\libxml2\tmp\libxml\Release-x64\parser.obj"
+         "C:\my\GIS\extLibs\libxml2\tmp\libxml\Release-x64\parserInternals.obj"
+         "C:\my\GIS\extLibs\libxml2\tmp\libxml\Release-x64\pattern.obj"
+         "C:\my\GIS\extLibs\libxml2\tmp\libxml\Release-x64\relaxng.obj"
+         "C:\my\GIS\extLibs\libxml2\tmp\libxml\Release-x64\SAX.obj"
+         "C:\my\GIS\extLibs\libxml2\tmp\libxml\Release-x64\SAX2.obj"
+         "C:\my\GIS\extLibs\libxml2\tmp\libxml\Release-x64\schematron.obj"
+         "C:\my\GIS\extLibs\libxml2\tmp\libxml\Release-x64\threads.obj"
+         "C:\my\GIS\extLibs\libxml2\tmp\libxml\Release-x64\tree.obj"
+         "C:\my\GIS\extLibs\libxml2\tmp\libxml\Release-x64\uri.obj"
+         "C:\my\GIS\extLibs\libxml2\tmp\libxml\Release-x64\valid.obj"
+         "C:\my\GIS\extLibs\libxml2\tmp\libxml\Release-x64\xinclude.obj"
+         "C:\my\GIS\extLibs\libxml2\tmp\libxml\Release-x64\xlink.obj"
+         "C:\my\GIS\extLibs\libxml2\tmp\libxml\Release-x64\xmlIO.obj"
+         "C:\my\GIS\extLibs\libxml2\tmp\libxml\Release-x64\xmlmemory.obj"
+         "C:\my\GIS\extLibs\libxml2\tmp\libxml\Release-x64\xmlmodule.obj"
+         "C:\my\GIS\extLibs\libxml2\tmp\libxml\Release-x64\xmlreader.obj"
+         "C:\my\GIS\extLibs\libxml2\tmp\libxml\Release-x64\xmlregexp.obj"
+         "C:\my\GIS\extLibs\libxml2\tmp\libxml\Release-x64\xmlsave.obj"
+         "C:\my\GIS\extLibs\libxml2\tmp\libxml\Release-x64\xmlschemas.obj"
+         "C:\my\GIS\extLibs\libxml2\tmp\libxml\Release-x64\xmlschemastypes.obj"
+         "C:\my\GIS\extLibs\libxml2\tmp\libxml\Release-x64\xmlstring.obj"
+         "C:\my\GIS\extLibs\libxml2\tmp\libxml\Release-x64\xmlunicode.obj"
+         "C:\my\GIS\extLibs\libxml2\tmp\libxml\Release-x64\xmlwriter.obj"
+         "C:\my\GIS\extLibs\libxml2\tmp\libxml\Release-x64\xpath.obj"
+         "C:\my\GIS\extLibs\libxml2\tmp\libxml\Release-x64\xpointer.obj"
+         libxml.vcxproj -> C:\my\GIS\extLibs\libxml2\..\binLibs\Release-x64\libxml.lib
+       FinalizeBuildStatus:
+         Deleting file "C:\my\GIS\extLibs\libxml2\tmp\libxml\Release-x64\libxml.unsuccessfulbuild".
+         Touching "C:\my\GIS\extLibs\libxml2\tmp\libxml\Release-x64\libxml.lastbuildstate".
+     1>Done Building Project "C:\my\GIS\extLibs\libxml2\libxml.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.20

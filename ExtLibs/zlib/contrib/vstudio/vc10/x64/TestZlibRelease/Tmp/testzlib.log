@@ -1,0 +1,44 @@
+﻿Build started 7/2/2012 4:18:50 PM.
+     1>Project "C:\my\GIS\OSRM\Lib\zlib\contrib\vstudio\vc10\testzlib.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "x64\TestZlibRelease\Tmp\testzlib.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I..\..\.. /Zi /nologo /W1 /WX- /O2 /GL /D ASMV /D ASMINF /D WIN32 /D ZLIB_WINAPI /D NDEBUG /D _CONSOLE /D _CRT_NONSTDC_NO_DEPRECATE /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_WARNINGS /Gm- /EHsc /MD /GS- /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\TestZlibRelease\Tmp\\" /Fd"x64\TestZlibRelease\Tmp\vc100.pdb" /Gd /TC /errorReport:prompt ..\..\..\adler32.c ..\..\..\compress.c ..\..\..\crc32.c ..\..\..\deflate.c ..\..\..\infback.c ..\..\masmx64\inffas8664.c ..\..\..\inffast.c ..\..\..\inflate.c ..\..\..\inftrees.c ..\..\testzlib\testzlib.c ..\..\..\trees.c ..\..\..\uncompr.c ..\..\..\zutil.c
+         adler32.c
+         compress.c
+         crc32.c
+         deflate.c
+         infback.c
+         inffas8664.c
+         inffast.c
+         inflate.c
+         inftrees.c
+         testzlib.c
+         trees.c
+         uncompr.c
+         zutil.c
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"x64\TestZlibRelease\testzlib.exe" /NOLOGO ..\..\masmx64\gvmat64.obj ..\..\masmx64\inffasx64.obj kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST:NO /PDB:"C:\my\GIS\OSRM\Lib\zlib\contrib\vstudio\vc10\x64\TestZlibRelease\testzlib.pdb" /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"x64\TestZlibRelease\testzlib.lib" /MACHINE:X64 x64\TestZlibRelease\Tmp\adler32.obj
+         x64\TestZlibRelease\Tmp\compress.obj
+         x64\TestZlibRelease\Tmp\crc32.obj
+         x64\TestZlibRelease\Tmp\deflate.obj
+         x64\TestZlibRelease\Tmp\infback.obj
+         x64\TestZlibRelease\Tmp\inffas8664.obj
+         x64\TestZlibRelease\Tmp\inffast.obj
+         x64\TestZlibRelease\Tmp\inflate.obj
+         x64\TestZlibRelease\Tmp\inftrees.obj
+         x64\TestZlibRelease\Tmp\testzlib.obj
+         x64\TestZlibRelease\Tmp\trees.obj
+         x64\TestZlibRelease\Tmp\uncompr.obj
+         x64\TestZlibRelease\Tmp\zutil.obj
+         Generating code
+         Finished generating code
+         testzlib.vcxproj -> C:\my\GIS\OSRM\Lib\zlib\contrib\vstudio\vc10\x64\TestZlibRelease\testzlib.exe
+       FinalizeBuildStatus:
+         Deleting file "x64\TestZlibRelease\Tmp\testzlib.unsuccessfulbuild".
+         Touching "x64\TestZlibRelease\Tmp\testzlib.lastbuildstate".
+     1>Done Building Project "C:\my\GIS\OSRM\Lib\zlib\contrib\vstudio\vc10\testzlib.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.82

@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\My\MkrProj\ExtLibs\protobuf-master\src\google\protobuf\lite_arena_unittest.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\My\MkrProj\ExtLibs\protobuf-master\src\google\protobuf\arena_test_util.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\My\MkrProj\ExtLibs\protobuf-master\src\google\protobuf\map_lite_test_util.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\My\MkrProj\ExtLibs\protobuf-master\src\google\protobuf\test_util_lite.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\My\MkrProj\ExtLibs\protobuf-master\src\google\protobuf\map_lite_unittest.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\My\MkrProj\ExtLibs\protobuf-master\src\google\protobuf\unittest_import_lite.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\My\MkrProj\ExtLibs\protobuf-master\src\google\protobuf\unittest_import_public_lite.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\My\MkrProj\ExtLibs\protobuf-master\src\google\protobuf\unittest_lite.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\My\MkrProj\ExtLibs\protobuf-master\src\google\protobuf\unittest_no_arena_lite.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\My\MkrProj\ExtLibs\protobuf-master\cmake\CMakeLists.txt" />
+    <CustomBuild Include="C:\My\MkrProj\ExtLibs\protobuf-master\cmake\build\solution\CMakeFiles\fdd4b5ccebe62c53d2eabdbe985e71fa\map_lite_unittest.pb.cc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\My\MkrProj\ExtLibs\protobuf-master\cmake\build\solution\CMakeFiles\fdd4b5ccebe62c53d2eabdbe985e71fa\unittest_import_lite.pb.cc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\My\MkrProj\ExtLibs\protobuf-master\cmake\build\solution\CMakeFiles\fdd4b5ccebe62c53d2eabdbe985e71fa\unittest_import_public_lite.pb.cc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\My\MkrProj\ExtLibs\protobuf-master\cmake\build\solution\CMakeFiles\fdd4b5ccebe62c53d2eabdbe985e71fa\unittest_lite.pb.cc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\My\MkrProj\ExtLibs\protobuf-master\cmake\build\solution\CMakeFiles\fdd4b5ccebe62c53d2eabdbe985e71fa\unittest_no_arena_lite.pb.cc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{546EB710-57B6-37E3-BAE4-43558838612B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{432EE555-0B2A-3978-AB20-4D66DDA7D0F6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

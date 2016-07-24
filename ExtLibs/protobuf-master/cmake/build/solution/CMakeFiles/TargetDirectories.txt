@@ -1,0 +1,14 @@
+C:/My/MkrProj/ExtLibs/protobuf-master/cmake/build/solution/CMakeFiles/libprotobuf-lite.dir
+C:/My/MkrProj/ExtLibs/protobuf-master/cmake/build/solution/CMakeFiles/protoc.dir
+C:/My/MkrProj/ExtLibs/protobuf-master/cmake/build/solution/CMakeFiles/libprotoc.dir
+C:/My/MkrProj/ExtLibs/protobuf-master/cmake/build/solution/CMakeFiles/libprotobuf.dir
+C:/My/MkrProj/ExtLibs/protobuf-master/cmake/build/solution/CMakeFiles/lite-test.dir
+C:/My/MkrProj/ExtLibs/protobuf-master/cmake/build/solution/CMakeFiles/gmock_main.dir
+C:/My/MkrProj/ExtLibs/protobuf-master/cmake/build/solution/CMakeFiles/gmock.dir
+C:/My/MkrProj/ExtLibs/protobuf-master/cmake/build/solution/CMakeFiles/tests.dir
+C:/My/MkrProj/ExtLibs/protobuf-master/cmake/build/solution/CMakeFiles/test_plugin.dir
+C:/My/MkrProj/ExtLibs/protobuf-master/cmake/build/solution/CMakeFiles/lite-arena-test.dir
+C:/My/MkrProj/ExtLibs/protobuf-master/cmake/build/solution/CMakeFiles/check.dir
+C:/My/MkrProj/ExtLibs/protobuf-master/cmake/build/solution/CMakeFiles/INSTALL.dir
+C:/My/MkrProj/ExtLibs/protobuf-master/cmake/build/solution/CMakeFiles/ALL_BUILD.dir
+C:/My/MkrProj/ExtLibs/protobuf-master/cmake/build/solution/CMakeFiles/ZERO_CHECK.dir
