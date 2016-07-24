@@ -1,0 +1,1 @@
+C:\mkr_proj_git\Mkr_Proj\VoIP\SipServer\SIP_Proxy_demo\SIP_Proxy_demo\bin\Debug\SIP_Proxy_demo.exe.config

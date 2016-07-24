@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="yes"?>
+<dsSettings>
+  <SIP_Settings>
+    <ProxyType>Statefull</ProxyType>
+    <ForkMode>Parallel</ForkMode>
+    <HostName />
+    <Port>5060</Port>
+  </SIP_Settings>
+  <Users>
+    <UserName>test</UserName>
+    <Password>test</Password>
+    <AddressOfRecord>test@test.com</AddressOfRecord>
+  </Users>
+</dsSettings>

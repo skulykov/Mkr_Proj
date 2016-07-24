@@ -1,0 +1,6 @@
+C:\My\VoIP\SIP_Server\Net\Net\bin\Debug\LumiSoft.Net.dll
+C:\My\VoIP\SIP_Server\Net\Net\bin\Debug\LumiSoft.Net.pdb
+C:\My\VoIP\SIP_Server\Net\Net\bin\Debug\LumiSoft.Net.xml
+C:\My\VoIP\SIP_Server\Net\Net\obj\Debug\Net.csprojResolveAssemblyReference.cache
+C:\My\VoIP\SIP_Server\Net\Net\obj\Debug\LumiSoft.Net.dll
+C:\My\VoIP\SIP_Server\Net\Net\obj\Debug\LumiSoft.Net.pdb
